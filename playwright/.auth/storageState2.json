@@ -1,0 +1,15 @@
+{
+  "cookies": [
+    {
+      "name": "cw_abcpbs",
+      "value": "80e6850f294a4f3db6b59f98dc10d69f",
+      "domain": ".www.catawiki.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}

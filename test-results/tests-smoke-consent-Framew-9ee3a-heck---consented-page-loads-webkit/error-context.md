@@ -1,0 +1,1562 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e7]:
+      - generic [ref=e9]:
+        - link "homepage" [ref=e11] [cursor=pointer]:
+          - /url: /en/
+        - button "Categories" [ref=e14] [cursor=pointer]
+        - generic [ref=e18]:
+          - button "Search" [ref=e20] [cursor=pointer]:
+            - img [ref=e23]
+          - combobox "Search for brand, model, artist..." [ref=e26]
+        - navigation [ref=e27]:
+          - generic [ref=e28]:
+            - generic [ref=e30]:
+              - link "How it works?" [ref=e32] [cursor=pointer]:
+                - /url: /en/pages/p/buyer
+                - generic [ref=e35]: How it works?
+              - link "Help" [ref=e37] [cursor=pointer]:
+                - /url: /en/f/help
+                - generic [ref=e40]: Help
+              - link "Favourites" [ref=e42] [cursor=pointer]:
+                - /url: /en/veiling/favorites
+                - img [ref=e46]
+              - button "en" [ref=e49] [cursor=pointer]:
+                - generic [ref=e51]:
+                  - img [ref=e52]
+                  - generic [ref=e54]: en
+            - button "Sign in" [ref=e58] [cursor=pointer]:
+              - generic [ref=e61]: Sign in
+    - generic:
+      - generic [ref=e62]:
+        - img [ref=e64] [cursor=pointer]
+        - generic [ref=e68]: Not registered yet?
+        - generic [ref=e69]: By creating your free Catawiki account, you’ll be able to bid on any of our 75,000 special objects up for auction every week.
+        - generic [ref=e70]:
+          - button "Create account" [ref=e71] [cursor=pointer]:
+            - generic [ref=e74]: Create account
+          - text: or
+          - button "Sign in" [ref=e76] [cursor=pointer]:
+            - generic [ref=e79]: Sign in
+      - button "Register now" [ref=e81] [cursor=pointer]:
+        - generic [ref=e84]: Register now
+    - main [ref=e85]:
+      - iframe [ref=e89]:
+        - generic [ref=f4e2]:
+          - link "Trustpilot reviews" [ref=f4e3]:
+            - /url: https://www.trustpilot.com/review/catawiki.com?utm_medium=trustbox&utm_source=MicroCombo
+            - generic [ref=f4e4]: Excellent
+            - img "4.4 out of 5 star rating on Trustpilot" [ref=f4e9]
+            - generic [ref=f4e29]:
+              - generic [ref=f4e30]:
+                - strong [ref=f4e31]: 124,607
+                - text: reviews on
+              - img "Trustpilot" [ref=f4e35]
+          - generic [ref=f4e39]: Rated Excellent. 4.4 out of 5. 124607 reviews on Trustpilot
+          - generic [ref=f4e40]: Click to view the company's Trustpilot profile
+      - tablist [ref=e92]:
+        - generic [ref=e93]:
+          - generic [ref=e94]:
+            - link "This week" [ref=e96] [cursor=pointer]:
+              - /url: /en/
+              - tab "This week" [ref=e97]:
+                - button "This week" [ref=e98]:
+                  - img [ref=e99]
+                  - generic [ref=e103]: This week
+            - link "For you" [ref=e105] [cursor=pointer]:
+              - /url: /en/feed?tab_name=feeds_recommendations
+              - tab "For you" [ref=e106]:
+                - button "For you" [ref=e107]:
+                  - generic [ref=e109]: For you
+            - link "Trending" [ref=e111] [cursor=pointer]:
+              - /url: /en/feed?tab_name=feeds_popularity
+              - tab "Trending" [ref=e112]:
+                - button "Trending" [ref=e113]:
+                  - generic [ref=e115]: Trending
+            - link "Art" [ref=e117] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/c/85-art
+              - tab "Art" [ref=e118]:
+                - button "Art" [ref=e119]:
+                  - generic [ref=e121]: Art
+            - link "Interiors" [ref=e123] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/c/1-interiors-decorations
+              - tab "Interiors" [ref=e124]:
+                - button "Interiors" [ref=e125]:
+                  - generic [ref=e127]: Interiors
+            - link "Jewellery" [ref=e129] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/c/714-jewellery-precious-stones
+              - tab "Jewellery" [ref=e130]:
+                - button "Jewellery" [ref=e131]:
+                  - generic [ref=e133]: Jewellery
+            - link "Watches" [ref=e135] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/c/299-watches-pens-lighters
+              - tab "Watches" [ref=e136]:
+                - button "Watches" [ref=e137]:
+                  - generic [ref=e139]: Watches
+            - link "Fashion" [ref=e141] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/c/721-fashion
+              - tab "Fashion" [ref=e142]:
+                - button "Fashion" [ref=e143]:
+                  - generic [ref=e145]: Fashion
+            - link "Coins & Stamps" [ref=e147] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/c/165-coins-stamps
+              - tab "Coins & Stamps" [ref=e148]:
+                - button "Coins & Stamps" [ref=e149]:
+                  - generic [ref=e151]: Coins & Stamps
+            - link "Comics" [ref=e153] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/c/139-comics-animation
+              - tab "Comics" [ref=e154]:
+                - button "Comics" [ref=e155]:
+                  - generic [ref=e157]: Comics
+            - link "Cars & Bikes" [ref=e159] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/c/708-classic-cars-motorcycles-automobilia
+              - tab "Cars & Bikes" [ref=e160]:
+                - button "Cars & Bikes" [ref=e161]:
+                  - generic [ref=e163]: Cars & Bikes
+            - link "Wine & Spirits" [ref=e165] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/c/720-wine-whisky-spirits
+              - tab "Wine & Spirits" [ref=e166]:
+                - button "Wine & Spirits" [ref=e167]:
+                  - generic [ref=e169]: Wine & Spirits
+            - link "Asian & Tribal" [ref=e171] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/c/925-asian-tribal-art
+              - tab "Asian & Tribal" [ref=e172]:
+                - button "Asian & Tribal" [ref=e173]:
+                  - generic [ref=e175]: Asian & Tribal
+            - link "Trading Cards" [ref=e177] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/c/725-trading-cards
+              - tab "Trading Cards" [ref=e178]:
+                - button "Trading Cards" [ref=e179]:
+                  - generic [ref=e181]: Trading Cards
+            - link "Toys & Models" [ref=e183] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/c/363-toys-models
+              - tab "Toys & Models" [ref=e184]:
+                - button "Toys & Models" [ref=e185]:
+                  - generic [ref=e187]: Toys & Models
+            - link "Archaeology" [ref=e189] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/c/863-archaeology-natural-history
+              - tab "Archaeology" [ref=e190]:
+                - button "Archaeology" [ref=e191]:
+                  - generic [ref=e193]: Archaeology
+            - link "Sports" [ref=e195] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/c/1097-sports
+              - tab "Sports" [ref=e196]:
+                - button "Sports" [ref=e197]:
+                  - generic [ref=e199]: Sports
+            - link "Music, Movies & Cameras" [ref=e201] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/c/347-music-movies-cameras
+              - tab "Music, Movies & Cameras" [ref=e202]:
+                - button "Music, Movies & Cameras" [ref=e203]:
+                  - generic [ref=e205]: Music, Movies & Cameras
+            - link "Books & History" [ref=e207] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/c/1099-books-historical-memorabilia
+              - tab "Books & History" [ref=e208]:
+                - button "Books & History" [ref=e209]:
+                  - generic [ref=e211]: Books & History
+          - button "Next" [ref=e213] [cursor=pointer]:
+            - img [ref=e216]
+      - generic [ref=e219]:
+        - generic [ref=e222]:
+          - generic [ref=e223]:
+            - link "Special objects, selected by experts" [ref=e226] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/pages/p/buyer
+              - heading "Special objects, selected by experts" [level=1] [ref=e227]
+            - generic [ref=e228]:
+              - generic [ref=e231]:
+                - link [ref=e232] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/c/1175-cooking-dining
+                - link [ref=e237] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/e
+                  - generic [ref=e238]:
+                    - paragraph [ref=e239]: Florentin Brunz Gaborieau
+                    - paragraph [ref=e240]: Expert in Cooking & Dining
+                - link [ref=e241] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/c/1175-cooking-dining
+              - generic [ref=e244]:
+                - link [ref=e245] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/c/1293-panini-sports-cards
+                - link [ref=e250] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/e
+                  - generic [ref=e251]:
+                    - paragraph [ref=e252]: Ugo Pelloni
+                    - paragraph [ref=e253]: Expert in Trading Cards
+                - link [ref=e254] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/c/1293-panini-sports-cards
+              - generic [ref=e257]:
+                - link [ref=e258] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/c/1117-bags
+                - link [ref=e263] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/e
+                  - generic [ref=e264]:
+                    - paragraph [ref=e265]: Fleur Feijen
+                    - paragraph [ref=e266]: Expert in Fashion
+                - link [ref=e267] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/c/1117-bags
+              - generic [ref=e270]:
+                - link [ref=e271] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/c/117-modern-contemporary-art
+                - link [ref=e276] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/e
+                  - generic [ref=e277]:
+                    - paragraph [ref=e278]: Catherine Mikolajczak
+                    - paragraph [ref=e279]: Expert in Modern & Contemporary Art
+                - link [ref=e280] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/c/117-modern-contemporary-art
+          - generic [ref=e281]:
+            - generic [ref=e283]:
+              - link "Colours of India Jewellery Collection" [ref=e284] [cursor=pointer]:
+                - /url: https://www.catawiki.com/en/x/725956-colours-of-india-jewellery-free-shipping
+                - heading "Colours of India Jewellery Collection" [level=1] [ref=e285]
+              - paragraph [ref=e286]: A stunning showcase of Indian craftsmanship with vibrant diamond and gemstone jewellery.
+            - link [ref=e290] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/x/725956-colours-of-india-jewellery-free-shipping
+              - img [ref=e291]
+          - generic [ref=e292]:
+            - generic [ref=e294]:
+              - 'link "Tableau: The Eclectic Collection" [ref=e295] [cursor=pointer]':
+                - /url: https://www.catawiki.com/en/x/24817-tableau-x-catawiki-the-eclectic-collection
+                - 'heading "Tableau: The Eclectic Collection" [level=1] [ref=e296]'
+              - paragraph [ref=e297]: Discover art across timelines and movements – curated by the esteemed Dutch fine arts magazine.
+            - generic [ref=e301]:
+              - link [ref=e302] [cursor=pointer]:
+                - /url: https://www.catawiki.com/en/x/24817-tableau-x-catawiki-the-eclectic-collection
+              - link [ref=e304] [cursor=pointer]:
+                - /url: https://www.catawiki.com/en/x/24817-tableau-x-catawiki-the-eclectic-collection
+              - link [ref=e305] [cursor=pointer]:
+                - /url: https://www.catawiki.com/en/x/24817-tableau-x-catawiki-the-eclectic-collection
+          - generic [ref=e306]:
+            - generic [ref=e308]:
+              - link "The Story of Light Collection" [ref=e309] [cursor=pointer]:
+                - /url: https://www.catawiki.com/en/x/726102-the-story-of-light
+                - heading "The Story of Light Collection" [level=1] [ref=e310]
+              - paragraph [ref=e311]: A collection focusing on lighting, showing the different lighting styles from different eras.
+            - link [ref=e315] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/x/726102-the-story-of-light
+              - img [ref=e316]
+          - generic [ref=e317]:
+            - generic [ref=e319]:
+              - link "Retro Tech Collection" [ref=e320] [cursor=pointer]:
+                - /url: https://www.catawiki.com/en/x/687753-retro-tech-collection
+                - heading "Retro Tech Collection" [level=1] [ref=e321]
+              - paragraph [ref=e322]: Travel back to the future with these iconic inventions of the past.
+            - link [ref=e326] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/x/687753-retro-tech-collection
+              - img [ref=e327]
+          - generic [ref=e328]:
+            - generic [ref=e330]:
+              - link "Collectors' Choice Watch Auction" [ref=e331] [cursor=pointer]:
+                - /url: https://www.catawiki.com/en/a/1203621-luxury-watch-auction-no-reserve
+                - heading "Collectors' Choice Watch Auction" [level=1] [ref=e332]
+              - heading "9 - 18 January 2026" [level=4] [ref=e333]
+              - paragraph [ref=e334]: Exceptional watches from brands like Tudor and Panerai, selected for discerning collectors.
+            - link [ref=e338] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/a/1203621-luxury-watch-auction-no-reserve
+              - img [ref=e339]
+          - generic [ref=e341]:
+            - button [ref=e342] [cursor=pointer]
+            - button [ref=e345] [cursor=pointer]
+            - button [ref=e348] [cursor=pointer]
+            - button [ref=e350] [cursor=pointer]
+            - button [ref=e352] [cursor=pointer]
+            - button [ref=e354] [cursor=pointer]
+            - button [ref=e357] [cursor=pointer]:
+              - img [ref=e360]
+        - generic [ref=e363]:
+          - generic [ref=e364]:
+            - link [ref=e366] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/a/1203536-tableware-auction-herend-selection?view_lot=100498094
+              - article [ref=e367]:
+                - figure [ref=e368]:
+                  - generic [ref=e369]:
+                    - button [ref=e371]:
+                      - img [ref=e373]
+                    - img [ref=e378]
+                - paragraph [ref=e379]
+            - link [ref=e384] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/a/1202169-exclusive-sports-cards-albums-stickers-auction?view_lot=100244417
+              - article [ref=e385]:
+                - figure [ref=e386]:
+                  - generic [ref=e387]:
+                    - button [ref=e389]:
+                      - img [ref=e391]
+                    - img [ref=e396]
+                - paragraph [ref=e397]
+            - link [ref=e402] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/a/1193762-hermes-bag-auction?view_lot=100540826
+              - article [ref=e403]:
+                - figure [ref=e404]:
+                  - generic [ref=e405]:
+                    - button [ref=e407]:
+                      - img [ref=e409]
+                    - img [ref=e414]
+                - paragraph [ref=e415]
+            - link [ref=e420] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/a/1184732-women-to-watch?view_lot=100579359
+              - article [ref=e421]:
+                - figure [ref=e422]:
+                  - generic [ref=e423]:
+                    - button [ref=e425]:
+                      - img [ref=e427]
+                    - img [ref=e432]
+                - paragraph [ref=e433]
+          - generic [ref=e437]:
+            - link "Engagement ring Platinum - 6.37ct. tw. Emerald - Diamond - 5.32CT Rare Columbian" [ref=e439] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/x/725956-colours-of-india-jewellery-free-shipping?view_lot=100464918
+              - article [ref=e440]:
+                - figure [ref=e441]:
+                  - generic [ref=e442]:
+                    - button "favourite" [ref=e444]:
+                      - img [ref=e446]
+                    - img "Engagement ring Platinum - 6.37ct. tw. Emerald - Diamond - 5.32CT Rare Columbian" [ref=e451]
+                - paragraph
+                - paragraph [ref=e452]: Current bid
+                - generic [ref=e453]: €7,700
+            - link "Necklace - 18 kt. White gold - 63.38ct. tw. Pink Diamond (Fancy coloured lab-grown diamond) - Diamond" [ref=e455] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/x/725956-colours-of-india-jewellery-free-shipping?view_lot=100490007
+              - article [ref=e456]:
+                - figure [ref=e457]:
+                  - generic [ref=e458]:
+                    - button "favourite" [ref=e460]:
+                      - img [ref=e462]
+                    - img "Necklace - 18 kt. White gold - 63.38ct. tw. Pink Diamond (Fancy coloured lab-grown diamond) - Diamond" [ref=e467]
+                - paragraph
+                - paragraph [ref=e468]: Current bid
+                - generic [ref=e469]: €3,700
+            - link "Earrings - 18 kt. Rose gold - 1.08ct. tw. Diamond (Natural)" [ref=e471] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/x/725956-colours-of-india-jewellery-free-shipping?view_lot=100481077
+              - article [ref=e472]:
+                - figure [ref=e473]:
+                  - generic [ref=e474]:
+                    - button "favourite" [ref=e476]:
+                      - img [ref=e478]
+                    - img "Earrings - 18 kt. Rose gold - 1.08ct. tw. Diamond (Natural)" [ref=e483]
+                - paragraph
+                - paragraph [ref=e484]: Current bid
+                - generic [ref=e485]: €240
+            - link "Ring - 18 kt. White gold - 3.15ct. tw. Diamond (Natural coloured) - Diamond - NATURAL FANCY COLOUR" [ref=e487] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/x/725956-colours-of-india-jewellery-free-shipping?view_lot=100453275
+              - article [ref=e488]:
+                - figure [ref=e489]:
+                  - generic [ref=e490]:
+                    - button "favourite" [ref=e492]:
+                      - img [ref=e494]
+                    - img "Ring - 18 kt. White gold - 3.15ct. tw. Diamond (Natural coloured) - Diamond - NATURAL FANCY COLOUR" [ref=e499]
+                - paragraph
+                - paragraph [ref=e500]: Current bid
+                - generic [ref=e501]: €3,850
+          - generic [ref=e502]:
+            - link [ref=e504] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/x/24817-tableau-x-catawiki-the-eclectic-collection?view_lot=100244997
+              - article [ref=e505]:
+                - figure [ref=e506]:
+                  - generic [ref=e507]:
+                    - button [ref=e509]:
+                      - img [ref=e511]
+                    - img [ref=e516]
+                - paragraph [ref=e517]
+            - link [ref=e522] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/x/24817-tableau-x-catawiki-the-eclectic-collection?view_lot=100476374
+              - article [ref=e523]:
+                - figure [ref=e524]:
+                  - generic [ref=e525]:
+                    - button [ref=e527]:
+                      - img [ref=e529]
+                    - img [ref=e534]
+                - paragraph [ref=e535]
+            - link [ref=e540] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/x/24817-tableau-x-catawiki-the-eclectic-collection?view_lot=100554217
+              - article [ref=e541]:
+                - figure [ref=e542]:
+                  - generic [ref=e543]:
+                    - button [ref=e545]:
+                      - img [ref=e547]
+                    - img [ref=e552]
+                - paragraph [ref=e553]
+            - link [ref=e558] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/x/24817-tableau-x-catawiki-the-eclectic-collection?view_lot=100189543
+              - article [ref=e559]:
+                - figure [ref=e560]:
+                  - generic [ref=e561]:
+                    - button [ref=e563]:
+                      - img [ref=e565]
+                    - img [ref=e570]
+                - paragraph [ref=e571]
+          - generic [ref=e575]:
+            - link [ref=e577] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/x/726102-the-story-of-light?view_lot=100487254
+              - article [ref=e578]:
+                - figure [ref=e579]:
+                  - generic [ref=e580]:
+                    - button [ref=e582]:
+                      - img [ref=e584]
+                    - img [ref=e589]
+                - paragraph [ref=e590]
+            - link [ref=e595] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/x/726102-the-story-of-light?view_lot=100253572
+              - article [ref=e596]:
+                - figure [ref=e597]:
+                  - generic [ref=e598]:
+                    - button [ref=e600]:
+                      - img [ref=e602]
+                    - img [ref=e607]
+                - paragraph [ref=e608]
+            - link [ref=e613] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/x/726102-the-story-of-light?view_lot=99978310
+              - article [ref=e614]:
+                - figure [ref=e615]:
+                  - generic [ref=e616]:
+                    - button [ref=e618]:
+                      - img [ref=e620]
+                    - img [ref=e625]
+                - paragraph [ref=e626]
+            - link [ref=e631] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/x/726102-the-story-of-light?view_lot=99740093
+              - article [ref=e632]:
+                - figure [ref=e633]:
+                  - generic [ref=e634]:
+                    - button [ref=e636]:
+                      - img [ref=e638]
+                    - img [ref=e643]
+                - paragraph [ref=e644]
+          - generic [ref=e648]:
+            - link [ref=e650] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/x/687753-retro-tech-collection?view_lot=100525449
+              - article [ref=e651]:
+                - figure [ref=e652]:
+                  - generic [ref=e653]:
+                    - button [ref=e655]:
+                      - img [ref=e657]
+                    - img [ref=e662]
+                - paragraph [ref=e663]
+            - link [ref=e668] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/x/687753-retro-tech-collection?view_lot=100459286
+              - article [ref=e669]:
+                - figure [ref=e670]:
+                  - generic [ref=e671]:
+                    - button [ref=e673]:
+                      - img [ref=e675]
+                    - img [ref=e680]
+                - paragraph [ref=e681]
+            - link [ref=e686] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/x/687753-retro-tech-collection?view_lot=100432273
+              - article [ref=e687]:
+                - figure [ref=e688]:
+                  - generic [ref=e689]:
+                    - button [ref=e691]:
+                      - img [ref=e693]
+                    - img [ref=e698]
+                - paragraph [ref=e699]
+            - link [ref=e704] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/x/687753-retro-tech-collection?view_lot=100175474
+              - article [ref=e705]:
+                - figure [ref=e706]:
+                  - generic [ref=e707]:
+                    - button [ref=e709]:
+                      - img [ref=e711]
+                    - img [ref=e716]
+                - paragraph [ref=e717]
+          - generic [ref=e721]:
+            - link [ref=e723] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/a/1203621-luxury-watch-auction-no-reserve?view_lot=100523867
+              - article [ref=e724]:
+                - figure [ref=e725]:
+                  - generic [ref=e726]:
+                    - button [ref=e728]:
+                      - img [ref=e730]
+                    - img [ref=e735]
+                - paragraph [ref=e736]
+            - link [ref=e741] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/a/1203621-luxury-watch-auction-no-reserve?view_lot=100520904
+              - article [ref=e742]:
+                - figure [ref=e743]:
+                  - generic [ref=e744]:
+                    - button [ref=e746]:
+                      - img [ref=e748]
+                    - img [ref=e753]
+                - paragraph [ref=e754]
+            - link [ref=e759] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/a/1203621-luxury-watch-auction-no-reserve?view_lot=100515756
+              - article [ref=e760]:
+                - figure [ref=e761]:
+                  - generic [ref=e762]:
+                    - button [ref=e764]:
+                      - img [ref=e766]
+                    - img [ref=e771]
+                - paragraph [ref=e772]
+            - link [ref=e777] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/a/1203621-luxury-watch-auction-no-reserve?view_lot=100507171
+              - article [ref=e778]:
+                - figure [ref=e779]:
+                  - generic [ref=e780]:
+                    - button [ref=e782]:
+                      - img [ref=e784]
+                    - img [ref=e789]
+                - paragraph [ref=e790]
+      - generic [ref=e797]:
+        - generic [ref=e798]:
+          - heading "Your daily discovery" [level=5] [ref=e800]
+          - generic [ref=e802]: Personalised picks to help you find your next treasure. Updated daily.
+          - link "Find your next treasure" [ref=e804] [cursor=pointer]:
+            - /url: /en/feed
+            - generic [ref=e807]: Find your next treasure
+        - generic [ref=e808]:
+          - link "Kitchen knife - Chef's knife - Steel, Wood, Leather - North America - With Leather poch" [ref=e809] [cursor=pointer]:
+            - /url: /en/feed
+            - generic [ref=e810]:
+              - button "favourite" [ref=e812]:
+                - img [ref=e814]
+              - img "Kitchen knife - Chef's knife - Steel, Wood, Leather - North America - With Leather poch" [ref=e819]
+          - link "Old African Azande mask - Congo. (No reserve price)" [ref=e820] [cursor=pointer]:
+            - /url: /en/feed
+            - generic [ref=e821]:
+              - button "favourite" [ref=e823]:
+                - img [ref=e825]
+              - img "Old African Azande mask - Congo. (No reserve price)" [ref=e830]
+          - link "Tabriz - Carpet - 280 cm - 73 cm" [ref=e831] [cursor=pointer]:
+            - /url: /en/feed
+            - generic [ref=e832]:
+              - button "favourite" [ref=e834]:
+                - img [ref=e836]
+              - img "Tabriz - Carpet - 280 cm - 73 cm" [ref=e841]
+          - link "Tea spoon (11) - Silver - Niekerk model Kroon" [ref=e842] [cursor=pointer]:
+            - /url: /en/feed
+            - generic [ref=e843]:
+              - button "favourite" [ref=e845]:
+                - img [ref=e847]
+              - img "Tea spoon (11) - Silver - Niekerk model Kroon" [ref=e852]
+      - generic [ref=e855]:
+        - heading "Auctions ending soon" [level=2] [ref=e857]
+        - generic [ref=e859]:
+          - list [ref=e860]:
+            - listitem
+            - listitem [ref=e861]:
+              - article [ref=e862]:
+                - link "+109 Curated by Soufian El Guesaoui Bullion Bars Auction Ends today 11:00" [ref=e863] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/a/1202854-bullion-bars-auction
+                  - generic [ref=e870]: "+109"
+                  - generic [ref=e871]:
+                    - paragraph [ref=e872]: Curated by Soufian El Guesaoui
+                    - heading "Bullion Bars Auction" [level=6] [ref=e873]
+                    - heading "Ends today 11:00" [level=6] [ref=e875]
+            - listitem [ref=e876]:
+              - article [ref=e877]:
+                - link "+117 Curated by Richard Ebbers Silk Rugs Auction Ends today 12:00" [ref=e878] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/a/1183577-silk-rugs-auction
+                  - generic [ref=e885]: "+117"
+                  - generic [ref=e886]:
+                    - paragraph [ref=e887]: Curated by Richard Ebbers
+                    - heading "Silk Rugs Auction" [level=6] [ref=e888]
+                    - heading "Ends today 12:00" [level=6] [ref=e890]
+            - listitem [ref=e891]:
+              - article [ref=e892]:
+                - link "+57 Curated by Ger van Oers Modern Home Decor Auction Ends today 12:00" [ref=e893] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/a/1183938-modern-home-decor-auction
+                  - generic [ref=e900]: "+57"
+                  - generic [ref=e901]:
+                    - paragraph [ref=e902]: Curated by Ger van Oers
+                    - heading "Modern Home Decor Auction" [level=6] [ref=e903]
+                    - heading "Ends today 12:00" [level=6] [ref=e905]
+            - listitem [ref=e906]:
+              - article [ref=e907]:
+                - link "+62 Curated by Ger van Oers Kitchenware & Appliances Auction Ends today 14:00" [ref=e908] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/a/1182796-kitchenware-appliances-auction
+                  - generic [ref=e915]: "+62"
+                  - generic [ref=e916]:
+                    - paragraph [ref=e917]: Curated by Ger van Oers
+                    - heading "Kitchenware & Appliances Auction" [level=6] [ref=e918]
+                    - heading "Ends today 14:00" [level=6] [ref=e920]
+            - listitem [ref=e921]:
+              - article [ref=e922]:
+                - link "+42 Curated by Christophe Thiebaut Tableware Auction Ends today 14:00" [ref=e923] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/a/1183263-tableware-auction
+                  - generic [ref=e930]: "+42"
+                  - generic [ref=e931]:
+                    - paragraph [ref=e932]: Curated by Christophe Thiebaut
+                    - heading "Tableware Auction" [level=6] [ref=e933]
+                    - heading "Ends today 14:00" [level=6] [ref=e935]
+            - listitem [ref=e936]:
+              - article [ref=e937]:
+                - link "+37 Curated by Florentin Brunz Gaborieau Tableware Auction Ends today 14:00" [ref=e938] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/a/1183377-tableware-auction
+                  - generic [ref=e945]: "+37"
+                  - generic [ref=e946]:
+                    - paragraph [ref=e947]: Curated by Florentin Brunz Gaborieau
+                    - heading "Tableware Auction" [level=6] [ref=e948]
+                    - heading "Ends today 14:00" [level=6] [ref=e950]
+            - listitem [ref=e951]:
+              - article [ref=e952]:
+                - link "+58 Curated by Ger van Oers Modern Home Decor Auction Ends today 14:00" [ref=e953] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/a/1183939-modern-home-decor-auction
+                  - generic [ref=e960]: "+58"
+                  - generic [ref=e961]:
+                    - paragraph [ref=e962]: Curated by Ger van Oers
+                    - heading "Modern Home Decor Auction" [level=6] [ref=e963]
+                    - heading "Ends today 14:00" [level=6] [ref=e965]
+            - listitem [ref=e966]:
+              - article [ref=e967]:
+                - link "+84 Curated by Egidio Emiliano Bianco Art on the Rise Ends today 14:00" [ref=e968] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/a/1184445-art-on-the-rise
+                  - generic [ref=e975]: "+84"
+                  - generic [ref=e976]:
+                    - paragraph [ref=e977]: Curated by Egidio Emiliano Bianco
+                    - heading "Art on the Rise" [level=6] [ref=e978]
+                    - heading "Ends today 14:00" [level=6] [ref=e980]
+            - listitem [ref=e981]:
+              - article [ref=e982]:
+                - 'link "+62 Curated by Anthony Chrisp Pop Shop Auction: Multiples Ends today 14:00" [ref=e983] [cursor=pointer]':
+                  - /url: https://www.catawiki.com/en/a/1185258-pop-shop-auction-multiples
+                  - generic [ref=e990]: "+62"
+                  - generic [ref=e991]:
+                    - paragraph [ref=e992]: Curated by Anthony Chrisp
+                    - 'heading "Pop Shop Auction: Multiples" [level=6] [ref=e993]'
+                    - heading "Ends today 14:00" [level=6] [ref=e995]
+            - listitem [ref=e996]:
+              - article [ref=e997]:
+                - link "+47 Curated by Purificacion Aquino Garcia Classic Gemstone Auction Ends today 14:00" [ref=e998] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/a/1191275-classic-gemstone-auction
+                  - generic [ref=e1005]: "+47"
+                  - generic [ref=e1006]:
+                    - paragraph [ref=e1007]: Curated by Purificacion Aquino Garcia
+                    - heading "Classic Gemstone Auction" [level=6] [ref=e1008]
+                    - heading "Ends today 14:00" [level=6] [ref=e1010]
+            - listitem [ref=e1011]:
+              - article [ref=e1012]:
+                - link "+12 Curated by Sara Sironi Diamond Auction (Top Quality) Ends today 14:00" [ref=e1013] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/a/1191631-diamond-auction-top-quality
+                  - generic [ref=e1020]: "+12"
+                  - generic [ref=e1021]:
+                    - paragraph [ref=e1022]: Curated by Sara Sironi
+                    - heading "Diamond Auction (Top Quality)" [level=6] [ref=e1023]
+                    - heading "Ends today 14:00" [level=6] [ref=e1025]
+            - listitem [ref=e1026]:
+              - article [ref=e1027]:
+                - link "+17 Curated by Maria René Piacenza Bernal Parcel Auction (3 Stones or More) • No Reserve Ends today 14:00" [ref=e1028] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/a/1192498-parcel-auction-3-stones-or-more-no-reserve
+                  - generic [ref=e1035]: "+17"
+                  - generic [ref=e1036]:
+                    - paragraph [ref=e1037]: Curated by Maria René Piacenza Bernal
+                    - heading "Parcel Auction (3 Stones or More) • No Reserve" [level=6] [ref=e1038]
+                    - heading "Ends today 14:00" [level=6] [ref=e1040]
+            - listitem [ref=e1041]:
+              - article [ref=e1042]:
+                - link "+48 Curated by Ghene Menezes Everyday Gemstones Auction Ends today 14:00" [ref=e1043] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/a/1192751-everyday-gemstones-auction
+                  - generic [ref=e1050]: "+48"
+                  - generic [ref=e1051]:
+                    - paragraph [ref=e1052]: Curated by Ghene Menezes
+                    - heading "Everyday Gemstones Auction" [level=6] [ref=e1053]
+                    - heading "Ends today 14:00" [level=6] [ref=e1055]
+            - listitem [ref=e1056]:
+              - article [ref=e1057]:
+                - link "+83 Curated by Ariana Helling Gold Jewellery Auction Ends today 14:00" [ref=e1058] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/a/1195992-gold-jewellery-auction
+                  - generic [ref=e1065]: "+83"
+                  - generic [ref=e1066]:
+                    - paragraph [ref=e1067]: Curated by Ariana Helling
+                    - heading "Gold Jewellery Auction" [level=6] [ref=e1068]
+                    - heading "Ends today 14:00" [level=6] [ref=e1070]
+            - listitem [ref=e1071]:
+              - article [ref=e1072]:
+                - link "+72 Curated by Lina Plokhova Gemstones Jewellery Auction Ends today 15:00" [ref=e1073] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/a/1195792-gemstones-jewellery-auction
+                  - generic [ref=e1080]: "+72"
+                  - generic [ref=e1081]:
+                    - paragraph [ref=e1082]: Curated by Lina Plokhova
+                    - heading "Gemstones Jewellery Auction" [level=6] [ref=e1083]
+                    - heading "Ends today 15:00" [level=6] [ref=e1085]
+            - listitem [ref=e1086]:
+              - article [ref=e1087]:
+                - link "+67 Curated by Zhu Chen Brocante • Classic Home Decor Ends today 16:00" [ref=e1088] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/a/1180918-brocante-classic-home-decor
+                  - generic [ref=e1095]: "+67"
+                  - generic [ref=e1096]:
+                    - paragraph [ref=e1097]: Curated by Zhu Chen
+                    - heading "Brocante • Classic Home Decor" [level=6] [ref=e1098]
+                    - heading "Ends today 16:00" [level=6] [ref=e1100]
+            - listitem [ref=e1101]:
+              - article [ref=e1102]:
+                - link "+77 Curated by Richard Ebbers Oriental Rugs Auction Ends today 16:00" [ref=e1103] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/a/1182578-oriental-rugs-auction
+                  - generic [ref=e1110]: "+77"
+                  - generic [ref=e1111]:
+                    - paragraph [ref=e1112]: Curated by Richard Ebbers
+                    - heading "Oriental Rugs Auction" [level=6] [ref=e1113]
+                    - heading "Ends today 16:00" [level=6] [ref=e1115]
+            - listitem [ref=e1116]:
+              - article [ref=e1117]:
+                - link "+102 Curated by Maurizio Buquicchio Meet Your New Artwork Ends today 16:00" [ref=e1118] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/a/1185001-meet-your-new-artwork
+                  - generic [ref=e1125]: "+102"
+                  - generic [ref=e1126]:
+                    - paragraph [ref=e1127]: Curated by Maurizio Buquicchio
+                    - heading "Meet Your New Artwork" [level=6] [ref=e1128]
+                    - heading "Ends today 16:00" [level=6] [ref=e1130]
+            - listitem [ref=e1131]:
+              - article [ref=e1132]:
+                - link "+47 Curated by Purificacion Aquino Garcia Classic Gemstone Auction Ends today 16:00" [ref=e1133] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/a/1191276-classic-gemstone-auction
+                  - generic [ref=e1140]: "+47"
+                  - generic [ref=e1141]:
+                    - paragraph [ref=e1142]: Curated by Purificacion Aquino Garcia
+                    - heading "Classic Gemstone Auction" [level=6] [ref=e1143]
+                    - heading "Ends today 16:00" [level=6] [ref=e1145]
+            - listitem [ref=e1146]:
+              - article [ref=e1147]:
+                - link "+27 Curated by Maria René Piacenza Bernal Colour Treated Diamonds Auction Ends today 16:00" [ref=e1148] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/a/1191760-colour-treated-diamonds-auction
+                  - generic [ref=e1155]: "+27"
+                  - generic [ref=e1156]:
+                    - paragraph [ref=e1157]: Curated by Maria René Piacenza Bernal
+                    - heading "Colour Treated Diamonds Auction" [level=6] [ref=e1158]
+                    - heading "Ends today 16:00" [level=6] [ref=e1160]
+            - listitem [ref=e1161]:
+              - article [ref=e1162]:
+                - link "+72 Curated by Peter Wright Antique & Vintage Style Silver Jewellery Auction · No Reserve Ends today 16:00" [ref=e1163] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/a/1195038-antique-vintage-style-silver-jewellery-auction-no-reserve
+                  - generic [ref=e1170]: "+72"
+                  - generic [ref=e1171]:
+                    - paragraph [ref=e1172]: Curated by Peter Wright
+                    - heading "Antique & Vintage Style Silver Jewellery Auction · No Reserve" [level=6] [ref=e1173]
+                    - heading "Ends today 16:00" [level=6] [ref=e1175]
+            - listitem [ref=e1176]:
+              - article [ref=e1177]:
+                - link "+46 Curated by Aitana Soler Solé Diamond Jewellery Auction Ends today 16:00" [ref=e1178] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/a/1196191-diamond-jewellery-auction
+                  - generic [ref=e1185]: "+46"
+                  - generic [ref=e1186]:
+                    - paragraph [ref=e1187]: Curated by Aitana Soler Solé
+                    - heading "Diamond Jewellery Auction" [level=6] [ref=e1188]
+                    - heading "Ends today 16:00" [level=6] [ref=e1190]
+            - listitem [ref=e1191]:
+              - article [ref=e1192]:
+                - link "+57 Curated by Juan Antonio Rodríguez Decorative Poster Auction Ends today 17:00" [ref=e1193] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/a/1182112-decorative-poster-auction
+                  - generic [ref=e1200]: "+57"
+                  - generic [ref=e1201]:
+                    - paragraph [ref=e1202]: Curated by Juan Antonio Rodríguez
+                    - heading "Decorative Poster Auction" [level=6] [ref=e1203]
+                    - heading "Ends today 17:00" [level=6] [ref=e1205]
+            - listitem [ref=e1206]:
+              - article [ref=e1207]:
+                - link "+52 Curated by Dimitri André West and East African Art Auction Ends today 17:00" [ref=e1208] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/a/1185983-west-and-east-african-art-auction
+                  - generic [ref=e1215]: "+52"
+                  - generic [ref=e1216]:
+                    - paragraph [ref=e1217]: Curated by Dimitri André
+                    - heading "West and East African Art Auction" [level=6] [ref=e1218]
+                    - heading "Ends today 17:00" [level=6] [ref=e1220]
+            - listitem [ref=e1221]:
+              - article [ref=e1222]:
+                - link "+77 Curated by Laura Trevino Antique & Vintage Jewellery Auction Ends today 17:00" [ref=e1223] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/a/1194747-antique-vintage-jewellery-auction
+                  - generic [ref=e1230]: "+77"
+                  - generic [ref=e1231]:
+                    - paragraph [ref=e1232]: Curated by Laura Trevino
+                    - heading "Antique & Vintage Jewellery Auction" [level=6] [ref=e1233]
+                    - heading "Ends today 17:00" [level=6] [ref=e1235]
+          - button "Next" [ref=e1236] [cursor=pointer]:
+            - img [ref=e1239]
+      - generic [ref=e1243]:
+        - heading "Iconic brands" [level=2] [ref=e1244]
+        - generic [ref=e1246]:
+          - list [ref=e1247]:
+            - listitem [ref=e1248]:
+              - link "louis-vuitton" [ref=e1249] [cursor=pointer]:
+                - /url: https://www.catawiki.com/en/x/725411-louis-vuitton-fashion-jewellery-and-watches
+                - img "louis-vuitton" [ref=e1252]
+            - listitem [ref=e1253]:
+              - link "porsche" [ref=e1254] [cursor=pointer]:
+                - /url: https://www.catawiki.com/en/x/64409-porsche-classic-cars
+                - img "porsche" [ref=e1257]
+            - listitem [ref=e1258]:
+              - link "marklin" [ref=e1259] [cursor=pointer]:
+                - /url: https://www.catawiki.com/en/x/29457-marklin-model-trains
+                - img "marklin" [ref=e1262]
+            - listitem [ref=e1263]:
+              - link "hermes" [ref=e1264] [cursor=pointer]:
+                - /url: https://www.catawiki.com/en/x/725407-hermes-fashion-jewellery-and-watches
+                - img "hermes" [ref=e1267]
+            - listitem [ref=e1268]:
+              - link "omega" [ref=e1269] [cursor=pointer]:
+                - /url: https://www.catawiki.com/en/x/1331-omega-watches
+                - img "omega" [ref=e1272]
+            - listitem [ref=e1273]:
+              - link "macallan" [ref=e1274] [cursor=pointer]:
+                - /url: https://www.catawiki.com/en/x/595677-macallan-whisky
+                - img "macallan" [ref=e1277]
+            - listitem [ref=e1278]:
+              - link "christofle" [ref=e1279] [cursor=pointer]:
+                - /url: https://www.catawiki.com/en/x/563733-christofle-cutlery
+                - img "christofle" [ref=e1282]
+            - listitem [ref=e1283]:
+              - link "cartier" [ref=e1284] [cursor=pointer]:
+                - /url: https://www.catawiki.com/en/x/725409-cartier-fashion-jewellery-and-watches
+                - img "cartier" [ref=e1287]
+            - listitem [ref=e1288]:
+              - link "lego" [ref=e1289] [cursor=pointer]:
+                - /url: https://www.catawiki.com/en/x/694665-lego
+                - img "lego" [ref=e1292]
+            - listitem [ref=e1293]:
+              - link "pokemon" [ref=e1294] [cursor=pointer]:
+                - /url: https://www.catawiki.com/en/x/725413-pokemon-cards-and-toys
+                - img "pokemon" [ref=e1297]
+            - listitem [ref=e1298]:
+              - link "nikon" [ref=e1299] [cursor=pointer]:
+                - /url: https://www.catawiki.com/en/x/148821-nikon-cameras-and-optical-equipment
+                - img "nikon" [ref=e1302]
+            - listitem [ref=e1303]:
+              - link "rolex" [ref=e1304] [cursor=pointer]:
+                - /url: https://www.catawiki.com/en/x/1347-rolex-watches
+                - img "rolex" [ref=e1307]
+          - button "Next" [ref=e1308] [cursor=pointer]:
+            - img [ref=e1311]
+      - generic [ref=e1315]:
+        - generic [ref=e1316]:
+          - text: Bid on over 75,000 special objects every week, selected by
+          - link "hundreds of in-house experts." [ref=e1317] [cursor=pointer]:
+            - /url: /en/e
+        - generic [ref=e1319]:
+          - list [ref=e1320]:
+            - listitem
+            - listitem [ref=e1321]:
+              - button [ref=e1322]:
+                - article [ref=e1323]:
+                  - link "Surya Rutten Expert in Asian Art" [ref=e1324] [cursor=pointer]:
+                    - /url: https://www.catawiki.com/en/e/279-surya-rutten
+                    - heading "Surya Rutten" [level=1] [ref=e1326]
+                    - paragraph [ref=e1327]: Expert in Asian Art
+            - listitem [ref=e1328]:
+              - button [ref=e1329]:
+                - article [ref=e1330]:
+                  - link "Olivier Baret Expert in Wine" [ref=e1331] [cursor=pointer]:
+                    - /url: https://www.catawiki.com/en/e/445-olivier-baret
+                    - heading "Olivier Baret" [level=1] [ref=e1333]
+                    - paragraph [ref=e1334]: Expert in Wine
+            - listitem [ref=e1335]:
+              - button [ref=e1336]:
+                - article [ref=e1337]:
+                  - link "Edwin Molenaar Expert in Cameras & Optical Equipment" [ref=e1338] [cursor=pointer]:
+                    - /url: https://www.catawiki.com/en/e/663-edwin-molenaar
+                    - heading "Edwin Molenaar" [level=1] [ref=e1340]
+                    - paragraph [ref=e1341]: Expert in Cameras & Optical Equipment
+            - listitem [ref=e1342]:
+              - button [ref=e1343]:
+                - article [ref=e1344]:
+                  - link "Alexander Fahl Expert in Design" [ref=e1345] [cursor=pointer]:
+                    - /url: https://www.catawiki.com/en/e/679-alexander-fahl
+                    - heading "Alexander Fahl" [level=1] [ref=e1347]
+                    - paragraph [ref=e1348]: Expert in Design
+            - listitem [ref=e1349]:
+              - button [ref=e1350]:
+                - article [ref=e1351]:
+                  - link "Kai Brückner Expert in Photography" [ref=e1352] [cursor=pointer]:
+                    - /url: https://www.catawiki.com/en/e/1097-kai-bruckner
+                    - heading "Kai Brückner" [level=1] [ref=e1354]
+                    - paragraph [ref=e1355]: Expert in Photography
+            - listitem [ref=e1356]:
+              - button [ref=e1357]:
+                - article [ref=e1358]:
+                  - link "Anna Hue-Roques Expert in Decorative Objects" [ref=e1359] [cursor=pointer]:
+                    - /url: https://www.catawiki.com/en/e/1235-anna-hue-roques
+                    - heading "Anna Hue-Roques" [level=1] [ref=e1361]
+                    - paragraph [ref=e1362]: Expert in Decorative Objects
+            - listitem [ref=e1363]:
+              - button [ref=e1364]:
+                - article [ref=e1365]:
+                  - link "Alexandra Xu Expert in Chinese Art" [ref=e1366] [cursor=pointer]:
+                    - /url: https://www.catawiki.com/en/e/1245-alexandra-xu
+                    - heading "Alexandra Xu" [level=1] [ref=e1368]
+                    - paragraph [ref=e1369]: Expert in Chinese Art
+            - listitem [ref=e1370]:
+              - button [ref=e1371]:
+                - article [ref=e1372]:
+                  - link "Thorsten Pöllath Expert in Cameras & Optical Equipment" [ref=e1373] [cursor=pointer]:
+                    - /url: https://www.catawiki.com/en/e/1295-thorsten-pollath
+                    - heading "Thorsten Pöllath" [level=1] [ref=e1375]
+                    - paragraph [ref=e1376]: Expert in Cameras & Optical Equipment
+            - listitem [ref=e1377]:
+              - button [ref=e1378]:
+                - article [ref=e1379]:
+                  - link "Mickael Molé Expert in Pokémon & Trading Cards" [ref=e1380] [cursor=pointer]:
+                    - /url: https://www.catawiki.com/en/e/1325-mickael-mole
+                    - heading "Mickael Molé" [level=1] [ref=e1382]
+                    - paragraph [ref=e1383]: Expert in Pokémon & Trading Cards
+            - listitem [ref=e1384]:
+              - button [ref=e1385]:
+                - article [ref=e1386]:
+                  - link "Stefan Bügler Expert in Whisky & Spirits" [ref=e1387] [cursor=pointer]:
+                    - /url: https://www.catawiki.com/en/e/1355-stefan-bugler
+                    - heading "Stefan Bügler" [level=1] [ref=e1389]
+                    - paragraph [ref=e1390]: Expert in Whisky & Spirits
+            - listitem [ref=e1391]:
+              - link "More about our experts" [ref=e1393] [cursor=pointer]:
+                - /url: /en/e
+                - generic [ref=e1395]: More about our experts
+          - button "Next" [ref=e1396] [cursor=pointer]:
+            - img [ref=e1399]
+      - generic [ref=e1403]:
+        - generic [ref=e1404]:
+          - heading "Popular categories" [level=2] [ref=e1405]
+          - generic [ref=e1406]: View all
+        - list [ref=e1408]:
+          - listitem [ref=e1409]:
+            - link "Shoes" [ref=e1411] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/c/1173-shoes
+              - heading "Shoes" [level=4] [ref=e1412]
+          - listitem [ref=e1416]:
+            - link "Bags" [ref=e1418] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/c/1117-bags
+              - heading "Bags" [level=4] [ref=e1419]
+          - listitem [ref=e1423]:
+            - link "Clothing" [ref=e1425] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/c/597-clothing
+              - heading "Clothing" [level=4] [ref=e1426]
+          - listitem [ref=e1430]:
+            - link "Model Trains" [ref=e1432] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/c/387-model-trains
+              - heading "Model Trains" [level=4] [ref=e1433]
+          - listitem [ref=e1437]:
+            - link "Wine" [ref=e1439] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/c/443-wine
+              - heading "Wine" [level=4] [ref=e1440]
+          - listitem [ref=e1444]:
+            - link "Stamps" [ref=e1446] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/c/187-stamps
+              - heading "Stamps" [level=4] [ref=e1447]
+          - listitem [ref=e1451]:
+            - link "Fashion Accessories" [ref=e1453] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/c/869-fashion-accessories
+              - heading "Fashion Accessories" [level=4] [ref=e1454]
+          - listitem [ref=e1458]:
+            - link "Champagne" [ref=e1460] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/c/961-champagne
+              - heading "Champagne" [level=4] [ref=e1461]
+      - generic [ref=e1467]:
+        - heading "You might also like" [level=2] [ref=e1469]
+        - generic [ref=e1471]:
+          - list [ref=e1472]:
+            - listitem
+            - listitem [ref=e1473]:
+              - article [ref=e1475]:
+                - link "Hermès - Birkin 35 - Handbag Current bid €6,500 3 days left" [ref=e1476] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/l/100540826-hermes-birkin-35-handbag
+                  - generic [ref=e1478]:
+                    - paragraph [ref=e1479]: Hermès - Birkin 35 - Handbag
+                    - paragraph [ref=e1480]: Current bid
+                    - paragraph [ref=e1481]: €6,500
+                    - time [ref=e1484]: 3 days left
+                - button "139" [ref=e1486] [cursor=pointer]:
+                  - img [ref=e1488]
+                  - generic [ref=e1493]: "139"
+            - listitem [ref=e1494]:
+              - article [ref=e1496]:
+                - link "Jaguar - XJ Saloon 5.0 V8 - NO RESERVE - 2012 Current bid €9,500 4 days left" [ref=e1497] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/l/100501724-jaguar-xj-saloon-5-0-v8-no-reserve-2012
+                  - generic [ref=e1499]:
+                    - paragraph [ref=e1500]: Jaguar - XJ Saloon 5.0 V8 - NO RESERVE - 2012
+                    - paragraph [ref=e1501]: Current bid
+                    - paragraph [ref=e1502]: €9,500
+                    - time [ref=e1505]: 4 days left
+                - button "253" [ref=e1507] [cursor=pointer]:
+                  - img [ref=e1509]
+                  - generic [ref=e1514]: "253"
+            - listitem [ref=e1515]:
+              - article [ref=e1517]:
+                - link "Damoiseau 1980 Velier - Full Proof - b. 2002 - 70cl Current bid €251 2 days left" [ref=e1518] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/l/100548655-damoiseau-1980-velier-full-proof-b-2002-70cl
+                  - generic [ref=e1520]:
+                    - paragraph [ref=e1521]: Damoiseau 1980 Velier - Full Proof - b. 2002 - 70cl
+                    - paragraph [ref=e1522]: Current bid
+                    - paragraph [ref=e1523]: €251
+                    - time [ref=e1526]: 2 days left
+                - button "99" [ref=e1528] [cursor=pointer]:
+                  - img [ref=e1530]
+                  - generic [ref=e1535]: "99"
+            - listitem [ref=e1536]:
+              - article [ref=e1538]:
+                - link "Pokémon - 1 Card - Charizard Holo - WOTC - Base set Current bid €7,500 2 days left" [ref=e1539] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/l/100244881-pokemon-1-card-charizard-holo-wotc-base-set
+                  - generic [ref=e1541]:
+                    - paragraph [ref=e1542]: Pokémon - 1 Card - Charizard Holo - WOTC - Base set
+                    - paragraph [ref=e1543]: Current bid
+                    - paragraph [ref=e1544]: €7,500
+                    - time [ref=e1547]: 2 days left
+                - button "193" [ref=e1549] [cursor=pointer]:
+                  - img [ref=e1551]
+                  - generic [ref=e1556]: "193"
+            - listitem [ref=e1557]:
+              - article [ref=e1559]:
+                - 'link "Pixi - 2ème Collection Moulinsart Plomb Mini - Spécial An 2000 : Tintin & Milou Mappemonde Current bid €76 4 days left" [ref=e1560] [cursor=pointer]':
+                  - /url: https://www.catawiki.com/en/l/100465643-pixi-2eme-collection-moulinsart-plomb-mini-special-an-2000-tintin-milou-mappemonde
+                  - generic [ref=e1562]:
+                    - paragraph [ref=e1563]: "Pixi - 2ème Collection Moulinsart Plomb Mini - Spécial An 2000 : Tintin & Milou Mappemonde"
+                    - paragraph [ref=e1564]: Current bid
+                    - paragraph [ref=e1565]: €76
+                    - time [ref=e1568]: 4 days left
+                - button "108" [ref=e1570] [cursor=pointer]:
+                  - img [ref=e1572]
+                  - generic [ref=e1577]: "108"
+            - listitem [ref=e1578]:
+              - article [ref=e1580]:
+                - link "Engagement ring Platinum - 6.37ct. tw. Emerald - Diamond - 5.32CT Rare Columbian Current bid €7,700 2 days left" [ref=e1581] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/l/100464918-engagement-ring-platinum-6-37ct-tw-emerald-diamond-5-32ct-rare-columbian
+                  - generic [ref=e1583]:
+                    - paragraph [ref=e1584]: Engagement ring Platinum - 6.37ct. tw. Emerald - Diamond - 5.32CT Rare Columbian
+                    - paragraph [ref=e1585]: Current bid
+                    - paragraph [ref=e1586]: €7,700
+                    - time [ref=e1589]: 2 days left
+                - button "250" [ref=e1591] [cursor=pointer]:
+                  - img [ref=e1593]
+                  - generic [ref=e1598]: "250"
+            - listitem [ref=e1599]:
+              - article [ref=e1601]:
+                - link "Looking Back - Blue Cat - Nishida Tadashige 西田忠重 (b 1942) - Japan (No reserve price) Current bid €170 2 days left" [ref=e1602] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/l/99618914-looking-back-blue-cat-nishida-tadashige-b-1942-japan-no-reserve-price
+                  - generic [ref=e1604]:
+                    - paragraph [ref=e1605]: Looking Back - Blue Cat - Nishida Tadashige 西田忠重 (b 1942) - Japan (No reserve price)
+                    - paragraph [ref=e1606]: Current bid
+                    - paragraph [ref=e1607]: €170
+                    - time [ref=e1610]: 2 days left
+                - button "112" [ref=e1612] [cursor=pointer]:
+                  - img [ref=e1614]
+                  - generic [ref=e1619]: "112"
+            - listitem [ref=e1620]:
+              - article [ref=e1622]:
+                - link "Juvenile Mosasaur - Fossil skull - Mosasaurus sp. - 50 cm - 15 cm (No reserve price) Current bid €800 2 days left" [ref=e1623] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/l/100129815-juvenile-mosasaur-fossil-skull-mosasaurus-sp-50-cm-15-cm-no-reserve-price
+                  - generic [ref=e1625]:
+                    - paragraph [ref=e1626]: Juvenile Mosasaur - Fossil skull - Mosasaurus sp. - 50 cm - 15 cm (No reserve price)
+                    - paragraph [ref=e1627]: Current bid
+                    - paragraph [ref=e1628]: €800
+                    - time [ref=e1631]: 2 days left
+                - button "70" [ref=e1633] [cursor=pointer]:
+                  - img [ref=e1635]
+                  - generic [ref=e1640]: "70"
+            - listitem [ref=e1641]:
+              - article [ref=e1643]:
+                - link "Damien Hirst (1965) - Nobody should hear it Current bid €4,800 4 days left" [ref=e1644] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/l/100244997-damien-hirst-1965-nobody-should-hear-it
+                  - generic [ref=e1646]:
+                    - paragraph [ref=e1647]: Damien Hirst (1965) - Nobody should hear it
+                    - paragraph [ref=e1648]: Current bid
+                    - paragraph [ref=e1649]: €4,800
+                    - time [ref=e1652]: 4 days left
+                - button "569" [ref=e1654] [cursor=pointer]:
+                  - img [ref=e1656]
+                  - generic [ref=e1661]: "569"
+            - listitem [ref=e1662]:
+              - article [ref=e1664]:
+                - link "Flos - Tobia Scarpa - Table lamp - Biagio special edition - Onyx - 1968 Current bid €5,500 3 days left" [ref=e1665] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/l/100487254-flos-tobia-scarpa-table-lamp-biagio-special-edition-onyx-1968
+                  - generic [ref=e1667]:
+                    - paragraph [ref=e1668]: Flos - Tobia Scarpa - Table lamp - Biagio special edition - Onyx - 1968
+                    - paragraph [ref=e1669]: Current bid
+                    - paragraph [ref=e1670]: €5,500
+                    - time [ref=e1673]: 3 days left
+                - button "395" [ref=e1675] [cursor=pointer]:
+                  - img [ref=e1677]
+                  - generic [ref=e1682]: "395"
+          - button "Next" [ref=e1683] [cursor=pointer]:
+            - img [ref=e1686]
+      - generic [ref=e1689]:
+        - generic [ref=e1691]:
+          - generic [ref=e1692]: Why Catawiki?
+          - list [ref=e1693]:
+            - listitem [ref=e1694]:
+              - link "Find something special Discover unique objects you won’t find anywhere else." [ref=e1695] [cursor=pointer]:
+                - /url: /en/feed?tab_name=feeds_popularity
+                - img [ref=e1697]
+                - generic [ref=e1701]:
+                  - generic [ref=e1702]: Find something special
+                  - img [ref=e1704]
+                - generic [ref=e1706]: Discover unique objects you won’t find anywhere else.
+            - listitem [ref=e1707]:
+              - link "Selected by experts Our in-house experts review and appraise every object." [ref=e1708] [cursor=pointer]:
+                - /url: /en/e
+                - img [ref=e1710]
+                - generic [ref=e1713]:
+                  - generic [ref=e1714]: Selected by experts
+                  - img [ref=e1716]
+                - generic [ref=e1718]: Our in-house experts review and appraise every object.
+            - listitem [ref=e1719]:
+              - link "Buyer Protection We make sure your payments are safe and sellers are verified." [ref=e1720] [cursor=pointer]:
+                - /url: /en/pages/p/buyer-protection
+                - img [ref=e1722]
+                - generic [ref=e1725]:
+                  - generic [ref=e1726]: Buyer Protection
+                  - img [ref=e1728]
+                - generic [ref=e1730]: We make sure your payments are safe and sellers are verified.
+            - listitem [ref=e1731]:
+              - link "Trusted by millions Join a worldwide community of satisfied buyers and sellers." [ref=e1732] [cursor=pointer]:
+                - /url: /en/help/about
+                - img [ref=e1734]
+                - generic [ref=e1738]:
+                  - generic [ref=e1739]: Trusted by millions
+                  - img [ref=e1741]
+                - generic [ref=e1743]: Join a worldwide community of satisfied buyers and sellers.
+        - iframe [ref=e1748]:
+          - generic "Trustpilot reviews. Rated 4.4 out of 5 based on 124,602 reviews on Trustpilot. Showing our 4 & 5 star reviews" [ref=f5e2]:
+            - generic [ref=f5e3]:
+              - button "Carousel scroll left" [disabled] [ref=f5e6] [cursor=pointer]:
+                - img [ref=f5e9]
+              - button "Carousel scroll right" [ref=f5e14] [cursor=pointer]:
+                - img [ref=f5e17]
+              - region "Showing our 4 & 5 star reviews" [ref=f5e20]:
+                - list [ref=f5e21]:
+                  - listitem [ref=f5e22]:
+                    - generic [ref=f5e23]:
+                      - img "5 out of 5 star rating on Trustpilot" [ref=f5e28]
+                      - generic [ref=f5e49]:
+                        - generic [ref=f5e50]: Invited review
+                        - generic [ref=f5e51]:
+                          - img [ref=f5e55]
+                          - generic [ref=f5e57]: Invited
+                    - link "Review by B Ghaly, 1 hour ago, This seller is professional and highly…, This seller is professional and highly recommended. Everything matched with wat was stated at the auction. Well packaged and arrived in Amsterdam within tow days from Israel. Perfect. , Click to view the full review on Trustpilot" [ref=f5e58]:
+                      - /url: https://www.trustpilot.com/reviews/6967ff5bb4e09d79d2c58a98?utm_medium=trustbox&utm_source=Slider
+                      - generic [ref=f5e59]:
+                        - generic [ref=f5e60]: This seller is professional and highly…
+                        - generic [ref=f5e61]: This seller is professional and highly recommended. Everything matched with wat was s...
+                        - generic [ref=f5e62]:
+                          - generic [ref=f5e63]: B Ghaly,
+                          - generic [ref=f5e64]: 1 hour ago
+                  - listitem [ref=f5e65]:
+                    - generic [ref=f5e66]:
+                      - img "5 out of 5 star rating on Trustpilot" [ref=f5e71]
+                      - generic [ref=f5e92]:
+                        - generic [ref=f5e93]: Invited review
+                        - generic [ref=f5e94]:
+                          - img [ref=f5e98]
+                          - generic [ref=f5e100]: Invited
+                    - link "Review by Patricia Don, 3 hours ago, Communication was good and the products…, Communication was good and the products looks as new, Click to view the full review on Trustpilot" [ref=f5e101]:
+                      - /url: https://www.trustpilot.com/reviews/6967ee04be802526b2ec7976?utm_medium=trustbox&utm_source=Slider
+                      - generic [ref=f5e102]:
+                        - generic [ref=f5e103]: Communication was good and the products…
+                        - generic [ref=f5e104]: Communication was good and the products looks as new
+                        - generic [ref=f5e105]:
+                          - generic [ref=f5e106]: Patricia Don,
+                          - generic [ref=f5e107]: 3 hours ago
+                  - listitem [ref=f5e108]:
+                    - generic [ref=f5e109]:
+                      - img "5 out of 5 star rating on Trustpilot" [ref=f5e114]
+                      - generic [ref=f5e135]:
+                        - generic [ref=f5e136]: Invited review
+                        - generic [ref=f5e137]:
+                          - img [ref=f5e141]
+                          - generic [ref=f5e143]: Invited
+                    - link "Review by RR Casa, 5 hours ago, Great communication with seller and…, Great communication with seller and exceedingly well packed and coin as expected in description , Click to view the full review on Trustpilot" [ref=f5e144]:
+                      - /url: https://www.trustpilot.com/reviews/6967d1b7b3d70c4221358609?utm_medium=trustbox&utm_source=Slider
+                      - generic [ref=f5e145]:
+                        - generic [ref=f5e146]: Great communication with seller and…
+                        - generic [ref=f5e147]: Great communication with seller and exceedingly well packed and coin as expected in d...
+                        - generic [ref=f5e148]:
+                          - generic [ref=f5e149]: RR Casa,
+                          - generic [ref=f5e150]: 5 hours ago
+                  - listitem [ref=f5e151]:
+                    - generic [ref=f5e152]:
+                      - img "5 out of 5 star rating on Trustpilot" [ref=f5e157]
+                      - generic [ref=f5e178]:
+                        - generic [ref=f5e179]: Invited review
+                        - generic [ref=f5e180]:
+                          - img [ref=f5e184]
+                          - generic [ref=f5e186]: Invited
+                    - link "Review by Jackie, 5 hours ago, Personal way of listing an object to…, Personal way of listing an object to sell. Human touch on all objects., Click to view the full review on Trustpilot" [ref=f5e187]:
+                      - /url: https://www.trustpilot.com/reviews/6967d15bd45bde560baa85a5?utm_medium=trustbox&utm_source=Slider
+                      - generic [ref=f5e188]:
+                        - generic [ref=f5e189]: Personal way of listing an object to…
+                        - generic [ref=f5e190]: Personal way of listing an object to sell. Human touch on all objects.
+                        - generic [ref=f5e191]:
+                          - generic [ref=f5e192]: Jackie,
+                          - generic [ref=f5e193]: 5 hours ago
+                  - listitem [ref=f5e194]:
+                    - generic [ref=f5e195]:
+                      - img "5 out of 5 star rating on Trustpilot" [ref=f5e200]
+                      - generic [ref=f5e221]:
+                        - generic [ref=f5e222]: Invited review
+                        - generic [ref=f5e223]:
+                          - img [ref=f5e227]
+                          - generic [ref=f5e229]: Invited
+                    - link "Review by Barış Aslan, 7 hours ago, Great thx a loot, Great thx a loot , Click to view the full review on Trustpilot" [ref=f5e230]:
+                      - /url: https://www.trustpilot.com/reviews/6967b5c312706778c47cbf4f?utm_medium=trustbox&utm_source=Slider
+                      - generic [ref=f5e231]:
+                        - generic [ref=f5e232]: Great thx a loot
+                        - generic [ref=f5e233]: Great thx a loot
+                        - generic [ref=f5e234]:
+                          - generic [ref=f5e235]: Barış Aslan,
+                          - generic [ref=f5e236]: 7 hours ago
+                  - listitem [ref=f5e237]:
+                    - generic [ref=f5e238]:
+                      - img "5 out of 5 star rating on Trustpilot" [ref=f5e243]
+                      - generic [ref=f5e264]:
+                        - generic [ref=f5e265]: Invited review
+                        - generic [ref=f5e266]:
+                          - img [ref=f5e270]
+                          - generic [ref=f5e272]: Invited
+                    - link "Review by Emmanuel Maroulakis, 7 hours ago, Trustful, Trustful. Fun to discover items. Variety of products. , Click to view the full review on Trustpilot" [ref=f5e273]:
+                      - /url: https://www.trustpilot.com/reviews/6967b3993c54c3b3a5b6c430?utm_medium=trustbox&utm_source=Slider
+                      - generic [ref=f5e274]:
+                        - generic [ref=f5e275]: Trustful
+                        - generic [ref=f5e276]: Trustful. Fun to discover items. Variety of products.
+                        - generic [ref=f5e277]:
+                          - generic [ref=f5e278]: Emmanuel Maroulakis,
+                          - generic [ref=f5e279]: 7 hours ago
+                  - listitem [ref=f5e280]:
+                    - generic [ref=f5e281]:
+                      - img "5 out of 5 star rating on Trustpilot" [ref=f5e286]
+                      - generic [ref=f5e307]:
+                        - generic [ref=f5e308]: Invited review
+                        - generic [ref=f5e309]:
+                          - img [ref=f5e313]
+                          - generic [ref=f5e315]: Invited
+                    - link "Review by Erwin van der Aa, 7 hours ago, Nice watch and great quality 5 x ⭐️, Nice watch and great quality. Perfect on time delivery. No issues what so ever! 5 x ⭐️, Click to view the full review on Trustpilot" [ref=f5e316]:
+                      - /url: https://www.trustpilot.com/reviews/6967b321c15c7bde3103fef9?utm_medium=trustbox&utm_source=Slider
+                      - generic [ref=f5e317]:
+                        - generic [ref=f5e318]: Nice watch and great quality 5 x ⭐️
+                        - generic [ref=f5e319]: Nice watch and great quality. Perfect on time delivery. No issues what so ever! 5 x ⭐...
+                        - generic [ref=f5e320]:
+                          - generic [ref=f5e321]: Erwin van der Aa,
+                          - generic [ref=f5e322]: 7 hours ago
+                  - listitem [ref=f5e323]:
+                    - generic [ref=f5e324]:
+                      - img "5 out of 5 star rating on Trustpilot" [ref=f5e329]
+                      - generic [ref=f5e350]:
+                        - generic [ref=f5e351]: Invited review
+                        - generic [ref=f5e352]:
+                          - img [ref=f5e356]
+                          - generic [ref=f5e358]: Invited
+                    - link "Review by kund, 8 hours ago, Very serious great experience, Very serious great experience , Click to view the full review on Trustpilot" [ref=f5e359]:
+                      - /url: https://www.trustpilot.com/reviews/69679ea031f1708d6c759a02?utm_medium=trustbox&utm_source=Slider
+                      - generic [ref=f5e360]:
+                        - generic [ref=f5e361]: Very serious great experience
+                        - generic [ref=f5e362]: Very serious great experience
+                        - generic [ref=f5e363]:
+                          - generic [ref=f5e364]: kund,
+                          - generic [ref=f5e365]: 8 hours ago
+                  - listitem [ref=f5e366]:
+                    - generic [ref=f5e367]:
+                      - img "5 out of 5 star rating on Trustpilot" [ref=f5e372]
+                      - generic [ref=f5e393]:
+                        - generic [ref=f5e394]: Invited review
+                        - generic [ref=f5e395]:
+                          - img [ref=f5e399]
+                          - generic [ref=f5e401]: Invited
+                    - link "Review by Rüdiger Pachelbel, 9 hours ago, Everything went well and uncomplicated, Everything went well and uncomplicated, Click to view the full review on Trustpilot" [ref=f5e402]:
+                      - /url: https://www.trustpilot.com/reviews/69679b1bc70b512a0fc68316?utm_medium=trustbox&utm_source=Slider
+                      - generic [ref=f5e403]:
+                        - generic [ref=f5e404]: Everything went well and uncomplicated
+                        - generic [ref=f5e405]: Everything went well and uncomplicated
+                        - generic [ref=f5e406]:
+                          - generic [ref=f5e407]: Rüdiger Pachelbel,
+                          - generic [ref=f5e408]: 9 hours ago
+                  - listitem [ref=f5e409]:
+                    - generic [ref=f5e410]:
+                      - img "4 out of 5 star rating on Trustpilot" [ref=f5e415]
+                      - generic [ref=f5e436]:
+                        - generic [ref=f5e437]: Invited review
+                        - generic [ref=f5e438]:
+                          - img [ref=f5e442]
+                          - generic [ref=f5e444]: Invited
+                    - link "Review by Sedric Boney, 9 hours ago, one order got cancelled and returned…, one order got cancelled and returned to the sender , other order got delayed by 7 days, but overall the experience is great. , Click to view the full review on Trustpilot" [ref=f5e445]:
+                      - /url: https://www.trustpilot.com/reviews/69678f212f853018c0356dca?utm_medium=trustbox&utm_source=Slider
+                      - generic [ref=f5e446]:
+                        - generic [ref=f5e447]: one order got cancelled and returned…
+                        - generic [ref=f5e448]: one order got cancelled and returned to the sender , other order got delayed by 7 da...
+                        - generic [ref=f5e449]:
+                          - generic [ref=f5e450]: Sedric Boney,
+                          - generic [ref=f5e451]: 9 hours ago
+                  - listitem [ref=f5e452]:
+                    - generic [ref=f5e453]:
+                      - img "5 out of 5 star rating on Trustpilot" [ref=f5e458]
+                      - generic [ref=f5e479]:
+                        - generic [ref=f5e480]: Invited review
+                        - generic [ref=f5e481]:
+                          - img [ref=f5e485]
+                          - generic [ref=f5e487]: Invited
+                    - link "Review by Marie Noelle, 10 hours ago, All was perfect, All was perfect! Thanks , Click to view the full review on Trustpilot" [ref=f5e488]:
+                      - /url: https://www.trustpilot.com/reviews/6967890d19b4656ac739dcc5?utm_medium=trustbox&utm_source=Slider
+                      - generic [ref=f5e489]:
+                        - generic [ref=f5e490]: All was perfect
+                        - generic [ref=f5e491]: All was perfect! Thanks
+                        - generic [ref=f5e492]:
+                          - generic [ref=f5e493]: Marie Noelle,
+                          - generic [ref=f5e494]: 10 hours ago
+                  - listitem [ref=f5e495]:
+                    - generic [ref=f5e496]:
+                      - img "5 out of 5 star rating on Trustpilot" [ref=f5e501]
+                      - generic [ref=f5e522]:
+                        - generic [ref=f5e523]: Invited review
+                        - generic [ref=f5e524]:
+                          - img [ref=f5e528]
+                          - generic [ref=f5e530]: Invited
+                    - link "Review by Francesco, 11 hours ago, Very special vintage watch, The watch was packaged perfectly and matched the photos and description. I absolutely love it. Highly recommended seller., Click to view the full review on Trustpilot" [ref=f5e531]:
+                      - /url: https://www.trustpilot.com/reviews/69677e329f4525fef5d3b55e?utm_medium=trustbox&utm_source=Slider
+                      - generic [ref=f5e532]:
+                        - generic [ref=f5e533]: Very special vintage watch
+                        - generic [ref=f5e534]: The watch was packaged perfectly and matched the photos and description. I absolutely...
+                        - generic [ref=f5e535]:
+                          - generic [ref=f5e536]: Francesco,
+                          - generic [ref=f5e537]: 11 hours ago
+                  - listitem [ref=f5e538]:
+                    - generic [ref=f5e539]:
+                      - img "5 out of 5 star rating on Trustpilot" [ref=f5e544]
+                      - generic [ref=f5e565]:
+                        - generic [ref=f5e566]: Invited review
+                        - generic [ref=f5e567]:
+                          - img [ref=f5e571]
+                          - generic [ref=f5e573]: Invited
+                    - link "Review by Ivilin Todorov, 11 hours ago, Great experience!, Great experience!, Click to view the full review on Trustpilot" [ref=f5e574]:
+                      - /url: https://www.trustpilot.com/reviews/69677c81dd275ea467f1ae86?utm_medium=trustbox&utm_source=Slider
+                      - generic [ref=f5e575]:
+                        - generic [ref=f5e576]: Great experience!
+                        - generic [ref=f5e577]: Great experience!
+                        - generic [ref=f5e578]:
+                          - generic [ref=f5e579]: Ivilin Todorov,
+                          - generic [ref=f5e580]: 11 hours ago
+                  - listitem [ref=f5e581]:
+                    - generic [ref=f5e582]:
+                      - img "5 out of 5 star rating on Trustpilot" [ref=f5e587]
+                      - generic [ref=f5e608]:
+                        - generic [ref=f5e609]: Invited review
+                        - generic [ref=f5e610]:
+                          - img [ref=f5e614]
+                          - generic [ref=f5e616]: Invited
+                    - link "Review by Ilya Gaponov, 11 hours ago, Everything is perfect, Everything is perfect! Matches the description and photos. Very fast delivery and excellent packaging!!! Thank you!, Click to view the full review on Trustpilot" [ref=f5e617]:
+                      - /url: https://www.trustpilot.com/reviews/69677220d8ac31cd392ff9bf?utm_medium=trustbox&utm_source=Slider
+                      - generic [ref=f5e618]:
+                        - generic [ref=f5e619]: Everything is perfect
+                        - generic [ref=f5e620]: Everything is perfect! Matches the description and photos. Very fast delivery and exc...
+                        - generic [ref=f5e621]:
+                          - generic [ref=f5e622]: Ilya Gaponov,
+                          - generic [ref=f5e623]: 11 hours ago
+                  - listitem [ref=f5e624]:
+                    - generic [ref=f5e625]:
+                      - img "5 out of 5 star rating on Trustpilot" [ref=f5e630]
+                      - generic [ref=f5e651]:
+                        - generic [ref=f5e652]: Invited review
+                        - generic [ref=f5e653]:
+                          - img [ref=f5e657]
+                          - generic [ref=f5e659]: Invited
+                    - link "Review by Roko Praznik, 12 hours ago, Item in condition as advertised, Item in condition as advertised , Click to view the full review on Trustpilot" [ref=f5e660]:
+                      - /url: https://www.trustpilot.com/reviews/69676f178641f92097281a5f?utm_medium=trustbox&utm_source=Slider
+                      - generic [ref=f5e661]:
+                        - generic [ref=f5e662]: Item in condition as advertised
+                        - generic [ref=f5e663]: Item in condition as advertised
+                        - generic [ref=f5e664]:
+                          - generic [ref=f5e665]: Roko Praznik,
+                          - generic [ref=f5e666]: 12 hours ago
+            - link "Trustpilot reviews. Rated 4.4 out of 5 based on 124,602 reviews on Trustpilot. Click to view the company’s Trustpilot profile." [ref=f5e668]:
+              - /url: https://www.trustpilot.com/review/catawiki.com?utm_medium=trustbox&utm_source=Slider
+              - generic [ref=f5e669]:
+                - generic [ref=f5e670]:
+                  - text: Rated
+                  - strong [ref=f5e671]: "4.4"
+                  - text: / 5 based on
+                  - strong [ref=f5e672]: 124,602 reviews
+                  - text: .
+                - generic [ref=f5e673]:
+                  - generic [ref=f5e674]: Showing our 4 & 5 star reviews
+                  - text: .
+              - img "Trustpilot" [ref=f5e678]
+      - generic [ref=e1751]:
+        - heading "Explore our categories" [level=2] [ref=e1752]
+        - list [ref=e1753]:
+          - listitem [ref=e1754]:
+            - link "Archaeology & Natural History" [ref=e1755] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/c/863-archaeology-natural-history
+              - generic [ref=e1758]: Archaeology & Natural History
+          - listitem [ref=e1759]:
+            - link "Art" [ref=e1760] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/c/85-art
+              - generic [ref=e1763]: Art
+          - listitem [ref=e1764]:
+            - link "Asian & Tribal Art" [ref=e1765] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/c/925-asian-tribal-art
+              - generic [ref=e1768]: Asian & Tribal Art
+          - listitem [ref=e1769]:
+            - link "Books & Historical Memorabilia" [ref=e1770] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/c/1099-books-historical-memorabilia
+              - generic [ref=e1773]: Books & Historical Memorabilia
+          - listitem [ref=e1774]:
+            - link "Classic Cars, Motorcycles & Automobilia" [ref=e1775] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/c/708-classic-cars-motorcycles-automobilia
+              - generic [ref=e1778]: Classic Cars, Motorcycles & Automobilia
+          - listitem [ref=e1779]:
+            - link "Coins & Stamps" [ref=e1780] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/c/165-coins-stamps
+              - generic [ref=e1783]: Coins & Stamps
+          - listitem [ref=e1784]:
+            - link "Comics & Animation" [ref=e1785] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/c/139-comics-animation
+              - generic [ref=e1788]: Comics & Animation
+          - listitem [ref=e1789]:
+            - link "Fashion" [ref=e1790] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/c/721-fashion
+              - generic [ref=e1793]: Fashion
+          - listitem [ref=e1794]:
+            - link "Interiors & Decorations" [ref=e1795] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/c/1-interiors-decorations
+              - generic [ref=e1798]: Interiors & Decorations
+          - listitem [ref=e1799]:
+            - link "Jewellery & Precious Stones" [ref=e1800] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/c/714-jewellery-precious-stones
+              - generic [ref=e1803]: Jewellery & Precious Stones
+          - listitem [ref=e1804]:
+            - link "Music, Movies & Cameras" [ref=e1805] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/c/347-music-movies-cameras
+              - generic [ref=e1808]: Music, Movies & Cameras
+          - listitem [ref=e1809]:
+            - link "Sports" [ref=e1810] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/c/1097-sports
+              - generic [ref=e1813]: Sports
+          - listitem [ref=e1814]:
+            - link "Toys & Models" [ref=e1815] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/c/363-toys-models
+              - generic [ref=e1818]: Toys & Models
+          - listitem [ref=e1819]:
+            - link "Trading Cards" [ref=e1820] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/c/725-trading-cards
+              - generic [ref=e1823]: Trading Cards
+          - listitem [ref=e1824]:
+            - link "Watches, Pens & Lighters" [ref=e1825] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/c/299-watches-pens-lighters
+              - generic [ref=e1828]: Watches, Pens & Lighters
+          - listitem [ref=e1829]:
+            - link "Wine, Whisky & Spirits" [ref=e1830] [cursor=pointer]:
+              - /url: https://www.catawiki.com/en/c/720-wine-whisky-spirits
+              - generic [ref=e1833]: Wine, Whisky & Spirits
+      - generic [ref=e1838]:
+        - heading "Download the Catawiki app" [level=2] [ref=e1839]
+        - heading "and discover special objects anytime, anywhere" [level=3] [ref=e1840]
+        - paragraph [ref=e1841]:
+          - link "Google Play" [ref=e1842] [cursor=pointer]:
+            - /url: https://app.adjust.com/v8wodbh_owm7xlg
+            - img [ref=e1843]
+          - link "Appstore" [ref=e1852] [cursor=pointer]:
+            - /url: https://app.adjust.com/v8wodbh_owm7xlg
+            - img [ref=e1853]
+    - contentinfo [ref=e1867]:
+      - generic [ref=e1869]:
+        - button "Sign in" [ref=e1870] [cursor=pointer]:
+          - generic [ref=e1873]: Sign in
+        - button "Register" [ref=e1874] [cursor=pointer]:
+          - generic [ref=e1877]: Register
+      - separator [ref=e1878]
+      - generic [ref=e1880]:
+        - generic [ref=e1881]:
+          - heading "About Catawiki" [level=6] [ref=e1882]
+          - list [ref=e1883]:
+            - listitem [ref=e1884]:
+              - link "About Catawiki" [ref=e1885] [cursor=pointer]:
+                - /url: /en/help/about
+                - generic [ref=e1888]: About Catawiki
+            - listitem [ref=e1889]:
+              - link "Our experts" [ref=e1890] [cursor=pointer]:
+                - /url: /en/e
+                - generic [ref=e1893]: Our experts
+            - listitem [ref=e1894]:
+              - link "Careers" [ref=e1895] [cursor=pointer]:
+                - /url: https://catawiki.careers
+                - generic [ref=e1898]: Careers
+            - listitem [ref=e1899]:
+              - link "Press" [ref=e1900] [cursor=pointer]:
+                - /url: /en/press
+                - generic [ref=e1903]: Press
+            - listitem [ref=e1904]:
+              - link "Partnering with Catawiki" [ref=e1905] [cursor=pointer]:
+                - /url: /en/pages/p/partnership
+                - generic [ref=e1908]: Partnering with Catawiki
+            - listitem [ref=e1909]:
+              - link "Collectors' portal" [ref=e1910] [cursor=pointer]:
+                - /url: https://www.lastdodo.com
+                - generic [ref=e1913]: Collectors' portal
+        - generic [ref=e1914]:
+          - heading "Buy" [level=6] [ref=e1915]
+          - list [ref=e1916]:
+            - listitem [ref=e1917]:
+              - link "How to buy" [ref=e1918] [cursor=pointer]:
+                - /url: /en/pages/p/buyer
+                - generic [ref=e1921]: How to buy
+            - listitem [ref=e1922]:
+              - link "Buyer Protection" [ref=e1923] [cursor=pointer]:
+                - /url: /en/pages/p/buyer-protection
+                - generic [ref=e1926]: Buyer Protection
+            - listitem [ref=e1927]:
+              - link "Catawiki Stories" [ref=e1928] [cursor=pointer]:
+                - /url: /en/stories
+                - generic [ref=e1931]: Catawiki Stories
+            - listitem [ref=e1932]:
+              - link "Buyer terms" [ref=e1933] [cursor=pointer]:
+                - /url: /en/pages/p/buyer-terms
+                - generic [ref=e1936]: Buyer terms
+        - generic [ref=e1937]:
+          - heading "Sell" [level=6] [ref=e1938]
+          - list [ref=e1939]:
+            - listitem [ref=e1940]:
+              - link "How to sell" [ref=e1941] [cursor=pointer]:
+                - /url: /en/seller/register
+                - generic [ref=e1944]: How to sell
+            - listitem [ref=e1945]:
+              - link "Seller Tips" [ref=e1946] [cursor=pointer]:
+                - /url: /en/lp/seller-tips
+                - generic [ref=e1949]: Seller Tips
+            - listitem [ref=e1950]:
+              - link "Submission guidelines" [ref=e1951] [cursor=pointer]:
+                - /url: /en/help/suitable-items
+                - generic [ref=e1954]: Submission guidelines
+            - listitem [ref=e1955]:
+              - link "Seller terms" [ref=e1956] [cursor=pointer]:
+                - /url: /en/pages/p/seller-terms
+                - generic [ref=e1959]: Seller terms
+            - listitem [ref=e1960]:
+              - link "Affiliates" [ref=e1961] [cursor=pointer]:
+                - /url: /en/pages/p/partners-creators
+                - generic [ref=e1964]: Affiliates
+        - generic [ref=e1965]:
+          - heading "My Catawiki" [level=6] [ref=e1966]
+          - list [ref=e1967]:
+            - listitem [ref=e1968]:
+              - button "Sign in" [ref=e1973] [cursor=pointer]:
+                - generic [ref=e1976]: Sign in
+            - listitem [ref=e1977]:
+              - button "Register" [ref=e1982] [cursor=pointer]:
+                - generic [ref=e1985]: Register
+            - listitem [ref=e1986]:
+              - link "Help Centre" [ref=e1987] [cursor=pointer]:
+                - /url: /en/help
+                - generic [ref=e1990]: Help Centre
+      - generic [ref=e1992]:
+        - generic [ref=e1995]:
+          - combobox [ref=e1997] [cursor=pointer]: English
+          - button "Open" [ref=e1999] [cursor=pointer]:
+            - img [ref=e2002]
+        - generic [ref=e2004]:
+          - generic [ref=e2005]:
+            - link "Catawiki Facebook" [ref=e2006] [cursor=pointer]:
+              - /url: http://www.facebook.com/catawiki
+              - img [ref=e2009]
+            - link "Catawiki Instagram" [ref=e2011] [cursor=pointer]:
+              - /url: https://www.instagram.com/catawiki/
+              - img [ref=e2014]
+          - img [ref=e2016]
+      - separator [ref=e2018]
+      - generic [ref=e2021]:
+        - link "Terms of Use" [ref=e2022] [cursor=pointer]:
+          - /url: /en/pages/p/terms-of-use
+          - generic [ref=e2025]: Terms of Use
+        - link "Data Protection & Privacy Notice" [ref=e2026] [cursor=pointer]:
+          - /url: /en/help/buyer-privacy/privacy-policy
+          - generic [ref=e2029]: Data Protection & Privacy Notice
+        - link "Cookie Policy" [ref=e2030] [cursor=pointer]:
+          - /url: /en/help/cookies
+          - generic [ref=e2033]: Cookie Policy
+        - link "Law Enforcement Policy" [ref=e2034] [cursor=pointer]:
+          - /url: /en/help/buyer-terms/guidelines-for-law-enforcement-requests
+          - generic [ref=e2037]: Law Enforcement Policy
+        - link "Other Policies" [ref=e2038] [cursor=pointer]:
+          - /url: /en/help/policies-guidelines
+          - generic [ref=e2041]: Other Policies
+        - generic [ref=e2042]: © 2026
+  - alert [ref=e2043]
+```

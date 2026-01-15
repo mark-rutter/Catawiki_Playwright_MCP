@@ -1,0 +1,229 @@
+{
+  "cookies": [
+    {
+      "name": "cw_abcpbs",
+      "value": "ce7a5051f56e11d9f7f52e7d6fd6d635",
+      "domain": ".www.catawiki.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ab_first_visit",
+      "value": "1",
+      "domain": ".catawiki.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "absmartly_id",
+      "value": "b936a825-5bbd-4727-a1a0-d218e349b6ac",
+      "domain": "www.catawiki.com",
+      "path": "/",
+      "expires": 1783976179,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "cw_ab",
+      "value": "mQjRodynS7CEcZ98jnUiswAB",
+      "domain": ".catawiki.com",
+      "path": "/",
+      "expires": 1802987780.0403,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "previousPageType",
+      "value": "HomePage",
+      "domain": ".catawiki.com",
+      "path": "/",
+      "expires": 1768514180.076211,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "cw_sid",
+      "value": "582f3396504308e20912f7754ceff99477aae9eea413b9a14ff876374001aef3",
+      "domain": ".catawiki.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_pxvid",
+      "value": "dcc2d079-f193-11f0-8a8d-fa7156caef3e",
+      "domain": ".catawiki.com",
+      "path": "/",
+      "expires": 1799963781.735479,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "pxcts",
+      "value": "dcc2dacd-f193-11f0-8a8d-91e8fcbb8c20",
+      "domain": ".catawiki.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.597305943.1768427782",
+      "domain": ".catawiki.com",
+      "path": "/",
+      "expires": 1802987782.213673,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "FPID",
+      "value": "FPID2.2.SEgwl%2BVoNCVws25muzcz16KpR1mP%2BrRGQLakgFY4Mhk%3D.1768427782",
+      "domain": ".catawiki.com",
+      "path": "/",
+      "expires": 1802987782.460158,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "FPLC",
+      "value": "IOvxsXkJRcFGnLxSgeXeBQ3pOy4Urp06Dx4XO9Y9cbtI%2FEPbBTDvHsMnzTpvwU8g%2FUJG7cc9sMRqlJOSwmvPvwAXG9i9s6NL9%2Bw1JpCdNCZR2XQo8exKuIWDXTVsQQ%3D%3D",
+      "domain": ".catawiki.com",
+      "path": "/",
+      "expires": 1768499782.46026,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_px2",
+      "value": "eyJ1IjoiZGM3NzU1MjAtZjE5My0xMWYwLTg0NDMtODE0ZTcyNzcxNzBmIiwidiI6ImRjYzJkMDc5LWYxOTMtMTFmMC04YThkLWZhNzE1NmNhZWYzZSIsInQiOjE3Njg0MjgwODI5OTgsImgiOiJlY2IyN2Q3YThlMDAzMTc4OTVkNDNiMDdmYzMwYjhkZDRiZTE3ZDNmMDZiZmEwNmI4ZDczOGJkMWE2YTE1ZDE3In0=",
+      "domain": ".catawiki.com",
+      "path": "/",
+      "expires": 1768428113.233721,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__cf_bm",
+      "value": "WYA8LAO5W41a1TpYoYuRfXSPkJDCi34xiD2fT6lV.ZY-1768427784-1.0.1.1-jU_h3stL_OSnlSM050HArNeFUpJbfd5.SQPcY3GViCgiTMuOj_onyaH0y0DCkbBw8T2.H6HbKxuu.Dd9G_agAPYtvoMdLb0T3sZZwLuOXKQ",
+      "domain": ".slgnt.eu",
+      "path": "/",
+      "expires": 1768429584.577867,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_gcl_au",
+      "value": "1.1.1198131739.1768427785",
+      "domain": ".catawiki.com",
+      "path": "/",
+      "expires": 1776203785,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_N14JY514FR",
+      "value": "GS2.1.s1768427780$o1$g0$t1768427785$j60$l0$h460230745",
+      "domain": ".catawiki.com",
+      "path": "/",
+      "expires": 1802987785.014159,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "enable_marketing_cookies",
+      "value": "true",
+      "domain": ".catawiki.com",
+      "path": "/",
+      "expires": 1799963785,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "enable_analytical_cookies",
+      "value": "true",
+      "domain": ".catawiki.com",
+      "path": "/",
+      "expires": 1799963785,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "cookie_preferences_used_cta",
+      "value": "accept_all",
+      "domain": ".catawiki.com",
+      "path": "/",
+      "expires": 1799963785,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "has_pending_cookie_consent_sync",
+      "value": "true",
+      "domain": ".catawiki.com",
+      "path": "/",
+      "expires": 1799963785,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://www.catawiki.com",
+      "localStorage": [
+        {
+          "name": "cw-ab-test",
+          "value": "null"
+        },
+        {
+          "name": "userLoggedIn",
+          "value": "false"
+        },
+        {
+          "name": "PXUZlkr2ZV_px_hvd",
+          "value": "471c4cce123766afb80bd2bfb93c68b9"
+        },
+        {
+          "name": "_gcl_ls",
+          "value": "{\"schema\":\"gcl\",\"version\":1,\"gcl_ctr\":{\"value\":{\"value\":0,\"timeouts\":0,\"creationTimeMs\":1768427784927},\"expires\":1776203784927}}"
+        },
+        {
+          "name": "pusherTransportTLS",
+          "value": "{\"timestamp\":1768427781359,\"transport\":\"ws\",\"latency\":1611,\"cacheSkipCount\":0}"
+        },
+        {
+          "name": "PXUZlkr2ZV_px-ff",
+          "value": "eyJjYyI6eyJ0dGwiOjE3Njg0Mjc4NDIsInZhbCI6IlUyRnRaVk5wZEdVOVRHRjRPdz09In19"
+        },
+        {
+          "name": "recentSearches",
+          "value": "[]"
+        }
+      ]
+    }
+  ]
+}

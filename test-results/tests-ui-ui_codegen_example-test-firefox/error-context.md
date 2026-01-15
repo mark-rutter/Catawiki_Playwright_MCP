@@ -1,0 +1,711 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e7]:
+      - generic [ref=e9]:
+        - link "homepage" [ref=e11] [cursor=pointer]:
+          - /url: /en/
+        - button "Categories" [ref=e14] [cursor=pointer]
+        - generic [ref=e18]:
+          - button "Search" [ref=e20] [cursor=pointer]:
+            - img [ref=e23]
+          - combobox "Search for brand, model, artist..." [ref=e26]
+        - navigation [ref=e27]:
+          - generic [ref=e28]:
+            - generic [ref=e30]:
+              - link "How it works?" [ref=e32] [cursor=pointer]:
+                - /url: /en/pages/p/buyer
+                - generic [ref=e35]: How it works?
+              - link "Help" [ref=e37] [cursor=pointer]:
+                - /url: /en/f/help
+                - generic [ref=e40]: Help
+              - link "Favourites" [ref=e42] [cursor=pointer]:
+                - /url: /en/veiling/favorites
+                - img [ref=e46]
+              - button "en" [ref=e49] [cursor=pointer]:
+                - generic [ref=e51]:
+                  - img [ref=e52]
+                  - generic [ref=e54]: en
+            - button "Sign in" [ref=e58] [cursor=pointer]:
+              - generic [ref=e61]: Sign in
+    - generic:
+      - generic [ref=e62]:
+        - img [ref=e64] [cursor=pointer]
+        - generic [ref=e68]: Not registered yet?
+        - generic [ref=e69]: By creating your free Catawiki account, you’ll be able to bid on any of our 75,000 special objects up for auction every week.
+        - generic [ref=e70]:
+          - button "Create account" [ref=e71] [cursor=pointer]:
+            - generic [ref=e74]: Create account
+          - text: or
+          - button "Sign in" [ref=e76] [cursor=pointer]:
+            - generic [ref=e79]: Sign in
+      - button "Register now" [ref=e81] [cursor=pointer]:
+        - generic [ref=e84]: Register now
+    - main [ref=e85]:
+      - generic [ref=e86]:
+        - link "Back to search" [ref=e87] [cursor=pointer]:
+          - /url: /en/s?q=train
+          - generic [ref=e89]:
+            - img [ref=e90]
+            - generic [ref=e92]: Back to search
+        - navigation [ref=e93]:
+          - link "Toys & Models" [ref=e94] [cursor=pointer]:
+            - /url: https://www.catawiki.com/en/c/363-toys-models
+          - link "Model Trains" [ref=e95] [cursor=pointer]:
+            - /url: https://www.catawiki.com/en/c/387-model-trains
+          - link "Märklin H0 Model Trains Auction" [ref=e96] [cursor=pointer]:
+            - /url: https://www.catawiki.com/en/a/1190326-marklin-h0-model-trains-auction
+          - text: No. 100583283
+        - generic [ref=e97]:
+          - link [ref=e98] [cursor=pointer]:
+            - /url: /en/l/100521374?po=search&poq=train
+            - img [ref=e101]
+          - generic [ref=e103]: 73/118
+          - link [ref=e104] [cursor=pointer]:
+            - /url: /en/l/100522885?po=search&poq=train
+            - img [ref=e107]
+      - generic [ref=e109]:
+        - generic [ref=e110]:
+          - generic [ref=e112]:
+            - heading "Märklin H0 - 2862 - Train set (1) - Set with demonstration train - DB" [level=1] [ref=e113]
+            - generic [ref=e114]:
+              - button "26" [ref=e116] [cursor=pointer]:
+                - img [ref=e118]
+                - generic [ref=e122]: "26"
+              - button [ref=e123] [cursor=pointer]:
+                - img [ref=e126]
+          - generic [ref=e131]:
+            - generic [ref=e135]:
+              - 'img "Märklin H0 - 2862 - Train set (1) - Set with demonstration train - DB #1.0" [ref=e138] [cursor=pointer]'
+              - 'img "Märklin H0 - 2862 - Train set (1) - Set with demonstration train - DB #2.1" [ref=e141] [cursor=pointer]'
+              - 'img "Märklin H0 - 2862 - Train set (1) - Set with demonstration train - DB #3.2" [ref=e144] [cursor=pointer]'
+              - 'img "Märklin H0 - 2862 - Train set (1) - Set with demonstration train - DB #4.3" [ref=e147] [cursor=pointer]'
+            - button "See all photos (8)" [ref=e149] [cursor=pointer]:
+              - generic [ref=e151]:
+                - img [ref=e152]
+                - generic [ref=e154]: See all photos (8)
+        - generic [ref=e156]:
+          - generic [ref=e157]:
+            - generic [ref=e158]:
+              - generic [ref=e160]:
+                - text: Saturday 21:01
+                - button [ref=e161] [cursor=pointer]:
+                  - img [ref=e164]
+              - generic [ref=e166]:
+                - generic [ref=e167]:
+                  - generic [ref=e169]: "02"
+                  - generic [ref=e170]: days
+                - generic [ref=e171]:
+                  - generic [ref=e173]: "19"
+                  - generic [ref=e174]: hours
+                - generic [ref=e175]:
+                  - generic [ref=e177]: "54"
+                  - generic [ref=e178]: minutes
+                - generic [ref=e179]:
+                  - generic [ref=e181]: "40"
+                  - generic [ref=e182]: seconds
+            - generic [ref=e185]:
+              - generic [ref=e188]:
+                - generic [ref=e189]: Current bid
+                - generic [ref=e190]: € 75
+                - generic [ref=e191]: No reserve price
+                - generic [ref=e192]:
+                  - link "Christophe Hendriks Franssen Expert" [ref=e193] [cursor=pointer]:
+                    - /url: /en/e/1506-christophe-hendriks-franssen
+                    - generic [ref=e194]:
+                      - img "Christophe Hendriks Franssen" [ref=e196]
+                      - generic [ref=e197]: Expert
+                  - heading "Selected by Christophe Hendriks Franssen" [level=4] [ref=e199]:
+                    - link "Selected by Christophe Hendriks Franssen" [ref=e200] [cursor=pointer]:
+                      - /url: /en/e/1506-christophe-hendriks-franssen
+                      - generic [ref=e201]:
+                        - generic [ref=e202]: Selected by Christophe Hendriks Franssen
+                        - img [ref=e204]
+              - generic [ref=e206]:
+                - generic [ref=e207]:
+                  - generic [ref=e210]:
+                    - button "€ 80" [ref=e211] [cursor=pointer]:
+                      - generic [ref=e213]: € 80
+                    - button "€ 82" [ref=e214] [cursor=pointer]:
+                      - generic [ref=e216]: € 82
+                    - button "€ 84" [ref=e217] [cursor=pointer]:
+                      - generic [ref=e219]: € 84
+                  - generic [ref=e223]:
+                    - generic [ref=e225]:
+                      - generic [ref=e226]: €
+                      - textbox "80 or up" [ref=e228]
+                    - generic [ref=e229]:
+                      - button "Place bid" [ref=e230] [cursor=pointer]:
+                        - generic [ref=e233]: Place bid
+                      - button "Set max bid" [ref=e234] [cursor=pointer]:
+                        - generic [ref=e237]: Set max bid
+                - generic [ref=e238]:
+                  - generic [ref=e239]: 26 other people are watching this object
+                  - table [ref=e241]:
+                    - rowgroup [ref=e242]:
+                      - row "nl Bidder 9094 1 day ago €75" [ref=e243] [cursor=pointer]:
+                        - columnheader "nl Bidder 9094" [ref=e244]:
+                          - generic [ref=e245]:
+                            - img "nl" [ref=e246]
+                            - generic [ref=e247]: Bidder 9094
+                        - columnheader "1 day ago" [ref=e248]:
+                          - generic "13-01-2026 07:56:52" [ref=e249]: 1 day ago
+                        - columnheader "€75" [ref=e250]:
+                          - generic [ref=e251]: €75
+                      - row "es Bidder 4413 1 day ago €70" [ref=e252] [cursor=pointer]:
+                        - cell "es Bidder 4413" [ref=e253]:
+                          - generic [ref=e254]:
+                            - img "es" [ref=e255]
+                            - generic [ref=e256]: Bidder 4413
+                        - cell "1 day ago" [ref=e257]:
+                          - generic "13-01-2026 07:56:52" [ref=e258]: 1 day ago
+                        - cell "€70" [ref=e259]:
+                          - generic [ref=e260]: €70
+                      - row "nl Bidder 9094 1 day ago €65" [ref=e261] [cursor=pointer]:
+                        - cell "nl Bidder 9094" [ref=e262]:
+                          - generic [ref=e263]:
+                            - img "nl" [ref=e264]
+                            - generic [ref=e265]: Bidder 9094
+                        - cell "1 day ago" [ref=e266]:
+                          - generic "13-01-2026 07:56:46" [ref=e267]: 1 day ago
+                        - cell "€65" [ref=e268]:
+                          - generic [ref=e269]: €65
+                      - row "See all bids (24)" [ref=e270]:
+                        - columnheader "See all bids (24)" [ref=e271]:
+                          - button "See all bids (24)" [ref=e272] [cursor=pointer]:
+                            - generic [ref=e274]:
+                              - generic [ref=e275]: See all bids (24)
+                              - img [ref=e276]
+                    - rowgroup
+                - separator [ref=e278]
+                - list [ref=e280]:
+                  - listitem [ref=e281]:
+                    - generic [ref=e283] [cursor=pointer]:
+                      - button "Read more" [ref=e285]:
+                        - img [ref=e288]
+                      - generic [ref=e292]: "Buyer Protection fee: 9% + € 3"
+                  - listitem [ref=e293]:
+                    - generic [ref=e295] [cursor=pointer]:
+                      - button "Read more" [ref=e297]:
+                        - img [ref=e300]
+                      - generic [ref=e302]: €9 from The Netherlands, arrives in 2-5 days
+                - article [ref=e303]:
+                  - heading "Payment options" [level=4] [ref=e304]
+                  - generic [ref=e305]:
+                    - paragraph [ref=e306]:
+                      - img "iDEAL" [ref=e307]
+                    - paragraph [ref=e308]:
+                      - img "MasterCard" [ref=e309]
+                    - paragraph [ref=e310]:
+                      - img "Visa" [ref=e311]
+                    - paragraph [ref=e312]:
+                      - img "Apple Pay" [ref=e313]
+                    - paragraph [ref=e314]:
+                      - img "Google Pay" [ref=e315]
+                    - paragraph [ref=e316]:
+                      - img "Bank transfer" [ref=e317]
+          - generic [ref=e319]:
+            - generic [ref=e321]:
+              - generic [ref=e322]:
+                - img [ref=e324]
+                - generic [ref=e327]:
+                  - heading "Catawiki Buyer Protection" [level=6] [ref=e328]
+                  - paragraph [ref=e329]:
+                    - generic [ref=e330]: Your payment’s safe with us until you receive your object.View details
+              - generic [ref=e331]:
+                - img [ref=e333]
+                - generic [ref=e335]:
+                  - heading "Trustpilot 4.4 | 124522 reviews" [level=6] [ref=e336]
+                  - paragraph [ref=e337]:
+                    - generic [ref=e338]:
+                      - text: Rated Excellent on
+                      - link "Trustpilot" [ref=e339] [cursor=pointer]:
+                        - /url: https://www.trustpilot.com/review/catawiki.com?utm_medium=trustbox&utm_source=MicroCombo
+                      - text: .
+            - generic [ref=e340]:
+              - article [ref=e342]:
+                - heading "Any questions?" [level=4] [ref=e343]
+                - generic [ref=e344]:
+                  - img [ref=e345]
+                  - link "Get in touch via our Help Centre" [ref=e347] [cursor=pointer]:
+                    - /url: https://www.catawiki.com/en/help?lot_id=100583283
+              - article [ref=e349]:
+                - heading "Share this object with your friends" [level=4] [ref=e350]
+                - generic [ref=e351]:
+                  - link "Facebook" [ref=e352] [cursor=pointer]:
+                    - /url: https://www.facebook.com/sharer/sharer.php?s=100&u=https%3A%2F%2Fwww.catawiki.com%2Fen%2Fl%2F100583283
+                    - img [ref=e355]
+                  - link "X" [ref=e357] [cursor=pointer]:
+                    - /url: https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.catawiki.com%2Fen%2Fl%2F100583283&text=%23Catawiki%20M%C3%A4rklin%20H0%20-%202862%20-%20Train%20set%20(1)%20-%20Set%20with%20demonstration%20train%20-%20DB
+                    - img [ref=e360]
+                  - link "Pinterest" [ref=e362] [cursor=pointer]:
+                    - /url: https://pinterest.com/pin/create/link/?media=https%3A%2F%2Fassets.catawiki.nl%2Fassets%2F2026%2F1%2F9%2F4%2Fd%2Fb%2Fthumb5_4db4ba3a-fc07-4e70-a374-3536dcfbd302.jpg&description=Catawiki%20online%20auction%20house%3A%20M%C3%A4rklin%20H0%20-%202862%20-%20Train%20set%20(1)%20-%20Set%20with%20demonstration%20train%20-%20DB&url=https%3A%2F%2Fwww.catawiki.com%2Fen%2Fl%2F100583283
+                    - img [ref=e365]
+          - generic [ref=e367]:
+            - generic "Saturday, 17 January 2026 21:01" [ref=e368]:
+              - generic [ref=e369]:
+                - text: Closes in
+                - time [ref=e370]:
+                  - generic [ref=e371]: 2d
+                  - generic [ref=e372]: 19h
+                  - generic [ref=e373]: 54m
+                  - generic [ref=e374]: 39s
+            - generic [ref=e376]:
+              - generic [ref=e378]:
+                - generic [ref=e379]: Current bid
+                - generic [ref=e380]: € 75
+                - generic [ref=e381]: No reserve price
+                - generic [ref=e382]:
+                  - link "Christophe Hendriks Franssen Expert" [ref=e383] [cursor=pointer]:
+                    - /url: /en/e/1506-christophe-hendriks-franssen
+                    - generic [ref=e384]:
+                      - img "Christophe Hendriks Franssen" [ref=e386]
+                      - generic [ref=e387]: Expert
+                  - heading "Selected by Christophe Hendriks Franssen" [level=4] [ref=e389]:
+                    - link "Selected by Christophe Hendriks Franssen" [ref=e390] [cursor=pointer]:
+                      - /url: /en/e/1506-christophe-hendriks-franssen
+                      - generic [ref=e391]:
+                        - generic [ref=e392]: Selected by Christophe Hendriks Franssen
+                        - img [ref=e394]
+              - generic [ref=e396]:
+                - generic [ref=e397]:
+                  - generic [ref=e400]:
+                    - button "€ 80" [ref=e401] [cursor=pointer]:
+                      - generic [ref=e403]: € 80
+                    - button "€ 82" [ref=e404] [cursor=pointer]:
+                      - generic [ref=e406]: € 82
+                    - button "€ 84" [ref=e407] [cursor=pointer]:
+                      - generic [ref=e409]: € 84
+                  - generic [ref=e413]:
+                    - generic [ref=e415]:
+                      - generic [ref=e416]: €
+                      - textbox "80 or up" [ref=e418]
+                    - generic [ref=e419]:
+                      - button "Place bid" [ref=e420] [cursor=pointer]:
+                        - generic [ref=e423]: Place bid
+                      - button "Set max bid" [ref=e424] [cursor=pointer]:
+                        - generic [ref=e427]: Set max bid
+                - button "See bidding details" [ref=e429] [cursor=pointer]:
+                  - generic [ref=e432]: See bidding details
+        - generic [ref=e435]:
+          - generic [ref=e436]:
+            - heading "Märklin HO scale demonstration train set, catalogue number 2862, including one express locomotive and four coaches with automatic couplings, AC power, in very good condition and in original packaging; inner box damaged and video tape missing." [level=4] [ref=e437]
+            - generic [ref=e438]:
+              - img [ref=e439]
+              - generic [ref=e443]: AI-assisted summary
+              - button [ref=e444] [cursor=pointer]:
+                - img [ref=e447]
+            - separator [ref=e449]
+          - heading "Description from the seller" [level=4] [ref=e450]
+          - generic [ref=e452]:
+            - generic [ref=e454]:
+              - paragraph [ref=e457]:
+                - text: Märklin HO 2862
+                - text: Demonstration train showcasing the new color concept of the German Bundesbahn.
+                - text: 1x express train locomotive and 4x carriage with automatic quick couplings.
+                - text: Inner box is damaged, video tape is missing.
+                - text: The locomotive has been tested, and a video has been made of it.
+              - generic [ref=e459] [cursor=pointer]:
+                - img [ref=e460]
+                - generic [ref=e464]: Translated Show original
+            - button "Show more" [ref=e465] [cursor=pointer]:
+              - generic [ref=e468]: Show more
+          - heading "Details" [level=4] [ref=e470]
+          - generic [ref=e471]:
+            - generic [ref=e472]:
+              - generic [ref=e473]: No. of items
+              - generic [ref=e474]: "1"
+            - generic [ref=e475]:
+              - generic [ref=e476]: Brand
+              - generic [ref=e477]: Märklin
+            - generic [ref=e478]:
+              - generic [ref=e479]: Railroad company
+              - generic [ref=e480]: DB
+            - generic [ref=e481]:
+              - generic [ref=e482]: Scale
+              - generic [ref=e483]: H0
+            - generic [ref=e484]:
+              - generic [ref=e485]: Catalogue Number
+              - generic [ref=e486]: "2862"
+            - generic [ref=e487]:
+              - generic [ref=e488]: Power supply
+              - generic [ref=e489]: AC - Alternating current
+            - generic [ref=e490]:
+              - generic [ref=e491]: Condition
+              - generic [ref=e492]: Very good condition
+            - generic [ref=e493]:
+              - generic [ref=e494]: Packaging
+              - generic [ref=e495]: In original box
+            - generic [ref=e496]:
+              - generic [ref=e497]: Additional information
+              - generic [ref=e498]: Set with demonstration train
+          - generic [ref=e500]:
+            - heading "Shipping" [level=4] [ref=e501]
+            - generic [ref=e503]:
+              - article [ref=e509]:
+                - heading "Shipping costs" [level=3] [ref=e510]
+                - generic [ref=e511]:
+                  - generic [ref=e512]: "Shipping to The Netherlands:"
+                  - generic [ref=e513]: € 9
+              - button "Show more" [ref=e514] [cursor=pointer]:
+                - generic [ref=e517]: Show more
+          - generic [ref=e521]:
+            - generic [ref=e522]:
+              - generic [ref=e523]:
+                - generic [ref=e524]: Sold by
+                - link "Jan-WillemVS" [ref=e526] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/u/428599-jan-willemvs
+                  - generic [ref=e528]:
+                    - generic [ref=e529]: Jan-WillemVS
+                    - img [ref=e530]
+              - button "Follow" [ref=e532] [cursor=pointer]:
+                - img [ref=e534]
+                - generic [ref=e538]: Follow
+            - generic [ref=e539]:
+              - generic [ref=e541]:
+                - img "The Netherlands" [ref=e542]
+                - generic [ref=e543]:
+                  - generic [ref=e544]:
+                    - img [ref=e545]
+                    - generic [ref=e547]: Ships from NL
+                  - generic [ref=e548]:
+                    - img [ref=e549]
+                    - generic [ref=e551]: Verified
+              - generic [ref=e552]:
+                - generic [ref=e553]:
+                  - generic [ref=e554]: "10"
+                  - generic [ref=e555]: Objects sold
+                - generic [ref=e556]:
+                  - generic [ref=e557]: "14"
+                  - link "Objects in auction" [ref=e559] [cursor=pointer]:
+                    - /url: https://www.catawiki.com/en/u/428599-jan-willemvs
+                - generic [ref=e560]:
+                  - generic [ref=e561]: "3"
+                  - link "Reviews" [ref=e563] [cursor=pointer]:
+                    - /url: /f/seller/428599/feedback
+              - generic [ref=e564]:
+                - generic [ref=e566]: Private
+                - link "This object is sold by a private seller. The EU consumer rights do not apply." [ref=e568] [cursor=pointer]:
+                  - /url: /en/help/buyer-terms/policies-eu-uk-consumer-rights-policy
+                  - generic [ref=e571]: This object is sold by a private seller. The EU consumer rights do not apply.
+      - generic [ref=e576]:
+        - generic [ref=e577]:
+          - paragraph [ref=e578]: Other objects from Jan-WillemVS
+          - generic [ref=e579]:
+            - button "Follow" [ref=e581] [cursor=pointer]:
+              - img [ref=e583]
+              - generic [ref=e587]: Follow
+            - link "View all" [ref=e588] [cursor=pointer]:
+              - /url: /en/u/428599
+              - generic [ref=e591]: View all
+        - generic [ref=e593]:
+          - list [ref=e594]:
+            - listitem
+            - listitem [ref=e595]:
+              - article [ref=e597]:
+                - link "Pola H0 - 553 / 2052 - Model train building kits (2) - 1x signal box / 1x train station set Current bid €32 1 day left" [ref=e598] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/l/100550998-pola-h0-553-2052-model-train-building-kits-2-1x-signal-box-1x-train-station-set
+                  - generic [ref=e600]:
+                    - paragraph [ref=e601]: Pola H0 - 553 / 2052 - Model train building kits (2) - 1x signal box / 1x train station set
+                    - paragraph [ref=e602]: Current bid
+                    - paragraph [ref=e603]: €32
+                    - time [ref=e606]: 1 day left
+                - button "14" [ref=e608] [cursor=pointer]:
+                  - img [ref=e610]
+                  - generic [ref=e614]: "14"
+            - listitem [ref=e615]:
+              - article [ref=e617]:
+                - link "Faller H0 - Model train landscape (75) - Faller Auto Motor Sport shares the road with a special railway crossing (which needs some repair). Current bid €3 1 day left" [ref=e618] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/l/100550127-faller-h0-model-train-landscape-75-faller-auto-motor-sport-shares-the-road-with-a-special-railway-crossing-which-needs-some-repair
+                  - generic [ref=e620]:
+                    - paragraph [ref=e621]: Faller H0 - Model train landscape (75) - Faller Auto Motor Sport shares the road with a special railway crossing (which needs some repair).
+                    - paragraph [ref=e622]: Current bid
+                    - paragraph [ref=e623]: €3
+                    - time [ref=e626]: 1 day left
+                - button "42" [ref=e628] [cursor=pointer]:
+                  - img [ref=e630]
+                  - generic [ref=e634]: "42"
+            - listitem [ref=e635]:
+              - article [ref=e637]:
+                - link "Märklin H0 - 42903 - Model train passenger carriage set (1) - Set 3 ICK fast train carriages. - NS Final bid €158 Closed for bidding" [ref=e638] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/l/100554235-marklin-h0-42903-model-train-passenger-carriage-set-1-set-3-ick-fast-train-carriages-ns
+                  - generic [ref=e640]:
+                    - paragraph [ref=e641]: Märklin H0 - 42903 - Model train passenger carriage set (1) - Set 3 ICK fast train carriages. - NS
+                    - paragraph [ref=e642]: Final bid
+                    - paragraph [ref=e643]: €158
+                    - generic [ref=e645]: Closed for bidding
+                - button "41" [ref=e647] [cursor=pointer]:
+                  - img [ref=e649]
+                  - generic [ref=e653]: "41"
+            - listitem [ref=e654]:
+              - article [ref=e656]:
+                - link "Faller H0 - 120488 / 440 - Model train building kits (2) Current bid €55 1 day left" [ref=e657] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/l/100551581-faller-h0-120488-440-model-train-building-kits-2
+                  - generic [ref=e659]:
+                    - paragraph [ref=e660]: Faller H0 - 120488 / 440 - Model train building kits (2)
+                    - paragraph [ref=e661]: Current bid
+                    - paragraph [ref=e662]: €55
+                    - time [ref=e665]: 1 day left
+                - button "16" [ref=e667] [cursor=pointer]:
+                  - img [ref=e669]
+                  - generic [ref=e673]: "16"
+            - listitem [ref=e674]:
+              - article [ref=e676]:
+                - link "Faller H0 - Model train scenery (1) Current bid €97 1 day left" [ref=e677] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/l/100550492-faller-h0-model-train-scenery-1
+                  - generic [ref=e679]:
+                    - paragraph [ref=e680]: Faller H0 - Model train scenery (1)
+                    - paragraph [ref=e681]: Current bid
+                    - paragraph [ref=e682]: €97
+                    - time [ref=e685]: 1 day left
+                - button "36" [ref=e687] [cursor=pointer]:
+                  - img [ref=e689]
+                  - generic [ref=e693]: "36"
+            - listitem [ref=e694]:
+              - article [ref=e696]:
+                - link "Märklin H0 - 46220 - Model train freight wagon set (1) - Freight car set - DB Cargo Current bid €60 2 days left" [ref=e697] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/l/100552113-marklin-h0-46220-model-train-freight-wagon-set-1-freight-car-set-db-cargo
+                  - generic [ref=e699]:
+                    - paragraph [ref=e700]: Märklin H0 - 46220 - Model train freight wagon set (1) - Freight car set - DB Cargo
+                    - paragraph [ref=e701]: Current bid
+                    - paragraph [ref=e702]: €60
+                    - time [ref=e705]: 2 days left
+                - button "40" [ref=e707] [cursor=pointer]:
+                  - img [ref=e709]
+                  - generic [ref=e713]: "40"
+            - listitem [ref=e714]:
+              - article [ref=e716]:
+                - link "Märklin H0 - 4508 - Model train freight wagon set (1) - Vehicle set 'Technische Hilfswerk' - DB Current bid €50 2 days left" [ref=e717] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/l/100552097-marklin-h0-4508-model-train-freight-wagon-set-1-vehicle-set-technische-hilfswerk-db
+                  - generic [ref=e719]:
+                    - paragraph [ref=e720]: Märklin H0 - 4508 - Model train freight wagon set (1) - Vehicle set 'Technische Hilfswerk' - DB
+                    - paragraph [ref=e721]: Current bid
+                    - paragraph [ref=e722]: €50
+                    - time [ref=e725]: 2 days left
+                - button "17" [ref=e727] [cursor=pointer]:
+                  - img [ref=e729]
+                  - generic [ref=e733]: "17"
+            - listitem [ref=e734]:
+              - article [ref=e736]:
+                - link "Märklin H0 - 48661/48665 - Model train freight wagon set (2) - Two sets of three heavy trucks loaded with vehicles. - DB Current bid €52 2 days left" [ref=e737] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/l/100553660-marklin-h0-48661-48665-model-train-freight-wagon-set-2-two-sets-of-three-heavy-trucks-loaded-with-vehicles-db
+                  - generic [ref=e739]:
+                    - paragraph [ref=e740]: Märklin H0 - 48661/48665 - Model train freight wagon set (2) - Two sets of three heavy trucks loaded with vehicles. - DB
+                    - paragraph [ref=e741]: Current bid
+                    - paragraph [ref=e742]: €52
+                    - time [ref=e745]: 2 days left
+                - button "33" [ref=e747] [cursor=pointer]:
+                  - img [ref=e749]
+                  - generic [ref=e753]: "33"
+            - listitem [ref=e754]:
+              - article [ref=e756]:
+                - link "Märklin H0 - 48664 - Model train freight wagon set (1) - Set with two heavy trucks loaded with steel plates. - DB Current bid €35 2 days left" [ref=e757] [cursor=pointer]:
+                  - /url: https://www.catawiki.com/en/l/100552477-marklin-h0-48664-model-train-freight-wagon-set-1-set-with-two-heavy-trucks-loaded-with-steel-plates-db
+                  - generic [ref=e759]:
+                    - paragraph [ref=e760]: Märklin H0 - 48664 - Model train freight wagon set (1) - Set with two heavy trucks loaded with steel plates. - DB
+                    - paragraph [ref=e761]: Current bid
+                    - paragraph [ref=e762]: €35
+                    - time [ref=e765]: 2 days left
+                - button "38" [ref=e767] [cursor=pointer]:
+                  - img [ref=e769]
+                  - generic [ref=e773]: "38"
+          - button "Next" [ref=e774] [cursor=pointer]:
+            - img [ref=e777]
+      - generic [ref=e782]:
+        - heading "Similar objects" [level=2] [ref=e784]
+        - generic [ref=e786]:
+          - list [ref=e787]:
+            - listitem
+            - listitem [ref=e788]:
+              - article [ref=e789]
+            - listitem [ref=e798]:
+              - article [ref=e799]
+            - listitem [ref=e808]:
+              - article [ref=e809]
+            - listitem [ref=e818]:
+              - article [ref=e819]
+            - listitem [ref=e828]:
+              - article [ref=e829]
+            - listitem [ref=e838]:
+              - article [ref=e839]
+            - listitem [ref=e848]:
+              - article [ref=e849]
+            - listitem [ref=e858]:
+              - article [ref=e859]
+            - listitem [ref=e868]:
+              - article [ref=e869]
+            - listitem [ref=e878]:
+              - article [ref=e879]
+          - button "Next" [ref=e888] [cursor=pointer]:
+            - img [ref=e891]
+      - generic [ref=e895]:
+        - generic [ref=e897]:
+          - generic [ref=e903]:
+            - paragraph [ref=e904]: For you in
+            - paragraph [ref=e905]: Model Trains
+          - link "View all" [ref=e907] [cursor=pointer]:
+            - /url: https://www.catawiki.com/en/c/387-model-trains
+            - generic [ref=e910]: View all
+        - generic [ref=e912]:
+          - list [ref=e913]:
+            - listitem
+            - listitem [ref=e914]:
+              - article [ref=e915]
+            - listitem [ref=e924]:
+              - article [ref=e925]
+            - listitem [ref=e934]:
+              - article [ref=e935]
+            - listitem [ref=e944]:
+              - article [ref=e945]
+            - listitem [ref=e954]:
+              - article [ref=e955]
+            - listitem [ref=e964]:
+              - article [ref=e965]
+            - listitem [ref=e974]:
+              - article [ref=e975]
+            - listitem [ref=e984]:
+              - article [ref=e985]
+            - listitem [ref=e994]:
+              - article [ref=e995]
+            - listitem [ref=e1004]:
+              - article [ref=e1005]
+          - button "Next" [ref=e1014] [cursor=pointer]:
+            - img [ref=e1017]
+      - navigation [ref=e1021]:
+        - link "Catawiki" [ref=e1022] [cursor=pointer]:
+          - /url: https://www.catawiki.com/en/
+        - link "Toys & Models" [ref=e1023] [cursor=pointer]:
+          - /url: https://www.catawiki.com/en/c/363-toys-models
+        - link "Model Trains" [ref=e1024] [cursor=pointer]:
+          - /url: https://www.catawiki.com/en/c/387-model-trains
+        - link "Märklin H0 Model Trains Auction" [ref=e1025] [cursor=pointer]:
+          - /url: https://www.catawiki.com/en/a/1190326-marklin-h0-model-trains-auction
+    - contentinfo [ref=e1026]:
+      - generic [ref=e1028]:
+        - button "Sign in" [ref=e1029] [cursor=pointer]:
+          - generic [ref=e1032]: Sign in
+        - button "Register" [ref=e1033] [cursor=pointer]:
+          - generic [ref=e1036]: Register
+      - separator [ref=e1037]
+      - generic [ref=e1039]:
+        - generic [ref=e1040]:
+          - heading "About Catawiki" [level=6] [ref=e1041]
+          - list [ref=e1042]:
+            - listitem [ref=e1043]:
+              - link "About Catawiki" [ref=e1044] [cursor=pointer]:
+                - /url: /en/help/about
+                - generic [ref=e1047]: About Catawiki
+            - listitem [ref=e1048]:
+              - link "Our experts" [ref=e1049] [cursor=pointer]:
+                - /url: /en/e
+                - generic [ref=e1052]: Our experts
+            - listitem [ref=e1053]:
+              - link "Careers" [ref=e1054] [cursor=pointer]:
+                - /url: https://catawiki.careers
+                - generic [ref=e1057]: Careers
+            - listitem [ref=e1058]:
+              - link "Press" [ref=e1059] [cursor=pointer]:
+                - /url: /en/press
+                - generic [ref=e1062]: Press
+            - listitem [ref=e1063]:
+              - link "Partnering with Catawiki" [ref=e1064] [cursor=pointer]:
+                - /url: /en/pages/p/partnership
+                - generic [ref=e1067]: Partnering with Catawiki
+            - listitem [ref=e1068]:
+              - link "Collectors' portal" [ref=e1069] [cursor=pointer]:
+                - /url: https://www.lastdodo.com
+                - generic [ref=e1072]: Collectors' portal
+        - generic [ref=e1073]:
+          - heading "Buy" [level=6] [ref=e1074]
+          - list [ref=e1075]:
+            - listitem [ref=e1076]:
+              - link "How to buy" [ref=e1077] [cursor=pointer]:
+                - /url: /en/pages/p/buyer
+                - generic [ref=e1080]: How to buy
+            - listitem [ref=e1081]:
+              - link "Buyer Protection" [ref=e1082] [cursor=pointer]:
+                - /url: /en/pages/p/buyer-protection
+                - generic [ref=e1085]: Buyer Protection
+            - listitem [ref=e1086]:
+              - link "Catawiki Stories" [ref=e1087] [cursor=pointer]:
+                - /url: /en/stories
+                - generic [ref=e1090]: Catawiki Stories
+            - listitem [ref=e1091]:
+              - link "Buyer terms" [ref=e1092] [cursor=pointer]:
+                - /url: /en/pages/p/buyer-terms
+                - generic [ref=e1095]: Buyer terms
+        - generic [ref=e1096]:
+          - heading "Sell" [level=6] [ref=e1097]
+          - list [ref=e1098]:
+            - listitem [ref=e1099]:
+              - link "How to sell" [ref=e1100] [cursor=pointer]:
+                - /url: /en/seller/register
+                - generic [ref=e1103]: How to sell
+            - listitem [ref=e1104]:
+              - link "Seller Tips" [ref=e1105] [cursor=pointer]:
+                - /url: /en/lp/seller-tips
+                - generic [ref=e1108]: Seller Tips
+            - listitem [ref=e1109]:
+              - link "Submission guidelines" [ref=e1110] [cursor=pointer]:
+                - /url: /en/help/suitable-items
+                - generic [ref=e1113]: Submission guidelines
+            - listitem [ref=e1114]:
+              - link "Seller terms" [ref=e1115] [cursor=pointer]:
+                - /url: /en/pages/p/seller-terms
+                - generic [ref=e1118]: Seller terms
+            - listitem [ref=e1119]:
+              - link "Affiliates" [ref=e1120] [cursor=pointer]:
+                - /url: /en/pages/p/partners-creators
+                - generic [ref=e1123]: Affiliates
+        - generic [ref=e1124]:
+          - heading "My Catawiki" [level=6] [ref=e1125]
+          - list [ref=e1126]:
+            - listitem [ref=e1127]:
+              - button "Sign in" [ref=e1132] [cursor=pointer]:
+                - generic [ref=e1135]: Sign in
+            - listitem [ref=e1136]:
+              - button "Register" [ref=e1141] [cursor=pointer]:
+                - generic [ref=e1144]: Register
+            - listitem [ref=e1145]:
+              - link "Help Centre" [ref=e1146] [cursor=pointer]:
+                - /url: /en/help
+                - generic [ref=e1149]: Help Centre
+      - generic [ref=e1151]:
+        - generic [ref=e1154]:
+          - combobox [ref=e1156] [cursor=pointer]: English
+          - button "Open" [ref=e1158] [cursor=pointer]:
+            - img [ref=e1161]
+        - generic [ref=e1163]:
+          - generic [ref=e1164]:
+            - link "Catawiki Facebook" [ref=e1165] [cursor=pointer]:
+              - /url: http://www.facebook.com/catawiki
+              - img [ref=e1168]
+            - link "Catawiki Instagram" [ref=e1170] [cursor=pointer]:
+              - /url: https://www.instagram.com/catawiki/
+              - img [ref=e1173]
+          - img [ref=e1175]
+      - separator [ref=e1177]
+      - generic [ref=e1180]:
+        - link "Terms of Use" [ref=e1181] [cursor=pointer]:
+          - /url: /en/pages/p/terms-of-use
+          - generic [ref=e1184]: Terms of Use
+        - link "Data Protection & Privacy Notice" [ref=e1185] [cursor=pointer]:
+          - /url: /en/help/buyer-privacy/privacy-policy
+          - generic [ref=e1188]: Data Protection & Privacy Notice
+        - link "Cookie Policy" [ref=e1189] [cursor=pointer]:
+          - /url: /en/help/cookies
+          - generic [ref=e1192]: Cookie Policy
+        - link "Law Enforcement Policy" [ref=e1193] [cursor=pointer]:
+          - /url: /en/help/buyer-terms/guidelines-for-law-enforcement-requests
+          - generic [ref=e1196]: Law Enforcement Policy
+        - link "Other Policies" [ref=e1197] [cursor=pointer]:
+          - /url: /en/help/policies-guidelines
+          - generic [ref=e1200]: Other Policies
+        - generic [ref=e1201]: © 2026
+  - alert [ref=e1202]
+  - generic:
+    - generic [ref=e1203]: mmmmmmmmmmlli
+    - generic [ref=e1204]: mmmmmmmmmmlli
+```

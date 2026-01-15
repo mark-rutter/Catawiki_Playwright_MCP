@@ -1,0 +1,14 @@
+{
+  "cases": [
+    {
+      "description": "Standard keyword search",
+      "keyword": "train",
+      "expectedResults": true
+    },
+    {
+      "description": "CAPS characters",
+      "keyword": "TRAIN",
+      "expectedResults": false
+    }
+  ]
+}
