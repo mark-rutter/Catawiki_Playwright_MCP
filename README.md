@@ -62,7 +62,7 @@ tests/
 The example test:
 
 ```
-tests/smoke/train_flow.spec.ts
+tests/ui/train_flow.spec.ts
 ```
 
 Automates the following user journey:
@@ -79,6 +79,25 @@ Automates the following user journey:
    * Current bid
 
 ---
+```
+tests/ui/ui_search_data_driven.spec.ts
+```
+
+Automates the following user journey:
+
+1. Open [https://www.catawiki.com/en/](https://www.catawiki.com/en/)
+2. Search for the keyword **"<Data-Driven by searchLots.JSON>"**
+3. Verify the search results page opens
+4. Open the second lot in the results
+5. Verify the lot page is displayed
+6. Read and log to the console:
+
+   * Lot name
+   * Favorites counter
+   * Current bid
+
+---
+
 
 ## Running the Tests
 
@@ -97,7 +116,7 @@ npx playwright install
 ### Run the train test
 
 ```bash
-npx playwright test tests/smoke/train_flow.spec.ts --headed
+npx playwright test tests/ui/train_flow.spec.ts --headed
 ```
 
 ### Run all tests
