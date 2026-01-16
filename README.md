@@ -50,6 +50,13 @@ npx playwright test tests/discovery.spec.ts --headed
 Discovery artifacts are stored under:
 
 src/discovery/
+
+## Why use AI Service discovery
+These artifacts form a safe input surface for:
+
+- Human-led test design
+- AI-assisted test suggestions
+- Future automation expansion
 ---
 
 ## Goals of This Framework

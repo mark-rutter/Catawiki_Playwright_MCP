@@ -11,14 +11,8 @@ export class HomePage {
   }
 
   async search(keyword: string) {
-    // Close cookie banner if it's blocking the search combobox
-    try {
-      await this.page.getByRole('button', { name: 'Agree' }).click({ timeout: 2000 });
-      await this.page.waitForTimeout(500);
-      console.log('[HomePage] Cookie banner closed');
-    } catch (e) {
-      // Cookie banner may not be visible
-    }
+    // Cookie consent is handled by consentedPage fixture
+    // No need to handle it here
 
     // Try multiple selector patterns for the search combobox
     let searchInput = this.page.getByRole('combobox', { name: 'Search for brand, model,' });
