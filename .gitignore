@@ -12,6 +12,7 @@ lerna-debug.log*
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+playwright-report/data/*.md
 
 # Runtime data
 pids
@@ -137,3 +138,5 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+/playwright-report
+/test-results
