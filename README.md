@@ -2,12 +2,54 @@
 
 ## Overview
 
-This repository contains a lightweight, extensible automation framework built with **Playwright**.
+## Playwright MCP (Machine-Consumable Playwright)
+
+This repository contains a lightweight, extensible automation framework built with **Playwright**. 
 
 It demonstrates a clean foundation for UI automation while intentionally preparing for **AI-assisted test discovery, test case ingestion, and service analysis** using Playwright MCP concepts.
 
 The goal of this exercise is **not full test coverage**, but to show how a framework can scale cleanly and be extended by both **human testers and AI tools** in future iterations.
 
+This project is intentionally structured to be **Playwright MCP–ready**.
+
+Rather than focusing only on UI execution, Playwright is also used to **observe and document the system under test** in a machine-consumable way. This enables both humans and AI tools to reason about the application and propose new test coverage without tightly coupling tests to UI implementation details.
+
+MCP in this project is about **discovery and understanding**, not autonomous test execution.
+
+## What MCP Means in This Project
+
+Within this framework, Playwright MCP concepts are used to:
+
+- Observe backend services triggered by UI interactions
+- Capture network requests and responses during real user flows
+- Produce machine-readable discovery artifacts
+- Enable AI-assisted test case and coverage suggestions
+
+This keeps the framework extensible while avoiding overengineering.
+
+---
+
+## Service Discovery via Playwright
+
+A dedicated discovery test exercises a real user journey (search → lot page) while observing network traffic.
+
+This allows identification of:
+
+- Backend APIs used by the UI
+- Data contracts returned by services
+- Opportunities for API, contract, and cross-layer tests
+
+---
+
+## Run Service Discovery
+
+```bash
+npx playwright test tests/discovery.spec.ts --headed
+```
+
+Discovery artifacts are stored under:
+
+src/discovery/
 ---
 
 ## Goals of This Framework
@@ -132,7 +174,11 @@ npx playwright test --ui
 ```
 
 ---
+### Run service dicovery
 
+```bash
+npx playwright test tests/discovery.spec.ts --headed
+```
 ## Cross-Browser & Mobile Support
 
 The framework is configured to support:
@@ -178,7 +224,7 @@ Although this framework focuses on UI automation, it documents and demonstrates 
 
 ### Discovery Approach
 
-* Observe XHR / `fetch` traffic during UI interactions
+* Observe traffic during UI interactions
 * Log endpoints, response status, and timing
 * Identify testable services behind user flows
 
