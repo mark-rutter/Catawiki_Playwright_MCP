@@ -40,11 +40,20 @@ test('lot details are visible and values are logged', async ({ consentedPage: pa
   const favoritesValue = await favorites.textContent().catch(() => null);
   const currentBidValue = await currentBid.textContent().catch(() => null);
 
-  // --- Console Output ---
-  console.log('\n📦 Lot Page Values');
-  console.log('------------------------');
-  console.log(`📌 Lot name     : ${lotNameValue ?? 'NOT FOUND'}`);
-  console.log(`❤️ Favorites   : ${favoritesValue ?? 'NOT FOUND'}`);
-  console.log(`💰 Current bid : ${currentBidValue ?? 'NOT FOUND'}`);
-  console.log('------------------------\n');
+  // --- Add values to report ---
+  await test.step('📦 Lot Page Values', async () => {
+    const report = [
+      `📌 Lot name     : ${lotNameValue ?? 'NOT FOUND'}`,
+      `❤️ Favorites   : ${favoritesValue ?? 'NOT FOUND'}`,
+      `💰 Current bid : ${currentBidValue ?? 'NOT FOUND'}`
+    ].join('\n');
+    
+    console.log('\n' + report + '\n');
+    
+    // Attach to HTML report
+    test.info().attach('Lot Details', {
+      body: report,
+      contentType: 'text/plain'
+    });
+  });
 });
