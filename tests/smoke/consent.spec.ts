@@ -1,5 +1,5 @@
 // Smoke test for cookie consent handling
-import { test, expect } from './fixtures/consentedPage.fixture';
+import { test, expect } from '../baseTest';
 
 test('Framework health check - consented page loads', async ({ consentedPage }) => {
   // consentedPage already:
