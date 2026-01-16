@@ -1,7 +1,7 @@
-import { test, expect } from '@playwright/test';
+import { test, expect } from '../baseTest';
 
-test('lot details are visible and values are logged', async ({ page }) => {
-  await page.goto('https://www.catawiki.com/en');
+test('lot details are visible and values are logged', async ({ consentedPage: page }) => {
+  // Page is already on Catawiki with consent dismissed
 
   // --- Search ---
   const searchBox = page.getByRole('combobox', { name: /search for brand, model/i });

@@ -1,11 +1,11 @@
-import { test, expect } from '@playwright/test';
+import { test, expect } from '../baseTest';
 
-test('search and lot page validation (non-blocking assertions)', async ({ page }) => {
-  await page.goto('https://www.catawiki.com/en');
+test('search and lot page validation (non-blocking assertions)', async ({ consentedPage: page }) => {
+  // Page is already on Catawiki with consent dismissed
 
   // Search
   const searchBox = page.getByRole('combobox', { name: /search for brand, model/i });
-  await searchBox.click();
+  await searchBox.click({ timeout: 10000 });
   await searchBox.fill('train');
 
   await page.getByRole('button', { name: /search/i }).click();
@@ -16,7 +16,7 @@ test('search and lot page validation (non-blocking assertions)', async ({ page }
   await expect.soft(
     lotLink,
     'Expected specific Märklin train lot to appear in search results'
-  ).toBeVisible();
+  ).toBeVisible({ timeout: 15000 });
 
   // Navigate only if link exists (defensive, avoids cascade failures)
   if (await lotLink.isVisible().catch(() => false)) {

@@ -1,33 +1,32 @@
 import { defineConfig, devices } from '@playwright/test';
 
 export default defineConfig({
-  globalSetup: './playwright/globalSetup.ts',
+  testDir: './tests',
+  fullyParallel: false,
+  forbidOnly: !!process.env.CI,
+  retries: process.env.CI ? 2 : 0,
+  workers: 1,
 
   use: {
     baseURL: 'https://www.catawiki.com/en',
-    storageState: 'playwright/.auth/storageState.json',
-    trace: 'on-first-retry',
+    trace: 'retain-on-failure',
+    screenshot: 'only-on-failure',
   },
 
   projects: [
     {
       name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
-    },
-    {
-      name: 'firefox',
-      use: { ...devices['Desktop Firefox'] },
-    },
-    {
-      name: 'webkit',
-      use: { ...devices['Desktop Safari'] },
+      use: { 
+        ...devices['Desktop Chrome'],
+        // Catawiki requires headed mode to render the page properly
+        // Headless browsers get Access Denied or different rendering
+        headless: false,
+      },
     },
   ],
 
-    reporter: [
-    ['list'],           // verbose terminal output
+  reporter: [
+    ['list'],
     ['html', { open: 'never' }]
   ],
-
-  webServer: undefined,
 });

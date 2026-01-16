@@ -1,11 +1,9 @@
-// framework-health.spec.ts
-// Smoke test for framework health
+// tests/smoke/framework-health.spec.ts
 import { test, expect } from '../baseTest';
 
 test('Framework health check', async ({ consentedPage }) => {
-  const pageTitle = await consentedPage.title();
+  const title = await consentedPage.title();
+  console.log(`[HEALTH] Page title: ${title}`);
 
-  console.log(`[HEALTH CHECK] Page title: "${pageTitle}"`);
-
-  expect(pageTitle.length).toBeGreaterThan(0);
+  expect(title.length).toBeGreaterThan(0);
 });
