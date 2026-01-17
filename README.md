@@ -24,6 +24,12 @@ npm install
 
 # Install Playwright browsers
 npx playwright install
+
+# Run "the train" test
+npx playwright test tests/ui/train_flow_v2.spec.ts
+
+# Run all tests (Chromiun --headed sorry)
+npx playwright test 
 ```
 
 ### Setup Playwright MCP
@@ -59,12 +65,13 @@ npx playwright test tests/discovery.spec.ts --headed
 npx playwright test tests/API/search-suggest-optimized.spec.ts --headed
 ```
 
-### Key Test Suites
+### Key Test Suites (Ordered by creation)
 
-- **Discovery Tests** - Maps backend services and APIs
-- **UI Tests** - End-to-end user journeys (data-driven)
-- **API Tests** - Performance-optimized contract validation
-- **Cross-Layer Tests** - UI-backend consistency validation
+- **smoke** - UI-backend consistency validation **by human** 
+- **UI Tests** - End-to-end user journeys (data-driven) **by human** 
+- **Discovery Tests** - Maps backend services and APIs 
+- **AI** - built from the service discovery analysis **by AI**.
+- **API Tests** - Performance-optimized contract validation **by AI**.
 
 ### Framework Structure
  │
