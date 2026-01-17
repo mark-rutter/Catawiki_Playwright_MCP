@@ -2,7 +2,27 @@
 
 ## Quick Start
 
-This repository demonstrates advanced Playwright testing with AI assistance for the CataWiki auction platform. 
+This repository demonstrates Playwright UI testing + AI assistance to scale this framwork for the CataWiki auction platform. 
+
+See README2 AI for more on AI and /docs/quick_start_guide.md for hands-on AI experiance.
+
+This is demo of Test Automation Framework designed for Humans and AI. This repository contains a lightweight, extensible automation framework built with Playwright.
+It demonstrates a clean foundation for UI automation while intentionally preparing for AI-assisted test discovery, test case ingestion, and service analysis using Playwright MCP concepts.
+
+
+## Goals of This Framework
+
+The goal of this exercise is not full test coverage, but to show how a framework can scale cleanly and be extended by both human testers and AI tools in future iterations.
+
+- Provide a working, stable example of UI automation
+- Demonstrate clear separation of concerns
+- Enable easy addition of new test cases
+- Document how testable backend services can be discovered
+- Show readiness for AI-assisted testing without overengineering
+
+Tech Stack: Human, Playwrite, Agents, MCP
+
+
 
 ### Prerequisites
 
@@ -219,9 +239,9 @@ npx playwright test --ui
 
 ## Cross-Browser & Mobile Support
 
-The framework is configured to support:
+The framework can be configured to support:
 
-* Chromium
+* Chromium (enabled for this POC)
 * Firefox
 * WebKit (Safari-like)
 * Mobile emulation (example: iPhone)

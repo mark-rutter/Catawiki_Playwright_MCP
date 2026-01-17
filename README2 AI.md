@@ -2,9 +2,22 @@
 
 **Playwright MCP enables AI browser interaction and discovery for scalable test automation**
 
-## 🎭 Playwright 3 AI Agents Ready
+## 🔍 Service Discovery - Enables 3rd party AI Integration
 
-This framework is equipped with **3 autonomous AI agents** that make test automation scalable through human-AI collaboration:
+**Service Discovery** is Playwright-driven but specifically outputs structured data for AI agents to consume:
+
+- **Network Traffic Analysis** - Captures API calls during real user journeys
+- **Machine-Readable Artifacts** - Generates JSON contracts and service maps
+- **AI Training Data** - Provides clean input for Planner and Generator agents
+- **Service Topology** - Documents backend architecture for test planning
+
+**Discovery Process**: `tests/discovery.spec.ts` → `src/discovery/*.json` → **AI Agent Input**
+
+> 📖 **New to AI Testing?** See our [QA Engineer Quick Start Guide](docs/qa-guide.md) for hands-on steps to try each AI agent.
+
+## 🎭 Playwright: 3 AI Agents Ready
+
+This framework is equipped to work with **3 autonomous AI agents** that make test automation scalable through human-AI collaboration:
 
 - 🎭 **Planner Agent** - Reads human requirements → Creates test strategies
 - 🎭 **Generator Agent** - Uses proven patterns → Generates working test code  
@@ -21,18 +34,7 @@ This framework demonstrates how **Playwright MCP** transforms traditional testin
 - **Pattern Learning** - AI learns from successful tests to generate new ones
 - **Adaptive Maintenance** - Tests self-heal when applications change
 
-## 🔍 Service Discovery - 3rd AI Integration
 
-**Service Discovery** is Playwright-driven but specifically outputs structured data for AI agents to consume:
-
-- **Network Traffic Analysis** - Captures API calls during real user journeys
-- **Machine-Readable Artifacts** - Generates JSON contracts and service maps
-- **AI Training Data** - Provides clean input for Planner and Generator agents
-- **Service Topology** - Documents backend architecture for test planning
-
-**Discovery Process**: `tests/discovery.spec.ts` → `src/discovery/*.json` → **AI Agent Input**
-
-> 📖 **New to AI Testing?** See our [QA Engineer Quick Start Guide](docs/qa-guide.md) for hands-on steps to try each AI agent.
 
 ## A Scalable Loop with AI Assistance
 

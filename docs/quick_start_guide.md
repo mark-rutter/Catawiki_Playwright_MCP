@@ -4,7 +4,14 @@
 
 ## Overview
 
-This guide walks QA Engineers through hands-on usage of the 3 AI agents in this project. You'll learn how to go from basic setup to generating working test code using AI assistance.
+This guide walks QA Engineers through hands-on usage of the 3 AI agents in this project. You'll learn how to go from basic setup to generating working test code using Playwright framework and the seed files provided to guide AI extension of this framework. The framework is designed so QA Engineer direct AI agents to follow established patterns given here in this repository using Catawiki.com for practice. 
+
+Assumes access to IDE with Github copolit: 
+
+SEE and enable: https://github.com/github/github-mcp-server
+SEE and enable: https://playwright.dev/docs/test-agents
+
+Human sets and validates, AI extends. This repo. is ready for you both.
 
 ## Prerequisites Completed ✅
 
@@ -12,6 +19,23 @@ If you're reading this, you should have already:
 - Cloned the repository
 - Installed dependencies (`npm install`)
 - Run the basic setup steps from the root README
+
+## 🔍 Service Discovery - Playwright reports, AI consumes 
+
+**Service Discovery runs first** to provide clean data for AI agents:
+
+```bash
+# Run discovery to map the application
+npx playwright test tests/discovery.spec.ts --headed
+```
+
+**What happens**: 
+- Playwright navigates through real user journeys
+- Network traffic is captured and analyzed
+- API contracts are extracted to `src/discovery/`
+- Clean JSON artifacts are generated for AI consumption
+
+**AI Benefit**: Agents get structured data instead of raw browser output
 
 ## The 3 AI Agents - What They Actually Do
 
@@ -30,25 +54,7 @@ If you're reading this, you should have already:
 **Output**: Updated test code with fixes
 **Usage**: Monitors test health automatically
 
-## 🔍 Service Discovery - The Foundation
-
-**Service Discovery runs first** to provide clean data for AI agents:
-
-```bash
-# Run discovery to map the application
-npx playwright test tests/discovery.spec.ts --headed
-```
-
-**What happens**: 
-- Playwright navigates through real user journeys
-- Network traffic is captured and analyzed
-- API contracts are extracted to `src/discovery/`
-- Clean JSON artifacts are generated for AI consumption
-
-**AI Benefit**: Agents get structured data instead of raw browser output
-
-## Step-by-Step: Try Each Agent
-
+## Next a Step-by-Step: Try Each Agent
 ### Step 1: Understand What's Already Been Done
 
 **Planner Agent Output**: [tests/seed.spec.ts](../tests/seed.spec.ts)
@@ -181,7 +187,7 @@ npm install @microsoft/playwright-mcp
    - Use AI to generate test code for additional user journeys
    - Monitor and maintain test health with Healer
 
-### Production Usage Recommendations
+### Usage Recommendations
 
 **Best Practices**:
 - Always review AI-generated code before running
