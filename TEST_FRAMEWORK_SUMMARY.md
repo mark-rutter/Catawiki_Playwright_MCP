@@ -19,10 +19,14 @@
   - `serviceDiscovery.md` - Documented backend services observed during testing
 
 - **tests/AI/** - AI-generated test examples
-  - `api-contract.spec.ts` - API contract validation
+  - `api-contract.spec.ts` - API contract validation (data-driven, 5 tests)
   - `ui-backend-consistency.spec.ts` - UI-API data consistency
   - `performance.spec.ts` - API performance benchmarks
   - `data-driven-api.spec.ts` - Data-driven search API test
+  
+- **tests/API/** - Direct REST API tests
+  - `search-suggest.spec.ts` - Session-based API tests
+  - `search-suggest-optimized.spec.ts` - **Optimized: 5 keywords in 21s!**
   
 - **tests/** - Core framework tests
   - `pages-pom.spec.ts` - Page Object Model validation test
@@ -90,11 +94,14 @@ Page Object Model Validation (pages-pom.spec.ts)
 - ✅ LotPage data extraction (name, bid, watchers)
 - ✅ Complete user journey using POM abstraction
 
-AI-Generated Tests
-- ✅ api-contract.spec.ts (validates API response schemas)
+API Tests
+- ✅ api-contract.spec.ts - 5 data-driven tests (train, watch, art, rolex)
+- ✅ search-suggest-optimized.spec.ts - **5 keywords in 21s** (session reuse)
 - ✅ ui-backend-consistency.spec.ts (UI-API data validation)
 - ✅ performance.spec.ts (API response time benchmarks)
 - ✅ data-driven-api.spec.ts (parameterized API tests)
+
+**Performance Highlight:** Optimized API testing is **7x faster** (21s vs 2.5min) using session reuse and network interception
 ```
 
 ### Data-Driven Test Cases Ready

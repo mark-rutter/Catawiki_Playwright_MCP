@@ -6,22 +6,33 @@ This folder contains **foundational test examples** built from the service disco
 
 ## 📁 Test Files
 
-### 1. **api-contract.spec.ts** - API Contract Validation
-**Purpose:** Validates that API responses match expected schema structure
+### 1. **api-contract.spec.ts** - API Contract Validation (Data-Driven)
+**Purpose:** Validates that API responses match expected schema structure for multiple search terms
 
 **What it tests:**
+- ✅ **5 test cases** from trainFlowCases.json (train, watch, art, rolex)
 - ✅ Response has required fields (`query_terms`, `text`, `entity`, etc.)
 - ✅ Data types are correct (arrays, objects, strings)
-- ✅ Business rules are followed (max 10 suggestions, contains search term)
+- ✅ Business rules are followed (suggestions contain search term)
+- ✅ Validates 15-25 suggestions per keyword
+
+**Performance:** 
+- Traditional: ~2.5 minutes (5 separate page loads)
+- **See also:** `tests/API/search-suggest-optimized.spec.ts` for **21-second** version using session reuse
 
 **When to use:**
 - After API changes to ensure backward compatibility
 - In CI/CD to catch schema breaking changes
 - To validate third-party API integrations
+- When you need detailed per-test reporting
 
 **Run:**
 ```bash
+# Data-driven with 5 separate tests
 npx playwright test tests/AI/api-contract.spec.ts --headed
+
+# Optimized version (5 keywords in one test, 21s total)
+npx playwright test tests/API/search-suggest-optimized.spec.ts --headed
 ```
 
 ---

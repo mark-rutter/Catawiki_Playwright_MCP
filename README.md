@@ -73,6 +73,33 @@ Discovery artifacts are stored under:
 
 src/discovery/
 
+## Optimized API Testing
+
+After discovery, we test REST APIs efficiently using **session reuse**:
+
+```bash
+# Optimized: Tests 5 keywords in ONE session (21s total)
+npx playwright test tests/API/search-suggest-optimized.spec.ts --headed
+
+# Data-driven: 5 separate tests with full contract validation
+npx playwright test tests/AI/api-contract.spec.ts --headed
+```
+
+### Performance Comparison
+
+**Traditional approach** (separate page per test):
+- 5 tests × 30s each = **~2.5 minutes**
+- Opens page 5 times
+- Handles cookie consent 5 times
+
+**Optimized approach** (session reuse):
+- **21 seconds total** for all 5 keywords
+- Opens page ONCE
+- Handles consent ONCE
+- Network interception captures API responses
+
+**Key Innovation:** Keep browser session alive, just type different searches and listen to API responses via network interception
+
 ## Why use AI Service discovery
 These artifacts form a safe input surface for:
 
