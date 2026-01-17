@@ -2,7 +2,7 @@
 
 ## Quick Start
 
-This repository demonstrates advanced Playwright testing with AI assistance for the CataWiki auction platform.
+This repository demonstrates advanced Playwright testing with AI assistance for the CataWiki auction platform. 
 
 ### Prerequisites
 
@@ -13,7 +13,7 @@ This repository demonstrates advanced Playwright testing with AI assistance for 
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/mark-rutter/Catawiki_Playwright_MCP
 cd CataWiki
 
 # Navigate to Playwright framework
@@ -28,7 +28,7 @@ npx playwright install
 # Run "the train" test
 npx playwright test tests/ui/train_flow_v2.spec.ts
 
-# Run all tests (Chromiun --headed sorry)
+# Run all tests (Chromium --headed sorry)
 npx playwright test 
 ```
 
