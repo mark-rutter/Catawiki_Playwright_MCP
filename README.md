@@ -4,19 +4,35 @@
 
 ## Playwright MCP (Machine-Consumable Playwright)
 
-This repository contains a lightweight, extensible automation framework built with **Playwright**. 
+This repository contains a lightweight, extensible automation framework built with **Playwright**. Designed with Playwright MCP and AI use in mind. 
 
 It demonstrates a clean foundation for UI automation while intentionally preparing for **AI-assisted test discovery, test case ingestion, and service analysis** using Playwright MCP concepts.
 
 The goal of this exercise is **not full test coverage**, but to show how a framework can scale cleanly and be extended by both **human testers and AI tools** in future iterations.
 
-## Why this matters
+## A Scalable Loop with AI Assistance
 
-- Humans can easily add or review cases
-- AI tools can generate new test cases safely
+This framework is designed around a clear division of responsibility between humans and AI, enabling safe, scalable growth over time.
+
+### Human Responsibilities
+- Define and evolve the overall test architecture
+- Add, review, and curate test cases with clear intent
+- Validate real browser behaviour (e.g. observing persisted UI state in `--headed` mode rather than relying on cookies)
+- Decide what *should* be tested and why
+
+### AI-Assisted Capabilities
+- Propose new test cases based on existing patterns
+- Expand data-driven test sets safely without modifying core test logic
+- Build upon working examples rather than inventing new structures
+- Discover additional test opportunities using Playwright MCP (network traffic, services, and data contracts)
+
+### Outcome
 - Test logic remains stable as coverage grows
+- New tests can be added without refactoring existing ones
+- Both humans and AI operate within clear, controlled boundaries
+- The framework scales through iteration, not complexity
 
-This project is intentionally structured to be **Playwright MCP–ready**.
+This project is intentionally structured to be **Playwright MCP–ready** with AI assistance in mind. 
 
 Rather than focusing only on UI execution, Playwright is also used to **observe and document the system under test** in a machine-consumable way. This enables both humans and AI tools to reason about the application and propose new test coverage without tightly coupling tests to UI implementation details.
 

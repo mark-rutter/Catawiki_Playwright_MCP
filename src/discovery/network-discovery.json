@@ -1,5 +1,9 @@
 [
   {
+    "url": "https://www.catawiki.com/UZlkr2ZV/xhr/api/v2/collector",
+    "method": "POST"
+  },
+  {
     "url": "https://www.catawiki.com/buyer/api/v1/search/suggest?q=train&locale=en&size=10&filters=query_terms%2Cauctions%2Ccategories%2Ccollections%2Csellers",
     "method": "GET"
   },
@@ -16,7 +20,7 @@
     "method": "POST"
   },
   {
-    "url": "https://tzm.px-cloud.net/ns?c=a98d71b0-f339-11f0-b6ff-3b83610dde8d",
+    "url": "https://tzm.px-cloud.net/ns?c=0ffab330-f340-11f0-96f3-19dbcead3d15",
     "method": "GET"
   },
   {
@@ -48,18 +52,6 @@
     "method": "GET"
   },
   {
-    "url": "https://www.google.com/ccm/collect?frm=0&en=page_view&dr=www.catawiki.com&dl=https%3A%2F%2Fwww.catawiki.com%2Fen%2Fs&scrsrc=sgtm.catawiki.com&rnd=242445109.1768608944&dt=Find%20train%20at%20Catawiki%27s%20auctions&auid=1849043386.1768608939&navt=n&npa=0&_tu=CA&gtm=45Fe61e1v6776266za204zd6776266xea&gcs=G111&gcd=13t3t3t2t5l1&dma_cps=syphamo&dma=1&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~105391253~115495938~115938465~115938469~117041587&tft=1768608943917&tfd=1694&apve=1&apvf=f",
-    "method": "POST"
-  },
-  {
-    "url": "https://sgtm.catawiki.com/g/collect?v=2&tid=G-N14JY514FR&gtm=45he61e1v869149198z86776266za20kzb6776266zd6776266&_p=1768608942758&gcs=G111&gcd=13t3tPt2t5l1&npa=0&dma_cps=syphamo&dma=1&cid=1169789180.1768608933&ecid=566844124&ul=en-us&sr=1280x720&ir=1&ur=&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EAAAAGQ&sst.rnd=242445109.1768608944&sst.adr=1&sst.tft=1768608942758&sst.lpc=6880160&sst.navt=n&sst.ude=0&sst.sw_exp=1&_s=1&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~105391253~115495938~115938465~115938469~116988316~117041588&uid=&sid=1768608931&sct=1&seg=1&dl=https%3A%2F%2Fwww.catawiki.com%2Fen%2Fs%3Fq%3Dtrain&dr=https%3A%2F%2Fwww.catawiki.com%2Fen&dt=Find%20train%20at%20Catawiki%27s%20auctions&_tu=DA&en=page_view&ep.content_group=SearchResultPage&ep.page_type=SearchResultPage&ep.anonymous_id=87a205e7-cd69-4fd5-8aab-1c9501fbbc95&ep.fbp=fb.1.1768608940090.816259298446567073&_et=2&tfd=1703&richsstsse",
-    "method": "GET"
-  },
-  {
-    "url": "https://sgtm.catawiki.com/g/collect?v=2&tid=G-N14JY514FR&gtm=45he61e1v869149198z86776266za20kzb6776266zd6776266&_p=1768608942758&gcs=G111&gcd=13t3tPt2t5l1&npa=0&dma_cps=syphamo&dma=1&cid=1169789180.1768608933&ecid=566844124&ul=en-us&sr=1280x720&ir=1&ur=&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EAAAAGQ&sst.rnd=242445109.1768608944&sst.adr=1&sst.tft=1768608942758&sst.lpc=6880160&sst.navt=n&sst.ude=0&sst.sw_exp=1&_s=2&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~105391253~115495938~115938465~115938469~116988316~117041588&uid=&sid=1768608931&sct=1&seg=1&dl=https%3A%2F%2Fwww.catawiki.com%2Fen%2Fs%3Fq%3Dtrain&dr=https%3A%2F%2Fwww.catawiki.com%2Fen&dt=Find%20train%20at%20Catawiki%27s%20auctions&_tu=DA&en=custom_param_push&ep.content_group=SearchResultPage&ep.page_type=SearchResultPage&ep.anonymous_id=87a205e7-cd69-4fd5-8aab-1c9501fbbc95&_et=2&tfd=1708&richsstsse",
-    "method": "GET"
-  },
-  {
     "url": "https://www.catawiki.com/buyer/api/v1/itp_forward",
     "method": "GET"
   },
@@ -72,12 +64,24 @@
     "method": "POST"
   },
   {
-    "url": "https://catawiki.absmartly.io/v1/context",
-    "method": "PUT"
+    "url": "https://www.google.com/ccm/collect?frm=0&en=page_view&dr=www.catawiki.com&dl=https%3A%2F%2Fwww.catawiki.com%2Fen%2Fs&scrsrc=sgtm.catawiki.com&rnd=1444659480.1768611694&dt=Find%20train%20at%20Catawiki%27s%20auctions&auid=78771120.1768611686&navt=n&npa=0&_tu=CA&gtm=45Fe61e1v6776266za204zd6776266xea&gcs=G111&gcd=13t3t3t2t5l1&dma_cps=syphamo&dma=1&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~105391253~115938466~115938468~117041588&tft=1768611693531&tfd=3546&apve=1&apvf=f",
+    "method": "POST"
+  },
+  {
+    "url": "https://sgtm.catawiki.com/g/collect?v=2&tid=G-N14JY514FR&gtm=45he61e1v869149198z86776266za20kzb6776266zd6776266&_p=1768611690956&gcs=G111&gcd=13t3tPt2t5l1&npa=0&dma_cps=syphamo&dma=1&cid=2088868904.1768611678&ecid=874013430&ul=en-us&sr=1280x720&ir=1&ur=&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EAAAAGQ&sst.rnd=1444659480.1768611694&sst.adr=1&sst.tft=1768611690956&sst.lpc=6880160&sst.navt=n&sst.ude=0&sst.sw_exp=1&_s=1&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~105391252~115497442~115616986~115938466~115938469~116988316~117041587&uid=&sid=1768611676&sct=1&seg=1&dl=https%3A%2F%2Fwww.catawiki.com%2Fen%2Fs%3Fq%3Dtrain&dr=https%3A%2F%2Fwww.catawiki.com%2Fen&dt=Find%20train%20at%20Catawiki%27s%20auctions&_tu=DA&en=page_view&ep.content_group=SearchResultPage&ep.page_type=SearchResultPage&ep.anonymous_id=72226ab6-0392-430c-b871-3b1a39c061fe&ep.fbp=fb.1.1768611686755.956633606711118156&_et=1&tfd=3556&richsstsse",
+    "method": "GET"
+  },
+  {
+    "url": "https://sgtm.catawiki.com/g/collect?v=2&tid=G-N14JY514FR&gtm=45he61e1v869149198z86776266za20kzb6776266zd6776266&_p=1768611690956&gcs=G111&gcd=13t3tPt2t5l1&npa=0&dma_cps=syphamo&dma=1&cid=2088868904.1768611678&ecid=874013430&ul=en-us&sr=1280x720&ir=1&ur=&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EAAAAGQ&sst.rnd=1444659480.1768611694&sst.adr=1&sst.tft=1768611690956&sst.lpc=6880160&sst.navt=n&sst.ude=0&sst.sw_exp=1&_s=2&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~105391252~115497442~115616986~115938466~115938469~116988316~117041587&uid=&sid=1768611676&sct=1&seg=1&dl=https%3A%2F%2Fwww.catawiki.com%2Fen%2Fs%3Fq%3Dtrain&dr=https%3A%2F%2Fwww.catawiki.com%2Fen&dt=Find%20train%20at%20Catawiki%27s%20auctions&_tu=DA&en=custom_param_push&ep.content_group=SearchResultPage&ep.page_type=SearchResultPage&ep.anonymous_id=72226ab6-0392-430c-b871-3b1a39c061fe&_et=1&tfd=3560&richsstsse",
+    "method": "GET"
   },
   {
     "url": "https://www.catawiki.com/ab/track",
     "method": "POST"
+  },
+  {
+    "url": "https://catawiki.absmartly.io/v1/context",
+    "method": "PUT"
   },
   {
     "url": "https://www.catawiki.com/collections/api/v1/collections/related/brand?query=%3Fq%3Dtrain&locale=en",
@@ -96,7 +100,7 @@
     "method": "GET"
   },
   {
-    "url": "https://ad.doubleclick.net/activity;src=5139330;type=mst;cat=cataw0;ord=607056655520;npa=0;auiddc=1849043386.1768608939;u1=undefined;u3=undefined;u4=SearchResultPage;uaa=x86;uab=64;uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0;uamb=0;uam=;uap=Windows;uapv=10.0;uaw=0;pscdl=noapi;frm=0;_tu=LFA;gtm=45fe61e1v9181659535z86776266za20gzb6776266zd6776266xea;gcs=G111;gcd=13t3tPt2t5l1;dma_cps=syphamo;dma=1;dc_fmt=6;tag_exp=103116026~103200004~104527907~104528500~104684208~104684211~105391253~115616985~115938465~115938469~117041588;dc_random=1768608945_1jz7KNxAcVd4h1sEILQMuiW6Pk7vvF5tJw;epver=2?",
+    "url": "https://www.catawiki.com/UZlkr2ZV/xhr/api/v2/collector",
     "method": "POST"
   },
   {
@@ -104,15 +108,11 @@
     "method": "POST"
   },
   {
-    "url": "https://ad.doubleclick.net/activity;dc_pre=CLqwqd-lkZIDFVM-VQgd40U24g;src=5139330;type=mst;cat=cataw0;ord=607056655520;npa=0;auiddc=1849043386.1768608939;u1=undefined;u3=undefined;u4=SearchResultPage;uaa=x86;uab=64;uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0;uamb=0;uam=;uap=Windows;uapv=10.0;uaw=0;pscdl=noapi;frm=0;_tu=LFA;gtm=45fe61e1v9181659535z86776266za20gzb6776266zd6776266xea;gcs=G111;gcd=13t3tPt2t5l1;dma_cps=syphamo;dma=1;dc_fmt=6;tag_exp=103116026~103200004~104527907~104528500~104684208~104684211~105391253~115616985~115938465~115938469~117041588;dc_random=1768608945_1jz7KNxAcVd4h1sEILQMuiW6Pk7vvF5tJw;epver=2?",
-    "method": "GET"
+    "url": "https://ad.doubleclick.net/activity;src=5139330;type=mst;cat=cataw0;ord=1099944771636;npa=0;auiddc=78771120.1768611686;u1=undefined;u3=undefined;u4=SearchResultPage;uaa=x86;uab=64;uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0;uamb=0;uam=;uap=Windows;uapv=10.0;uaw=0;pscdl=noapi;frm=0;_tu=LFA;gtm=45fe61e1v9181659535z86776266za20gzb6776266zd6776266xea;gcs=G111;gcd=13t3tPt2t5l1;dma_cps=syphamo;dma=1;dc_fmt=6;tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~105391253~115495939~115938466~115938469~117041588;dc_random=1768611695_Rc_BHgXkCvFA85SvRUuzj3NblhsUC4kUBw;epver=2?",
+    "method": "POST"
   },
   {
-    "url": "https://adservice.google.com/ddm/fls/z/dc_pre=CLqwqd-lkZIDFVM-VQgd40U24g;src=5139330;type=mst;cat=cataw0;ord=607056655520;npa=0;auiddc=*;u1=undefined;u3=undefined;u4=SearchResultPage;uaa=x86;uab=64;uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0;uamb=0;uam=;uap=Windows;uapv=10.0;uaw=0;pscdl=noapi;frm=0;_tu=LFA;gtm=45fe61e1v9181659535z86776266za20gzb6776266zd6776266xea;gcs=G111;gcd=13t3tPt2t5l1;dma_cps=syphamo;dma=1;dc_fmt=6;tag_exp=103116026~103200004~104527907~104528500~104684208~104684211~105391253~115616985~115938465~115938469~117041588;dc_random=1768608945_1jz7KNxAcVd4h1sEILQMuiW6Pk7vvF5tJw;epver=2",
-    "method": "GET"
-  },
-  {
-    "url": "https://px.ads.linkedin.com/attribution_trigger?pid=108060&time=1768608945126&url=https%3A%2F%2Fwww.catawiki.com%2Fen%2Fs%3Fq%3Dtrain",
+    "url": "https://px.ads.linkedin.com/attribution_trigger?pid=108060&time=1768611695808&url=https%3A%2F%2Fwww.catawiki.com%2Fen%2Fs%3Fq%3Dtrain",
     "method": "GET"
   },
   {
@@ -120,27 +120,39 @@
     "method": "PUT"
   },
   {
-    "url": "https://www.catawiki.com/UZlkr2ZV/xhr/api/v2/collector",
-    "method": "POST"
+    "url": "https://catawiki.absmartly.io/v1/context",
+    "method": "PUT"
+  },
+  {
+    "url": "https://ct.pinterest.com/user/?tid=2613446167071&pd=%7B%22np%22%3A%22gtm%22%2C%22gtm_version%22%3A%22legacy%22%2C%22pin_unauth%22%3A%22dWlkPU5XRXlOV1F3WWpFdE9EVXhOQzAwT1RNNExUZzBORGd0WkdSa01XUXlNMkU1TlRZNQ%22%7D&cb=1768611695959&dep=2%2CPAGE_LOAD",
+    "method": "GET"
+  },
+  {
+    "url": "https://ct.pinterest.com/user/?event=pagevisit&ed=%7B%22np%22%3A%22gtm%22%2C%22gtm_version%22%3A%22legacy%22%7D&tid=2613446167071&cb=1768611695964&dep=5%2CEVENT_TAGS_ABSENT",
+    "method": "GET"
+  },
+  {
+    "url": "https://ad.doubleclick.net/activity;dc_pre=CL_v-_6vkZIDFRevgwcdDRQtuw;src=5139330;type=mst;cat=cataw0;ord=1099944771636;npa=0;auiddc=78771120.1768611686;u1=undefined;u3=undefined;u4=SearchResultPage;uaa=x86;uab=64;uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0;uamb=0;uam=;uap=Windows;uapv=10.0;uaw=0;pscdl=noapi;frm=0;_tu=LFA;gtm=45fe61e1v9181659535z86776266za20gzb6776266zd6776266xea;gcs=G111;gcd=13t3tPt2t5l1;dma_cps=syphamo;dma=1;dc_fmt=6;tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~105391253~115495939~115938466~115938469~117041588;dc_random=1768611695_Rc_BHgXkCvFA85SvRUuzj3NblhsUC4kUBw;epver=2?",
+    "method": "GET"
+  },
+  {
+    "url": "https://adservice.google.com/ddm/fls/z/dc_pre=CL_v-_6vkZIDFRevgwcdDRQtuw;src=5139330;type=mst;cat=cataw0;ord=1099944771636;npa=0;auiddc=*;u1=undefined;u3=undefined;u4=SearchResultPage;uaa=x86;uab=64;uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0;uamb=0;uam=;uap=Windows;uapv=10.0;uaw=0;pscdl=noapi;frm=0;_tu=LFA;gtm=45fe61e1v9181659535z86776266za20gzb6776266zd6776266xea;gcs=G111;gcd=13t3tPt2t5l1;dma_cps=syphamo;dma=1;dc_fmt=6;tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~105391253~115495939~115938466~115938469~117041588;dc_random=1768611695_Rc_BHgXkCvFA85SvRUuzj3NblhsUC4kUBw;epver=2",
+    "method": "GET"
+  },
+  {
+    "url": "https://ct.pinterest.com/v3/?tid=2613446167071&pd=%7B%22np%22%3A%22gtm%22%2C%22gtm_version%22%3A%22legacy%22%2C%22pin_unauth%22%3A%22dWlkPU5XRXlOV1F3WWpFdE9EVXhOQzAwT1RNNExUZzBORGd0WkdSa01XUXlNMkU1TlRZNQ%22%7D&event=init&ad=%7B%22loc%22%3A%22https%3A%2F%2Fwww.catawiki.com%2Fen%2Fs%3Fq%3Dtrain%22%2C%22ref%22%3A%22https%3A%2F%2Fwww.catawiki.com%2Fen%22%2C%22if%22%3Afalse%2C%22sh%22%3A720%2C%22sw%22%3A1280%2C%22mh%22%3A%22e258cfd2%22%2C%22is_eu%22%3Atrue%2C%22architecture%22%3A%22x86%22%2C%22bitness%22%3A%2264%22%2C%22brands%22%3A%5B%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22143%22%7D%2C%7B%22brand%22%3A%22Not%20A(Brand%22%2C%22version%22%3A%2224%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22Windows%22%2C%22platformVersion%22%3A%2210.0%22%2C%22uaFullVersion%22%3A%22143.0.7499.4%22%2C%22ecm_enabled%22%3Atrue%7D&cb=1768611696025",
+    "method": "GET"
   },
   {
     "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g",
     "method": "POST"
   },
   {
-    "url": "https://ct.pinterest.com/user/?tid=2613446167071&pd=%7B%22np%22%3A%22gtm%22%2C%22gtm_version%22%3A%22legacy%22%2C%22pin_unauth%22%3A%22dWlkPU1UTmxOakJoWVdJdE5tWmpPQzAwWVRneExUazJZakV0TURSa1lUZzFaVGxsWWpBMg%22%7D&cb=1768608945957&dep=2%2CPAGE_LOAD",
+    "url": "https://ct.pinterest.com/v3/?event=pagevisit&ed=%7B%22np%22%3A%22gtm%22%2C%22gtm_version%22%3A%22legacy%22%7D&tid=2613446167071&cb=1768611696136&dep=5%2CEVENT_TAGS_ABSENT&pd=%7B%22np%22%3A%22gtm%22%2C%22gtm_version%22%3A%22legacy%22%2C%22pin_unauth%22%3A%22dWlkPU0yVmlPVFF5WldZdE5HWXlZaTAwWkRCaExXRXlOVFV0WTJVek5qTXdabVkxT1dRMA%22%7D&ad=%7B%22loc%22%3A%22https%3A%2F%2Fwww.catawiki.com%2Fen%2Fs%3Fq%3Dtrain%22%2C%22ref%22%3A%22https%3A%2F%2Fwww.catawiki.com%2Fen%22%2C%22if%22%3Afalse%2C%22sh%22%3A720%2C%22sw%22%3A1280%2C%22mh%22%3A%22e258cfd2%22%2C%22is_eu%22%3Atrue%2C%22architecture%22%3A%22x86%22%2C%22bitness%22%3A%2264%22%2C%22brands%22%3A%5B%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22143%22%7D%2C%7B%22brand%22%3A%22Not%20A(Brand%22%2C%22version%22%3A%2224%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22Windows%22%2C%22platformVersion%22%3A%2210.0%22%2C%22uaFullVersion%22%3A%22143.0.7499.4%22%2C%22ecm_enabled%22%3Atrue%7D",
     "method": "GET"
   },
   {
-    "url": "https://ct.pinterest.com/user/?event=pagevisit&ed=%7B%22np%22%3A%22gtm%22%2C%22gtm_version%22%3A%22legacy%22%7D&tid=2613446167071&cb=1768608945957&dep=5%2CEVENT_TAGS_ABSENT",
-    "method": "GET"
-  },
-  {
-    "url": "https://ct.pinterest.com/v3/?tid=2613446167071&pd=%7B%22np%22%3A%22gtm%22%2C%22gtm_version%22%3A%22legacy%22%2C%22pin_unauth%22%3A%22dWlkPU1UTmxOakJoWVdJdE5tWmpPQzAwWVRneExUazJZakV0TURSa1lUZzFaVGxsWWpBMg%22%7D&event=init&ad=%7B%22loc%22%3A%22https%3A%2F%2Fwww.catawiki.com%2Fen%2Fs%3Fq%3Dtrain%22%2C%22ref%22%3A%22https%3A%2F%2Fwww.catawiki.com%2Fen%22%2C%22if%22%3Afalse%2C%22sh%22%3A720%2C%22sw%22%3A1280%2C%22mh%22%3A%22e258cfd2%22%2C%22is_eu%22%3Atrue%2C%22architecture%22%3A%22x86%22%2C%22bitness%22%3A%2264%22%2C%22brands%22%3A%5B%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22143%22%7D%2C%7B%22brand%22%3A%22Not%20A(Brand%22%2C%22version%22%3A%2224%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22Windows%22%2C%22platformVersion%22%3A%2210.0%22%2C%22uaFullVersion%22%3A%22143.0.7499.4%22%2C%22ecm_enabled%22%3Atrue%7D&cb=1768608945961",
-    "method": "GET"
-  },
-  {
-    "url": "https://ct.pinterest.com/v3/?event=pagevisit&ed=%7B%22np%22%3A%22gtm%22%2C%22gtm_version%22%3A%22legacy%22%7D&tid=2613446167071&cb=1768608946035&dep=5%2CEVENT_TAGS_ABSENT&pd=%7B%22np%22%3A%22gtm%22%2C%22gtm_version%22%3A%22legacy%22%2C%22pin_unauth%22%3A%22dWlkPU4yTTNPVGRrT0dJdFl6RmpZUzAwT0dGaUxUazRaV1F0WldFMk5UazVaV0UwT0RsbA%22%7D&ad=%7B%22loc%22%3A%22https%3A%2F%2Fwww.catawiki.com%2Fen%2Fs%3Fq%3Dtrain%22%2C%22ref%22%3A%22https%3A%2F%2Fwww.catawiki.com%2Fen%22%2C%22if%22%3Afalse%2C%22sh%22%3A720%2C%22sw%22%3A1280%2C%22mh%22%3A%22e258cfd2%22%2C%22is_eu%22%3Atrue%2C%22architecture%22%3A%22x86%22%2C%22bitness%22%3A%2264%22%2C%22brands%22%3A%5B%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22143%22%7D%2C%7B%22brand%22%3A%22Not%20A(Brand%22%2C%22version%22%3A%2224%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22Windows%22%2C%22platformVersion%22%3A%2210.0%22%2C%22uaFullVersion%22%3A%22143.0.7499.4%22%2C%22ecm_enabled%22%3Atrue%7D",
+    "url": "https://vc.hotjar.io/sessions/76392?s=0.25&r=0.0071009301985398565",
     "method": "GET"
   },
   {
@@ -150,10 +162,6 @@
   {
     "url": "https://bat.bing.com/p/insights/c/b",
     "method": "POST"
-  },
-  {
-    "url": "https://catawiki.absmartly.io/v1/context",
-    "method": "PUT"
   },
   {
     "url": "https://www.catawiki.com/UZlkr2ZV/xhr/api/v2/collector",
