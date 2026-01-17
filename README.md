@@ -6,8 +6,8 @@ This repository demonstrates Playwright UI testing + AI assistance to scale this
 
 See README2 AI for more on AI and /docs/quick_start_guide.md for hands-on AI experiance.
 
-This is demo of Test Automation Framework designed for Humans and AI. This repository contains a lightweight, extensible automation framework built with Playwright.
-It demonstrates a clean foundation for UI automation while intentionally preparing for AI-assisted test discovery, test case ingestion, and service analysis using Playwright MCP concepts.
+This repository contains a lightweight, extensible automation framework built with Playwright.
+It demonstrates a clean foundation for UI automation while intentionally preparing for AI-assisted test discovery, test case ingestion, and service analysis using Playwright MCP concepts to assist Test Auomation Engineer.
 
 
 ## Goals of This Framework
@@ -127,7 +127,7 @@ tests/
  ├─ pages-pom.spec.ts    # POM validation test
  ├─ discovery.spec.ts    # Service discovery test
  └─ baseTest.ts          # Custom fixtures (consentedPage)
-```
+
 
 ---
 
@@ -189,18 +189,6 @@ This demonstrates **navigation, validation, data extraction, and maintainable ab
 
 ## Running the Tests
 
-### Install dependencies
-
-```bash
-npm install
-```
-
-### Install Playwright browsers
-
-```bash
-npx playwright install
-```
-
 ### Run specific tests
 
 ```bash
@@ -227,12 +215,6 @@ npx playwright test tests/AI/api-contract.spec.ts --headed
 
 ```bash
 npx playwright test --headed
-```
-
-### Run with UI mode
-
-```bash
-npx playwright test --ui
 ```
 
 ---
