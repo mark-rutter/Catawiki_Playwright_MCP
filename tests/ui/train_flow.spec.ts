@@ -1,5 +1,11 @@
 import { test, expect } from '../baseTest';
 
+
+/* This could be deleted but I leave it here to demo itteration before V2 */
+/* A basic train search and lot detail extraction test */
+/* The human built foundation for AI leading to everything else */
+
+
 test('lot details are visible and values are logged', async ({ consentedPage: page }) => {
   // Page is already on Catawiki with consent dismissed
 

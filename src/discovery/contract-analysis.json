@@ -1,10 +1,11 @@
 {
-  "total": 40,
+  "total": 38,
   "byEndpoint": {
     "/UZlkr2ZV/xhr/api/v2/collector": {
-      "calls": 6,
+      "calls": 7,
       "avgResponseTime": 0,
       "statusCodes": [
+        200,
         200,
         200,
         200,
@@ -39,14 +40,6 @@
       "schema": null
     },
     "/ns": {
-      "calls": 1,
-      "avgResponseTime": 0,
-      "statusCodes": [
-        200
-      ],
-      "schema": null
-    },
-    "/UZlkr2ZV/init.js": {
       "calls": 1,
       "avgResponseTime": 0,
       "statusCodes": [
@@ -94,19 +87,11 @@
         "collections": "object"
       }
     },
-    "/api/4508047797649488/envelope/": {
+    "/buyer/api/v1/itp_forward": {
       "calls": 1,
       "avgResponseTime": 0,
       "statusCodes": [
-        200
-      ],
-      "schema": {}
-    },
-    "/ccm/collect": {
-      "calls": 1,
-      "avgResponseTime": 0,
-      "statusCodes": [
-        200
+        204
       ],
       "schema": null
     },
@@ -125,22 +110,21 @@
         "experiments": "object"
       }
     },
-    "/buyer/api/v1/itp_forward": {
+    "/ccm/collect": {
       "calls": 1,
       "avgResponseTime": 0,
       "statusCodes": [
-        204
-      ],
-      "schema": null
-    },
-    "/g/collect": {
-      "calls": 2,
-      "avgResponseTime": 0,
-      "statusCodes": [
-        200,
         200
       ],
       "schema": null
+    },
+    "/api/4508047797649488/envelope/": {
+      "calls": 1,
+      "avgResponseTime": 0,
+      "statusCodes": [
+        200
+      ],
+      "schema": {}
     },
     "/ab/track": {
       "calls": 1,
@@ -160,7 +144,7 @@
         "collections": "object"
       }
     },
-    "/activity;src=5139330;type=mst;cat=cataw0;ord=1125731463840;npa=0;auiddc=1815403742.1768622765;u1=undefined;u3=undefined;u4=SearchResultPage;uaa=x86;uab=64;uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0;uamb=0;uam=;uap=Windows;uapv=10.0;uaw=0;pscdl=noapi;frm=0;_tu=LFA;gtm=45fe61e1v9181659535z86776266za20gzb6776266zd6776266xea;gcs=G111;gcd=13t3tPt2t5l1;dma_cps=syphamo;dma=1;dc_fmt=6;tag_exp=103116026~103200004~104527907~104528500~104684208~104684211~105391252~115616985~115938465~115938468~117041588;dc_random=1768622770_XJkIC2l3ZizjDI9-wFITCYtOEjgylbgs8Q;epver=2": {
+    "/activity;src=5139330;type=mst;cat=cataw0;ord=9856039056130;npa=0;auiddc=1657356136.1768661700;u1=undefined;u3=undefined;u4=SearchResultPage;uaa=x86;uab=64;uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0;uamb=0;uam=;uap=Windows;uapv=10.0;uaw=0;pscdl=noapi;frm=0;_tu=LFA;gtm=45fe61e1v9181659535z86776266za20gzb6776266zd6776266xea;gcs=G111;gcd=13t3tPt2t5l1;dma_cps=syphamo;dma=1;dc_fmt=6;tag_exp=103116026~103200004~104527907~104528500~104684208~104684211~105391253~115616986~115938465~115938469~116992597~117041588;dc_random=1768661708_wSdkaltIgug0jjRTMJ4GvE9DZEsnAEB60g;epver=2": {
       "calls": 1,
       "avgResponseTime": 0,
       "statusCodes": [
@@ -168,7 +152,7 @@
       ],
       "schema": null
     },
-    "/activity;dc_pre=CPuD8Z_ZkZIDFYDouwgdMQMbzA;src=5139330;type=mst;cat=cataw0;ord=1125731463840;npa=0;auiddc=1815403742.1768622765;u1=undefined;u3=undefined;u4=SearchResultPage;uaa=x86;uab=64;uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0;uamb=0;uam=;uap=Windows;uapv=10.0;uaw=0;pscdl=noapi;frm=0;_tu=LFA;gtm=45fe61e1v9181659535z86776266za20gzb6776266zd6776266xea;gcs=G111;gcd=13t3tPt2t5l1;dma_cps=syphamo;dma=1;dc_fmt=6;tag_exp=103116026~103200004~104527907~104528500~104684208~104684211~105391252~115616985~115938465~115938468~117041588;dc_random=1768622770_XJkIC2l3ZizjDI9-wFITCYtOEjgylbgs8Q;epver=2": {
+    "/activity;dc_pre=CNSfk6fqkpIDFc0JogMdBDAuuA;src=5139330;type=mst;cat=cataw0;ord=9856039056130;npa=0;auiddc=1657356136.1768661700;u1=undefined;u3=undefined;u4=SearchResultPage;uaa=x86;uab=64;uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0;uamb=0;uam=;uap=Windows;uapv=10.0;uaw=0;pscdl=noapi;frm=0;_tu=LFA;gtm=45fe61e1v9181659535z86776266za20gzb6776266zd6776266xea;gcs=G111;gcd=13t3tPt2t5l1;dma_cps=syphamo;dma=1;dc_fmt=6;tag_exp=103116026~103200004~104527907~104528500~104684208~104684211~105391253~115616986~115938465~115938469~116992597~117041588;dc_random=1768661708_wSdkaltIgug0jjRTMJ4GvE9DZEsnAEB60g;epver=2": {
       "calls": 1,
       "avgResponseTime": 0,
       "statusCodes": [
@@ -234,7 +218,7 @@
       ],
       "schema": null
     },
-    "/ddm/fls/z/dc_pre=CPuD8Z_ZkZIDFYDouwgdMQMbzA;src=5139330;type=mst;cat=cataw0;ord=1125731463840;npa=0;auiddc=*;u1=undefined;u3=undefined;u4=SearchResultPage;uaa=x86;uab=64;uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0;uamb=0;uam=;uap=Windows;uapv=10.0;uaw=0;pscdl=noapi;frm=0;_tu=LFA;gtm=45fe61e1v9181659535z86776266za20gzb6776266zd6776266xea;gcs=G111;gcd=13t3tPt2t5l1;dma_cps=syphamo;dma=1;dc_fmt=6;tag_exp=103116026~103200004~104527907~104528500~104684208~104684211~105391252~115616985~115938465~115938468~117041588;dc_random=1768622770_XJkIC2l3ZizjDI9-wFITCYtOEjgylbgs8Q;epver=2": {
+    "/ddm/fls/z/dc_pre=CNSfk6fqkpIDFc0JogMdBDAuuA;src=5139330;type=mst;cat=cataw0;ord=9856039056130;npa=0;auiddc=*;u1=undefined;u3=undefined;u4=SearchResultPage;uaa=x86;uab=64;uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0;uamb=0;uam=;uap=Windows;uapv=10.0;uaw=0;pscdl=noapi;frm=0;_tu=LFA;gtm=45fe61e1v9181659535z86776266za20gzb6776266zd6776266xea;gcs=G111;gcd=13t3tPt2t5l1;dma_cps=syphamo;dma=1;dc_fmt=6;tag_exp=103116026~103200004~104527907~104528500~104684208~104684211~105391253~115616986~115938465~115938469~116992597~117041588;dc_random=1768661708_wSdkaltIgug0jjRTMJ4GvE9DZEsnAEB60g;epver=2": {
       "calls": 1,
       "avgResponseTime": 0,
       "statusCodes": [
@@ -242,7 +226,7 @@
       ],
       "schema": null
     },
-    "/p/insights/c/b": {
+    "/p/insights/c/z": {
       "calls": 1,
       "avgResponseTime": 0,
       "statusCodes": [

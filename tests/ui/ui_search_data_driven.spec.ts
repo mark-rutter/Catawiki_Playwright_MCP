@@ -1,6 +1,9 @@
 import { test, expect } from '../baseTest';
 import searchTestData from '../../src/testcases/searchLots.json';
 
+/* Data-driven search tests using keywords from searchLots.json */
+/* This version is by AI based on initial human test */
+
 for (const testCase of searchTestData.cases) {
   test(`${testCase.description} - search for "${testCase.keyword}"`, async ({ consentedPage: page }) => {
     // Page is already on Catawiki with consent dismissed

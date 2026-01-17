@@ -1,14 +1,38 @@
-# Playwright Automation Framework (AI-Ready)
+# Playwright MCP - AI-Powered Browser Testing 🎭🤖
 
-## Overview
+**Playwright MCP enables AI browser interaction and discovery for scalable test automation**
+
+## 🎭 Playwright 3 AI Agents Ready
+
+This framework is equipped with **3 autonomous AI agents** that make test automation scalable through human-AI collaboration:
+
+- 🎭 **Planner Agent** - Reads human requirements → Creates test strategies
+- 🎭 **Generator Agent** - Uses proven patterns → Generates working test code  
+- 🎭 **Healer Agent** - Monitors test health → Auto-fixes broken tests
+
+**Result**: All to make this a **scalable testing ecosystem** where humans define intent and AI handles execution.
 
 ## Playwright MCP (Machine-Consumable Playwright)
 
-This repository contains a lightweight, extensible automation framework built with **Playwright**. Designed with Playwright MCP and AI use in mind. 
+This framework demonstrates how **Playwright MCP** transforms traditional testing into **AI-assisted discovery and automation**:
 
-It demonstrates a clean foundation for UI automation while intentionally preparing for **AI-assisted test discovery, test case ingestion, and service analysis** using Playwright MCP concepts.
+- **Browser Interaction** - AI agents can read, navigate, and test web applications
+- **Service Discovery** - Automatically map backend APIs through network observation  
+- **Pattern Learning** - AI learns from successful tests to generate new ones
+- **Adaptive Maintenance** - Tests self-heal when applications change
 
-The goal of this exercise is **not full test coverage**, but to show how a framework can scale cleanly and be extended by both **human testers and AI tools** in future iterations.
+## 🔍 Service Discovery - 3rd AI Integration
+
+**Service Discovery** is Playwright-driven but specifically outputs structured data for AI agents to consume:
+
+- **Network Traffic Analysis** - Captures API calls during real user journeys
+- **Machine-Readable Artifacts** - Generates JSON contracts and service maps
+- **AI Training Data** - Provides clean input for Planner and Generator agents
+- **Service Topology** - Documents backend architecture for test planning
+
+**Discovery Process**: `tests/discovery.spec.ts` → `src/discovery/*.json` → **AI Agent Input**
+
+> 📖 **New to AI Testing?** See our [QA Engineer Quick Start Guide](docs/qa-guide.md) for hands-on steps to try each AI agent.
 
 ## A Scalable Loop with AI Assistance
 
@@ -113,27 +137,6 @@ npx playwright init-agents --loop=vscode
 # This creates .playwright-agents directory with configuration
 ```
 
-### How It Works
-
-1. **Seed Template** - [tests/seed.spec.ts](tests/seed.spec.ts) provides proven patterns for the AI planner
-2. **Pattern Recognition** - Agents learn from successful test implementations
-3. **Smart Generation** - New tests follow established conventions (baseTest fixture, POM usage, data patterns)
-
-### Seed Template Includes
-
-- **baseTest fixture usage** - Automatic cookie consent handling
-- **Search flow patterns** - HomePage → SearchResultsPage → LotPage
-- **Network monitoring** - API interception and response validation
-- **File I/O examples** - Discovery data output and test artifacts
-- **Selector strategies** - Stable `data-testid` and CSS selectors
-- **Assertion patterns** - Comprehensive validation with soft assertions
-
-### Benefits
-
-- **Consistent test structure** - All generated tests follow framework patterns
-- **Reduced manual effort** - Agents handle repetitive test creation
-- **Pattern preservation** - Maintains quality and reliability standards
-- **Safe expansion** - New tests don't break existing functionality
 
 ### Example Usage
 
@@ -479,11 +482,11 @@ These are listed as clear next steps rather than partially implemented features.
 
 ## Planned Next Steps
 
+* UI ↔ API consistency assertions
+* Visual regression testing
 * Automate service discovery reporting
 * Generate API test stubs from observed traffic
 * AI-assisted test case suggestions
-* UI ↔ API consistency assertions
-* Visual regression testing
 
 ---
 

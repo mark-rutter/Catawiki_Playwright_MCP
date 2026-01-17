@@ -1,5 +1,7 @@
 import { test, expect } from '../baseTest';
 
+/* First FAST exploration of UI with Playwright codegen */
+
 test('test', async ({ consentedPage: page }) => {
   // Page is already on Catawiki with consent dismissed via baseTest fixture
 
