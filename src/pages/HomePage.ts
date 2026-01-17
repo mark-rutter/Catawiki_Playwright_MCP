@@ -12,28 +12,17 @@ export class HomePage {
 
   async search(keyword: string) {
     // Cookie consent is handled by consentedPage fixture
-    // No need to handle it here
-
-    // Try multiple selector patterns for the search combobox
-    let searchInput = this.page.getByRole('combobox', { name: 'Search for brand, model,' });
-    let isFound = await searchInput.isVisible({ timeout: 2000 }).catch(() => false);
+    // Use discovered data-testid selector (use first visible instance)
+    const searchInput = this.page.locator('[data-testid="search-field"]').first();
     
-    if (!isFound) {
-      // Try with partial name match
-      searchInput = this.page.getByRole('combobox', { name: /Search/i });
-      isFound = await searchInput.isVisible({ timeout: 2000 }).catch(() => false);
-    }
-    
-    if (!isFound) {
-      // Try data-testid as fallback
-      searchInput = this.page.locator('[data-testid="search-field"]');
-      isFound = await searchInput.isVisible({ timeout: 2000 }).catch(() => false);
-    }
-
-    console.log(`[HomePage] Search input found: ${isFound}`);
+    await searchInput.waitFor({ state: 'visible', timeout: 10000 });
     await searchInput.click();
     await searchInput.fill(keyword);
-    await searchInput.press('Enter');
+    
+    // Click search button instead of pressing Enter
+    const searchButton = this.page.getByRole('button', { name: /search/i });
+    await searchButton.click();
+    
     await this.page.waitForLoadState('domcontentloaded');
     console.log(`[HomePage] Searched for: "${keyword}" using UI`);
   }

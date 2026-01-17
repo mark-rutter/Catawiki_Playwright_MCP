@@ -98,6 +98,15 @@ All tests are based on the **Service Discovery** analysis:
 1. **Discovery Phase** (`tests/discovery.spec.ts`)
    - Captured 41 API calls during search flow
    - Extracted response schemas
+
+2. **Page Inspection** (`tests/AI/inspect-pages.spec.ts`)
+   - Discovered stable selectors (`data-testid` attributes)
+   - Updated Page Objects with reliable locators
+
+3. **POM Validation** (`tests/pages-pom.spec.ts`)
+   - Validates Page Object Model works with discovered selectors
+   - Tests complete user journey: search → results → lot details
+   - Demonstrates stable abstraction for test authoring
    - Analyzed endpoints and patterns
 
 2. **Documentation Phase** (`src/discovery/serviceDiscovery.md`)

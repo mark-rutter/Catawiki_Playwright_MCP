@@ -4,37 +4,47 @@ export class LotPage {
   constructor(private page: Page) {}
 
   async isOpen() {
-    return this.page.url().includes('/lot/');
+    // Wait for page to load
+    await this.page.waitForLoadState('domcontentloaded').catch(() => null);
+    const url = this.page.url();
+    return url.includes('/l/') || url.includes('/lot/');
   }
 
   async getLotDetails() {
-    // Wait for page to load
+    // Wait for page to fully load
     await this.page.waitForLoadState('domcontentloaded').catch(() => null);
+    await this.page.waitForTimeout(1000);
     
     const details: any = {};
     
-    // Try to get lot name/title - look for h1 or other title elements
+    // Get lot name/title using h1
     try {
-      const titleEl = this.page.locator('h1').first();
-      details.name = await titleEl.textContent().catch(() => 'Not found');
+      const titleEl = this.page.getByRole('heading', { level: 1 });
+      details.name = await titleEl.textContent({ timeout: 5000 }).catch(() => null);
+      console.log(`[LotPage] Lot name: ${details.name}`);
     } catch (e) {
-      details.name = 'Not found';
+      details.name = null;
+      console.warn('[LotPage] Could not find lot name');
     }
     
-    // Try to get price/bid information
+    // Get price/bid using data-testid (discovered from working tests)
     try {
-      const priceEl = this.page.locator('[class*="price"], [class*="bid"]').first();
-      details.currentBid = await priceEl.textContent().catch(() => 'Not found');
+      const bidSection = this.page.getByTestId('lot-bid-status-section');
+      details.currentBid = await bidSection.textContent({ timeout: 5000 }).catch(() => null);
+      console.log(`[LotPage] Current bid: ${details.currentBid}`);
     } catch (e) {
-      details.currentBid = 'Not found';
+      details.currentBid = null;
+      console.warn('[LotPage] Could not find bid status');
     }
     
-    // Try to get favorites
+    // Get favorites/watchers using regex pattern
     try {
-      const favEl = this.page.locator('[class*="favorite"], [class*="like"], [class*="heart"]').first();
-      details.favorites = await favEl.textContent().catch(() => 'Not found');
+      const favEl = this.page.getByText(/\d+ other people are watching/i);
+      details.favorites = await favEl.textContent({ timeout: 5000 }).catch(() => null);
+      console.log(`[LotPage] Favorites: ${details.favorites}`);
     } catch (e) {
-      details.favorites = 'Not found';
+      details.favorites = null;
+      console.warn('[LotPage] Could not find favorites count');
     }
     
     return details;

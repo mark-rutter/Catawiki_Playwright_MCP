@@ -79,6 +79,47 @@ These artifacts form a safe input surface for:
 - Human-led test design
 - AI-assisted test suggestions
 - Future automation expansion
+
+---
+
+## Page Object Model (POM) Validation
+
+After discovering stable selectors through inspection, the framework validates that Page Objects work correctly using:
+
+```bash
+npx playwright test tests/pages-pom.spec.ts --headed
+```
+
+### What This Test Does
+
+**pages-pom.spec.ts** executes a complete user journey using Page Object classes:
+
+1. **HomePage** - Searches for "train" using discovered `data-testid="search-field"` selector
+2. **SearchResultsPage** - Verifies search results page (`/s?q=train`), counts lot links, navigates to specific lot
+3. **LotPage** - Extracts lot details (name, bid, watchers) using stable selectors
+
+### Why This Matters
+
+- **Validates selector stability** - Ensures discovered selectors work in real flows
+- **Tests POM abstraction** - Confirms Page Objects hide complexity from test logic
+- **Demonstrates maintainability** - Shows how UI changes affect only Page Objects, not tests
+- **AI-friendly patterns** - Page Objects provide stable interfaces for AI-generated tests
+
+### Example Flow
+
+```typescript
+const homePage = new HomePage(page);
+const searchPage = new SearchResultsPage(page);
+const lotPage = new LotPage(page);
+
+await homePage.search('train');
+const count = await searchPage.getResultsCount();
+await searchPage.openLotByIndex(0);
+const details = await lotPage.getLotDetails();
+```
+
+This pattern allows test logic to remain stable even when UI implementation changes.
+
 ---
 
 ## Goals of This Framework

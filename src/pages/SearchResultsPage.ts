@@ -4,65 +4,45 @@ export class SearchResultsPage {
   constructor(private page: Page) {}
 
   async isOpen() {
-    // Prefer role-based selector for a heading or results container
-    // Try to find a heading with role 'heading' and text 'Search results' or similar
-    const heading = this.page.getByRole('heading', { name: /search results|results|lots|found/i });
-    if (await heading.isVisible().catch(() => false)) {
-      return true;
-    }
-    // Fallback: check for a results container (e.g. role='list' or 'region')
-    const resultsRegion = this.page.getByRole('region', { name: /results|lots|search/i });
-    if (await resultsRegion.isVisible().catch(() => false)) {
-      return true;
-    }
-    // Fallback: check URL
+    // Wait for page to stabilize
+    await this.page.waitForLoadState('domcontentloaded').catch(() => null);
+    
+    // Check URL contains search indicator (/s?q= or /search or /l/)
     const currentUrl = this.page.url();
-    return currentUrl.includes('search');
+    const isSearchPage = currentUrl.includes('/s?q=') || currentUrl.includes('search') || currentUrl.includes('/l/');
+    console.log(`[SearchResults] Checking URL: ${currentUrl}, isSearchPage: ${isSearchPage}`);
+    return isSearchPage;
   }
 
   async getResultsCount() {
-    // Try role-based selector for lot cards
-    const lotCards = this.page.getByRole('article');
-    const count = await lotCards.count();
-    console.log(`[SearchResults] getByRole('article') found ${count} elements`);
-    if (count > 0) return count;
-    // Fallback to previous selectors if needed
-    const fallbackSelectors = [
-      'a[href*="/lot/"]',
-      'a[href*="lot"]',
-      '[data-testid="lot-card"]',
-    ];
-    for (const selector of fallbackSelectors) {
-      const fallbackCount = await this.page.locator(selector).count();
-      console.log(`[SearchResults] Selector "${selector}" found ${fallbackCount} elements`);
-      if (fallbackCount > 0) return fallbackCount;
-    }
-    return 0;
+    // Wait for results to render
+    await this.page.waitForTimeout(2000);
+    
+    // Try multiple lot link patterns (both /l/ and /lot/ URLs)
+    const lotLinks = this.page.locator('a[href*="/l/"], a[href*="/lot/"]');
+    const count = await lotLinks.count();
+    
+    console.log(`[SearchResults] Found ${count} lot links`);
+    return count;
   }
 
   async openLotByIndex(index: number) {
-    // Find lot links - try multiple selectors
-    let lotLinks = this.page.locator('a[href*="/lot/"]');
-    let count = await lotLinks.count();
+    // Find lot links - try multiple patterns
+    const lotLinks = this.page.locator('a[href*="/l/"], a[href*="/lot/"]');
+    const count = await lotLinks.count();
+    
+    console.log(`[SearchResults] Found ${count} lots, clicking index ${index}`);
     
     if (count === 0) {
-      lotLinks = this.page.locator('a[href*="lot"]');
-      count = await lotLinks.count();
-    }
-    
-    if (count === 0) {
-      throw new Error('No lots found on page');
+      throw new Error('No lot links found on search results page');
     }
     
     if (index >= count) {
-      throw new Error(`Lot index ${index} out of range. Found ${count} lots.`);
+      throw new Error(`Lot index ${index} is out of range (0-${count - 1})`);
     }
     
-    const lotLink = lotLinks.nth(index);
-    const hrefAttr = await lotLink.getAttribute('href');
-    console.log(`[SearchResults] Opening lot ${index}: ${hrefAttr}`);
-    
-    await lotLink.click();
-    await this.page.waitForLoadState('domcontentloaded').catch(() => null);
+    await lotLinks.nth(index).click();
+    await this.page.waitForLoadState('domcontentloaded');
+    console.log(`[SearchResults] Clicked lot at index ${index}`);
   }
 }

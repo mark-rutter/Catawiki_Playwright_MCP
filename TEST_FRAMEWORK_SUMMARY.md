@@ -17,12 +17,24 @@
   
 - **src/discovery/** - MCP & service discovery documentation
   - `serviceDiscovery.md` - Documented backend services observed during testing
+
+- **tests/AI/** - AI-generated test examples
+  - `api-contract.spec.ts` - API contract validation
+  - `ui-backend-consistency.spec.ts` - UI-API data consistency
+  - `performance.spec.ts` - API performance benchmarks
+  - `data-driven-api.spec.ts` - Data-driven search API test
+  
+- **tests/** - Core framework tests
+  - `pages-pom.spec.ts` - Page Object Model validation test
+  - `discovery.spec.ts` - Service discovery and network analysis
   
 - **tests/ui/** - UI automation tests
-  - `search-lot.spec.ts` - Data-driven search and lot navigation test
+  - `train_flow.spec.ts` - Complete search and lot flow
+  - `ui_search_data_driven.spec.ts` - Data-driven UI search test
   
 - **tests/smoke/** - Smoke tests
   - `framework-health.spec.ts` - Basic framework health verification
+  - `consent.spec.ts` - Cookie consent handling verification
 
 ### 2. Configuration Files
 - **package.json** - Dependencies and test scripts
@@ -71,6 +83,18 @@ Framework Health Check
 - chromium  ✅ PASSED
 - firefox   ✅ PASSED
 - webkit    ✅ PASSED
+
+Page Object Model Validation (pages-pom.spec.ts)
+- ✅ HomePage search using discovered selectors
+- ✅ SearchResultsPage navigation and lot counting
+- ✅ LotPage data extraction (name, bid, watchers)
+- ✅ Complete user journey using POM abstraction
+
+AI-Generated Tests
+- ✅ api-contract.spec.ts (validates API response schemas)
+- ✅ ui-backend-consistency.spec.ts (UI-API data validation)
+- ✅ performance.spec.ts (API response time benchmarks)
+- ✅ data-driven-api.spec.ts (parameterized API tests)
 ```
 
 ### Data-Driven Test Cases Ready
