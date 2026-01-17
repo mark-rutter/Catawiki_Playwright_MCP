@@ -100,6 +100,50 @@ npx playwright test tests/AI/api-contract.spec.ts --headed
 
 **Key Innovation:** Keep browser session alive, just type different searches and listen to API responses via network interception
 
+## AI-Assisted Test Generation with Playwright Test Agents
+
+This framework now supports **Playwright Test Agents** for AI-powered test creation. The agents can analyze your existing test patterns and generate new tests automatically.
+
+### Getting Started with Test Agents
+
+```bash
+# Initialize Playwright test agents (one-time setup)
+npx playwright init-agents --loop=vscode
+
+# This creates .playwright-agents directory with configuration
+```
+
+### How It Works
+
+1. **Seed Template** - [tests/seed.spec.ts](tests/seed.spec.ts) provides proven patterns for the AI planner
+2. **Pattern Recognition** - Agents learn from successful test implementations
+3. **Smart Generation** - New tests follow established conventions (baseTest fixture, POM usage, data patterns)
+
+### Seed Template Includes
+
+- **baseTest fixture usage** - Automatic cookie consent handling
+- **Search flow patterns** - HomePage → SearchResultsPage → LotPage
+- **Network monitoring** - API interception and response validation
+- **File I/O examples** - Discovery data output and test artifacts
+- **Selector strategies** - Stable `data-testid` and CSS selectors
+- **Assertion patterns** - Comprehensive validation with soft assertions
+
+### Benefits
+
+- **Consistent test structure** - All generated tests follow framework patterns
+- **Reduced manual effort** - Agents handle repetitive test creation
+- **Pattern preservation** - Maintains quality and reliability standards
+- **Safe expansion** - New tests don't break existing functionality
+
+### Example Usage
+
+The planner agent can generate tests by understanding patterns from:
+- Data-driven flows in [train_flow_v2.spec.ts](tests/ui/train_flow_v2.spec.ts)
+- API testing in [search-suggest-optimized.spec.ts](tests/API/search-suggest-optimized.spec.ts)
+- Discovery patterns in [discovery.spec.ts](tests/discovery.spec.ts)
+
+This creates a **feedback loop** where successful human-written tests become templates for AI-generated tests.
+
 ## Why use AI Service discovery
 These artifacts form a safe input surface for:
 
