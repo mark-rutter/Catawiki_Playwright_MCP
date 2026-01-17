@@ -1,0 +1,34 @@
+{
+  "cases": [
+    {
+      "description": "Train search - First lot",
+      "keyword": "train",
+      "lotIndex": 0,
+      "expectedMinResults": 10
+    },
+    {
+      "description": "Train search - Second lot",
+      "keyword": "train",
+      "lotIndex": 1,
+      "expectedMinResults": 10
+    },
+    {
+      "description": "Watch search - Third lot",
+      "keyword": "watch",
+      "lotIndex": 2,
+      "expectedMinResults": 10
+    },
+    {
+      "description": "Art search - First lot",
+      "keyword": "art",
+      "lotIndex": 0,
+      "expectedMinResults": 10
+    },
+    {
+      "description": "Rolex search - Second lot",
+      "keyword": "rolex",
+      "lotIndex": 1,
+      "expectedMinResults": 5
+    }
+  ]
+}
