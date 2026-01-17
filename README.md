@@ -144,6 +144,75 @@ The planner agent can generate tests by understanding patterns from:
 
 This creates a **feedback loop** where successful human-written tests become templates for AI-generated tests.
 
+## Playwright AI Agents Ready 🎭
+
+This framework is fully equipped with **3 Playwright AI agents** ready for autonomous test generation and maintenance:
+
+### 🎭 **Planner Agent**
+**Purpose**: Analyzes requirements and creates comprehensive test strategies
+- **Input**: Human-readable test plans from [specs/basic-operations.md](specs/basic-operations.md)
+- **Output**: Detailed test execution strategies and test case breakdowns
+- **Specialization**: Converts business requirements into testable scenarios
+
+### 🎭 **Generator Agent** 
+**Purpose**: Creates working Playwright test code from plans and patterns
+- **Input**: Test plans from Planner + proven patterns from [tests/seed.spec.ts](tests/seed.spec.ts)
+- **Output**: Complete `.spec.ts` files following framework conventions
+- **Specialization**: Generates reliable, maintainable test code with proper assertions
+
+### 🎭 **Healer Agent**
+**Purpose**: Fixes and maintains existing tests when they break
+- **Input**: Failing tests, error traces, and updated application state
+- **Output**: Updated test code with fixed selectors and logic
+- **Specialization**: Adapts tests to UI changes while preserving test intent
+
+### Agent Configuration Structure
+
+```text
+repo/
+├── .github/                    # 🤖 Agent definitions and workflows
+│   ├── planner-agent.yml       # Planner agent configuration  
+│   ├── generator-agent.yml     # Generator agent configuration
+│   └── healer-agent.yml        # Healer agent configuration
+├── specs/                      # 📋 Human-readable test plans
+│   ├── README.md               # Current framework test specifications
+│   └── basic-operations.md     # 135+ auction operation test cases
+├── tests/                      # 🧪 Generated Playwright tests
+│   ├── seed.spec.ts            # 🌱 Environment seed for AI pattern learning
+│   ├── discovery.spec.ts       # Service discovery and API mapping
+│   ├── pages-pom.spec.ts       # Page Object Model validation
+│   └── [generated]/            # AI-generated test suites
+└── playwright.config.ts        # ⚙️ Test runner configuration
+```
+
+### Agent Workflow
+
+1. **Planning Phase** 🎭 Planner reads [specs/basic-operations.md](specs/basic-operations.md) → Creates test strategy
+2. **Generation Phase** 🎭 Generator uses strategy + [seed.spec.ts](tests/seed.spec.ts) patterns → Produces working tests  
+3. **Maintenance Phase** 🎭 Healer monitors test failures → Auto-fixes broken tests
+
+### Ready-to-Use Capabilities
+
+✅ **135+ Test Scenarios** documented in [specs/basic-operations.md](specs/basic-operations.md)  
+✅ **Proven Patterns** demonstrated in [tests/seed.spec.ts](tests/seed.spec.ts)  
+✅ **Framework Integration** with baseTest fixture and POM architecture  
+✅ **Performance Benchmarks** (7x speedup, <5min full suite execution)  
+✅ **AI Agent Definitions** in `.github/` directory  
+
+### Getting Started with AI Agents
+
+```bash
+# Agents are ready to use - just provide requirements
+# Planner: Reads specs/basic-operations.md and creates test plans
+# Generator: Uses seed.spec.ts patterns to create working tests  
+# Healer: Maintains and fixes tests automatically
+```
+
+The framework provides **human-AI collaboration** where:
+- **Humans** define test requirements and review AI output
+- **AI Agents** handle repetitive test creation and maintenance
+- **Quality** is maintained through proven patterns and established conventions
+
 ## Why use AI Service discovery
 These artifacts form a safe input surface for:
 
