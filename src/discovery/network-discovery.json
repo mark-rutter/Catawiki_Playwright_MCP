@@ -1,66 +1,7 @@
 [
   {
-    "url": "https://www.catawiki.com/UZlkr2ZV/xhr/api/v2/collector",
-    "method": "POST"
-  },
-  {
-    "url": "https://widget.trustpilot.com/trustbox-data/5419b6ffb0d04a076446a9af?businessUnitId=550003f00000ff00057df93a&locale=en",
-    "method": "GET"
-  },
-  {
-    "url": "https://widget.trustpilot.com/stats/TrustboxImpression?locale=en&styleHeight=20px&styleWidth=100%25&url=https%3A%2F%2Fwww.catawiki.com%2Fen&referrer=&userAgent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F143.0.7499.4%20Safari%2F537.36&language=en-US&platform=MacIntel&nosettings=1&businessUnitId=550003f00000ff00057df93a&widgetId=5419b6ffb0d04a076446a9af",
-    "method": "GET"
-  },
-  {
-    "url": "https://widget.trustpilot.com/stats/TrustboxView?locale=en&styleHeight=20px&styleWidth=100%25&url=https%3A%2F%2Fwww.catawiki.com%2Fen&referrer=&userAgent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F143.0.7499.4%20Safari%2F537.36&language=en-US&platform=MacIntel&nosettings=1&businessUnitId=550003f00000ff00057df93a&widgetId=5419b6ffb0d04a076446a9af",
-    "method": "GET"
-  },
-  {
-    "url": "https://www.catawiki.com/UZlkr2ZV/xhr/api/v2/collector",
-    "status": 200,
-    "responseTime": 0
-  },
-  {
-    "url": "https://widget.trustpilot.com/trustbox-data/54ad5defc6454f065c28af8b?businessUnitId=550003f00000ff00057df93a&locale=en-US&reviewLanguages=en&reviewStars=4%2C5&reviewsPerPage=15",
-    "method": "GET"
-  },
-  {
-    "url": "https://widget.trustpilot.com/stats/TrustboxImpression?locale=en-US&styleHeight=240px&styleWidth=100%25&stars=4%2C5&reviewLanguages=en&sentryComponent=TrustpilotWidget&sentrySourceFile=TrustpilotWidget.tsx&url=https%3A%2F%2Fwww.catawiki.com%2Fen&referrer=&userAgent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F143.0.7499.4%20Safari%2F537.36&language=en-US&platform=MacIntel&nosettings=1&businessUnitId=550003f00000ff00057df93a&widgetId=54ad5defc6454f065c28af8b",
-    "method": "GET"
-  },
-  {
-    "url": "https://widget.trustpilot.com/trustbox-data/5419b6ffb0d04a076446a9af?businessUnitId=550003f00000ff00057df93a&locale=en",
-    "status": 200,
-    "responseTime": 0
-  },
-  {
-    "url": "https://widget.trustpilot.com/trustbox-data/54ad5defc6454f065c28af8b?businessUnitId=550003f00000ff00057df93a&locale=en-US&reviewLanguages=en&reviewStars=4%2C5&reviewsPerPage=15",
-    "status": 200,
-    "responseTime": 0
-  },
-  {
-    "url": "https://widget.trustpilot.com/stats/TrustboxImpression?locale=en&styleHeight=20px&styleWidth=100%25&url=https%3A%2F%2Fwww.catawiki.com%2Fen&referrer=&userAgent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F143.0.7499.4%20Safari%2F537.36&language=en-US&platform=MacIntel&nosettings=1&businessUnitId=550003f00000ff00057df93a&widgetId=5419b6ffb0d04a076446a9af",
-    "status": 204,
-    "responseTime": 0
-  },
-  {
-    "url": "https://widget.trustpilot.com/stats/TrustboxView?locale=en&styleHeight=20px&styleWidth=100%25&url=https%3A%2F%2Fwww.catawiki.com%2Fen&referrer=&userAgent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F143.0.7499.4%20Safari%2F537.36&language=en-US&platform=MacIntel&nosettings=1&businessUnitId=550003f00000ff00057df93a&widgetId=5419b6ffb0d04a076446a9af",
-    "status": 204,
-    "responseTime": 0
-  },
-  {
-    "url": "https://widget.trustpilot.com/stats/TrustboxImpression?locale=en-US&styleHeight=240px&styleWidth=100%25&stars=4%2C5&reviewLanguages=en&sentryComponent=TrustpilotWidget&sentrySourceFile=TrustpilotWidget.tsx&url=https%3A%2F%2Fwww.catawiki.com%2Fen&referrer=&userAgent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F143.0.7499.4%20Safari%2F537.36&language=en-US&platform=MacIntel&nosettings=1&businessUnitId=550003f00000ff00057df93a&widgetId=54ad5defc6454f065c28af8b",
-    "status": 204,
-    "responseTime": 0
-  },
-  {
     "url": "https://www.catawiki.com/buyer/api/v1/search/suggest?q=train&locale=en&size=10&filters=query_terms%2Cauctions%2Ccategories%2Ccollections%2Csellers",
     "method": "GET"
-  },
-  {
-    "url": "https://www.catawiki.com/buyer/api/v1/search/suggest?q=train&locale=en&size=10&filters=query_terms%2Cauctions%2Ccategories%2Ccollections%2Csellers",
-    "status": 200,
-    "responseTime": 0
   },
   {
     "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g",
@@ -71,37 +12,11 @@
     "method": "POST"
   },
   {
-    "url": "https://www.catawiki.com/UZlkr2ZV/xhr/api/v2/collector",
-    "status": 200,
-    "responseTime": 0
-  },
-  {
-    "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g",
-    "status": 204,
-    "responseTime": 0
-  },
-  {
-    "url": "https://www.googletagmanager.com/td?id=AW-961308227&v=3&t=t&pid=1276547365&seq=2&exp=102015666~103116026~103200004~104527906~104528500~104684208~104684211~105391252~115616985~115938465~115938469~115985661~117041587&dl=www.catawiki.com%2Fen%2F&tdp=AW-961308227;93378706;1;6;0&mde=AW-961308227;9_1;45_2;61_1&fin=1&z=0",
-    "method": "POST"
-  },
-  {
     "url": "https://o4508047794438144.ingest.de.sentry.io/api/4508047797649488/envelope/?sentry_version=7&sentry_key=914207d61bad0920c392ff5ce30981f5&sentry_client=sentry.javascript.nextjs%2F8.55.0",
     "method": "POST"
   },
   {
-    "url": "https://sgtm.catawiki.com/g/collect?v=2&tid=G-N14JY514FR&gtm=45he61e1h1v869149198z86776266za20kzb6776266zd6776266&_p=1768605194143&gcs=G111&gcd=13r3vPr2r5l1&npa=0&dma_cps=syphamo&dma=1&cid=1761689902.1768605199&ecid=531246566&ul=en-us&sr=1280x720&ir=1&ur=&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EAAAAGQ&sst.rnd=1924091478.1768605198&sst.adr=1&sst.tft=1768605194143&sst.lpc=182009525&sst.navt=n&sst.ude=0&sst.sw_exp=1&_s=12&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391252~115495940~115938465~115938469~115985661~117041587&uid=&sid=1768605197&sct=1&seg=0&dl=https%3A%2F%2Fwww.catawiki.com%2Fen&dt=The%20Online%20Marketplace%20with%20Weekly%20Auctions&_tu=DA&en=web_vitals_metric&ep.content_group=HomePage&ep.page_type=HomePage&ep.anonymous_id=31ba9e98-1493-4a04-a93a-d437c4bba1ef&ep.cw_ab_id=ad232f12-0490-4908-a9ad-4a0c638d8e6d&ep.metric_name=INP&ep.metric_id=v4-1768605196476-2641693678371&epn.metric_value=344&epn.metric_delta=344&ep.metric_rating=needs-improvement&ep.debug_target=&ep.debug_event_type=&ep.debug_timing=complete&ep.event_time=&ep.effective_connection_type=4g&ep.save_data=false&epn.width=1280&epn.height=720&_et=990&tfd=12530",
-    "method": "POST"
-  },
-  {
-    "url": "https://sgtm.catawiki.com/g/collect?v=2&tid=G-N14JY514FR&gtm=45he61e1h1v869149198z86776266za20kzb6776266zd6776266&_p=1768605194143&gcs=G111&gcd=13r3vPr2r5l1&npa=0&dma_cps=syphamo&dma=1&cid=1761689902.1768605199&ecid=531246566&ul=en-us&sr=1280x720&ir=1&ur=&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EAAAAGQ&sst.rnd=1924091478.1768605198&sst.adr=1&sst.tft=1768605194143&sst.lpc=182009525&sst.navt=n&sst.ude=0&sst.sw_exp=1&_s=13&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391252~115495940~115938465~115938469~115985661~117041587&uid=&sid=1768605197&sct=1&seg=0&dl=https%3A%2F%2Fwww.catawiki.com%2Fen&dt=The%20Online%20Marketplace%20with%20Weekly%20Auctions&_tu=DA&en=web_vitals_metric&ep.content_group=HomePage&ep.page_type=HomePage&ep.anonymous_id=31ba9e98-1493-4a04-a93a-d437c4bba1ef&ep.cw_ab_id=ad232f12-0490-4908-a9ad-4a0c638d8e6d&ep.metric_name=CLS&ep.metric_id=v4-1768605196880-4045388574743&epn.metric_value=0.05182942708333334&epn.metric_delta=0.05182942708333334&ep.metric_rating=good&ep.debug_target=%23__next&ep.debug_event_type=&ep.debug_timing=dom-content-loaded&epn.event_time=3637.39999999851&ep.effective_connection_type=4g&ep.save_data=false&epn.width=1280&epn.height=720&tfd=12546",
-    "method": "POST"
-  },
-  {
-    "url": "https://o4508047794438144.ingest.de.sentry.io/api/4508047797649488/envelope/?sentry_version=7&sentry_key=914207d61bad0920c392ff5ce30981f5&sentry_client=sentry.javascript.nextjs%2F8.55.0",
-    "method": "POST"
-  },
-  {
-    "url": "https://tzm.px-cloud.net/ns?c=f69efe00-f330-11f0-b96c-8981888f44ab",
+    "url": "https://tzm.px-cloud.net/ns?c=a98d71b0-f339-11f0-b6ff-3b83610dde8d",
     "method": "GET"
   },
   {
@@ -110,8 +25,7 @@
   },
   {
     "url": "https://o4508047794438144.ingest.de.sentry.io/api/4508047797649488/envelope/?sentry_version=7&sentry_key=914207d61bad0920c392ff5ce30981f5&sentry_client=sentry.javascript.nextjs%2F8.55.0",
-    "status": 200,
-    "responseTime": 0
+    "method": "POST"
   },
   {
     "url": "https://catawiki.absmartly.io/v1/context?application=Web&environment=production",
@@ -134,77 +48,28 @@
     "method": "GET"
   },
   {
-    "url": "https://tzm.px-cloud.net/ns?c=f69efe00-f330-11f0-b96c-8981888f44ab",
-    "status": 200,
-    "responseTime": 0
+    "url": "https://www.google.com/ccm/collect?frm=0&en=page_view&dr=www.catawiki.com&dl=https%3A%2F%2Fwww.catawiki.com%2Fen%2Fs&scrsrc=sgtm.catawiki.com&rnd=242445109.1768608944&dt=Find%20train%20at%20Catawiki%27s%20auctions&auid=1849043386.1768608939&navt=n&npa=0&_tu=CA&gtm=45Fe61e1v6776266za204zd6776266xea&gcs=G111&gcd=13t3t3t2t5l1&dma_cps=syphamo&dma=1&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~105391253~115495938~115938465~115938469~117041587&tft=1768608943917&tfd=1694&apve=1&apvf=f",
+    "method": "POST"
+  },
+  {
+    "url": "https://sgtm.catawiki.com/g/collect?v=2&tid=G-N14JY514FR&gtm=45he61e1v869149198z86776266za20kzb6776266zd6776266&_p=1768608942758&gcs=G111&gcd=13t3tPt2t5l1&npa=0&dma_cps=syphamo&dma=1&cid=1169789180.1768608933&ecid=566844124&ul=en-us&sr=1280x720&ir=1&ur=&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EAAAAGQ&sst.rnd=242445109.1768608944&sst.adr=1&sst.tft=1768608942758&sst.lpc=6880160&sst.navt=n&sst.ude=0&sst.sw_exp=1&_s=1&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~105391253~115495938~115938465~115938469~116988316~117041588&uid=&sid=1768608931&sct=1&seg=1&dl=https%3A%2F%2Fwww.catawiki.com%2Fen%2Fs%3Fq%3Dtrain&dr=https%3A%2F%2Fwww.catawiki.com%2Fen&dt=Find%20train%20at%20Catawiki%27s%20auctions&_tu=DA&en=page_view&ep.content_group=SearchResultPage&ep.page_type=SearchResultPage&ep.anonymous_id=87a205e7-cd69-4fd5-8aab-1c9501fbbc95&ep.fbp=fb.1.1768608940090.816259298446567073&_et=2&tfd=1703&richsstsse",
+    "method": "GET"
+  },
+  {
+    "url": "https://sgtm.catawiki.com/g/collect?v=2&tid=G-N14JY514FR&gtm=45he61e1v869149198z86776266za20kzb6776266zd6776266&_p=1768608942758&gcs=G111&gcd=13t3tPt2t5l1&npa=0&dma_cps=syphamo&dma=1&cid=1169789180.1768608933&ecid=566844124&ul=en-us&sr=1280x720&ir=1&ur=&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EAAAAGQ&sst.rnd=242445109.1768608944&sst.adr=1&sst.tft=1768608942758&sst.lpc=6880160&sst.navt=n&sst.ude=0&sst.sw_exp=1&_s=2&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~105391253~115495938~115938465~115938469~116988316~117041588&uid=&sid=1768608931&sct=1&seg=1&dl=https%3A%2F%2Fwww.catawiki.com%2Fen%2Fs%3Fq%3Dtrain&dr=https%3A%2F%2Fwww.catawiki.com%2Fen&dt=Find%20train%20at%20Catawiki%27s%20auctions&_tu=DA&en=custom_param_push&ep.content_group=SearchResultPage&ep.page_type=SearchResultPage&ep.anonymous_id=87a205e7-cd69-4fd5-8aab-1c9501fbbc95&_et=2&tfd=1708&richsstsse",
+    "method": "GET"
   },
   {
     "url": "https://www.catawiki.com/buyer/api/v1/itp_forward",
+    "method": "GET"
+  },
+  {
+    "url": "https://catawiki.absmartly.io/v1/context?application=Web&environment=production",
     "method": "GET"
   },
   {
     "url": "https://www.catawiki.com/UZlkr2ZV/xhr/api/v2/collector",
-    "status": 200,
-    "responseTime": 0
-  },
-  {
-    "url": "https://www.catawiki.com/buyer/api/v1/search/related_terms?q=train",
-    "status": 200,
-    "responseTime": 0
-  },
-  {
-    "url": "https://www.catawiki.com/buyer/api/v1/lots/recently_viewed?locale=en",
-    "status": 200,
-    "responseTime": 0
-  },
-  {
-    "url": "https://catawiki.absmartly.io/v1/context?application=Web&environment=production",
-    "status": 200,
-    "responseTime": 0
-  },
-  {
-    "url": "https://www.catawiki.com/buyer/api/v1/itp_forward",
-    "status": 204,
-    "responseTime": 0
-  },
-  {
-    "url": "https://www.catawiki.com/user_tracking/api/v1/external/visitor",
-    "status": 201,
-    "responseTime": 0
-  },
-  {
-    "url": "https://www.catawiki.com/buyer/api/v1/collections/related?query=%3Fq%3Dtrain&locale=en",
-    "status": 200,
-    "responseTime": 0
-  },
-  {
-    "url": "https://www.google.com/ccm/collect?frm=0&en=page_view&dr=www.catawiki.com&dl=https%3A%2F%2Fwww.catawiki.com%2Fen%2Fs&scrsrc=sgtm.catawiki.com&rnd=1625693836.1768605208&dt=Find%20train%20at%20Catawiki%27s%20auctions&auid=848675309.1768605201&navt=n&npa=0&_tu=CA&gtm=45Fe61e1h1v6776266za204zd6776266xea&gcs=G111&gcd=13t3t3t2t5l1&dma_cps=syphamo&dma=1&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391253~115495940~115938466~115938468~116682876~117041587&tft=1768605207625&tfd=2363&apve=1&apvf=f",
     "method": "POST"
-  },
-  {
-    "url": "https://sgtm.catawiki.com/g/collect?v=2&tid=G-N14JY514FR&gtm=45he61e1h1v869149198z86776266za20kzb6776266zd6776266&_p=1768605206376&gcs=G111&gcd=13t3tPt2t5l1&npa=0&dma_cps=syphamo&dma=1&cid=1761689902.1768605199&ecid=531246566&ul=en-us&sr=1280x720&ir=1&ur=&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EAAAAGQ&sst.rnd=1625693836.1768605208&sst.adr=1&sst.tft=1768605206376&sst.lpc=6880160&sst.navt=n&sst.ude=0&sst.sw_exp=1&_s=1&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391252~115495939~115616985~115938466~115938468~116682876~117041588&uid=&sid=1768605197&sct=1&seg=1&dl=https%3A%2F%2Fwww.catawiki.com%2Fen%2Fs%3Fq%3Dtrain&dr=https%3A%2F%2Fwww.catawiki.com%2Fen&dt=Find%20train%20at%20Catawiki%27s%20auctions&_tu=DA&en=page_view&ep.content_group=SearchResultPage&ep.page_type=SearchResultPage&ep.anonymous_id=31ba9e98-1493-4a04-a93a-d437c4bba1ef&ep.cw_ab_id=ad232f12-0490-4908-a9ad-4a0c638d8e6d&ep.fbp=fb.1.1768605202159.103861101988050953&_et=2&tfd=2373&richsstsse",
-    "method": "GET"
-  },
-  {
-    "url": "https://sgtm.catawiki.com/g/collect?v=2&tid=G-N14JY514FR&gtm=45he61e1h1v869149198z86776266za20kzb6776266zd6776266&_p=1768605206376&gcs=G111&gcd=13t3tPt2t5l1&npa=0&dma_cps=syphamo&dma=1&cid=1761689902.1768605199&ecid=531246566&ul=en-us&sr=1280x720&ir=1&ur=&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EAAAAGQ&sst.rnd=1625693836.1768605208&sst.adr=1&sst.tft=1768605206376&sst.lpc=6880160&sst.navt=n&sst.ude=0&sst.sw_exp=1&_s=2&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391252~115495939~115616985~115938466~115938468~116682876~117041588&uid=&sid=1768605197&sct=1&seg=1&dl=https%3A%2F%2Fwww.catawiki.com%2Fen%2Fs%3Fq%3Dtrain&dr=https%3A%2F%2Fwww.catawiki.com%2Fen&dt=Find%20train%20at%20Catawiki%27s%20auctions&_tu=DA&en=custom_param_push&ep.content_group=SearchResultPage&ep.page_type=SearchResultPage&ep.anonymous_id=31ba9e98-1493-4a04-a93a-d437c4bba1ef&ep.cw_ab_id=ad232f12-0490-4908-a9ad-4a0c638d8e6d&_et=4&tfd=2381&richsstsse",
-    "method": "GET"
-  },
-  {
-    "url": "https://sgtm.catawiki.com/g/collect?v=2&tid=G-N14JY514FR&gtm=45he61e1h1v869149198z86776266za20kzb6776266zd6776266&_p=1768605206376&gcs=G111&gcd=13t3tPt2t5l1&npa=0&dma_cps=syphamo&dma=1&cid=1761689902.1768605199&ecid=531246566&ul=en-us&sr=1280x720&ir=1&ur=&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EAAAAGQ&sst.rnd=1625693836.1768605208&sst.adr=1&sst.tft=1768605206376&sst.lpc=6880160&sst.navt=n&sst.ude=0&sst.sw_exp=1&_s=3&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391252~115495939~115616985~115938466~115938468~116682876~117041588&uid=&sid=1768605197&sct=1&seg=1&dl=https%3A%2F%2Fwww.catawiki.com%2Fen%2Fs%3Fq%3Dtrain&dr=https%3A%2F%2Fwww.catawiki.com%2Fen&dt=Find%20train%20at%20Catawiki%27s%20auctions&_tu=DA&en=web_vitals_metric&ep.content_group=SearchResultPage&ep.page_type=SearchResultPage&ep.anonymous_id=31ba9e98-1493-4a04-a93a-d437c4bba1ef&ep.cw_ab_id=ad232f12-0490-4908-a9ad-4a0c638d8e6d&ep.metric_name=FCP&ep.metric_id=v4-1768605207233-1990758809880&epn.metric_value=1188&epn.metric_delta=1188&ep.metric_rating=good&ep.debug_target=&ep.debug_event_type=&ep.debug_timing=loading&ep.event_time=&ep.effective_connection_type=4g&ep.save_data=false&epn.width=1280&epn.height=720&_et=3&tfd=2390&richsstsse",
-    "method": "GET"
-  },
-  {
-    "url": "https://www.google.com/ccm/collect?frm=0&en=page_view&dr=www.catawiki.com&dl=https%3A%2F%2Fwww.catawiki.com%2Fen%2Fs&scrsrc=sgtm.catawiki.com&rnd=1625693836.1768605208&dt=Find%20train%20at%20Catawiki%27s%20auctions&auid=848675309.1768605201&navt=n&npa=0&_tu=CA&gtm=45Fe61e1h1v6776266za204zd6776266xea&gcs=G111&gcd=13t3t3t2t5l1&dma_cps=syphamo&dma=1&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391253~115495940~115938466~115938468~116682876~117041587&tft=1768605207625&tfd=2363&apve=1&apvf=f",
-    "status": 200,
-    "responseTime": 0
-  },
-  {
-    "url": "https://catawiki.absmartly.io/v1/context?application=Web&environment=production",
-    "method": "GET"
-  },
-  {
-    "url": "https://www.catawiki.com/collections/api/v1/collections/related/brand?query=%3Fq%3Dtrain&locale=en",
-    "method": "GET"
   },
   {
     "url": "https://catawiki.absmartly.io/v1/context",
@@ -215,45 +80,6 @@
     "method": "POST"
   },
   {
-    "url": "https://sgtm.catawiki.com/g/collect?v=2&tid=G-N14JY514FR&gtm=45he61e1h1v869149198z86776266za20kzb6776266zd6776266&_p=1768605206376&gcs=G111&gcd=13t3tPt2t5l1&npa=0&dma_cps=syphamo&dma=1&cid=1761689902.1768605199&ecid=531246566&ul=en-us&sr=1280x720&ir=1&ur=&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EAAAAGQ&sst.rnd=1625693836.1768605208&sst.adr=1&sst.tft=1768605206376&sst.lpc=6880160&sst.navt=n&sst.ude=0&sst.sw_exp=1&_s=2&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391252~115495939~115616985~115938466~115938468~116682876~117041588&uid=&sid=1768605197&sct=1&seg=1&dl=https%3A%2F%2Fwww.catawiki.com%2Fen%2Fs%3Fq%3Dtrain&dr=https%3A%2F%2Fwww.catawiki.com%2Fen&dt=Find%20train%20at%20Catawiki%27s%20auctions&_tu=DA&en=custom_param_push&ep.content_group=SearchResultPage&ep.page_type=SearchResultPage&ep.anonymous_id=31ba9e98-1493-4a04-a93a-d437c4bba1ef&ep.cw_ab_id=ad232f12-0490-4908-a9ad-4a0c638d8e6d&_et=4&tfd=2381&richsstsse",
-    "status": 200,
-    "responseTime": 0
-  },
-  {
-    "url": "https://sgtm.catawiki.com/g/collect?v=2&tid=G-N14JY514FR&gtm=45he61e1h1v869149198z86776266za20kzb6776266zd6776266&_p=1768605206376&gcs=G111&gcd=13t3tPt2t5l1&npa=0&dma_cps=syphamo&dma=1&cid=1761689902.1768605199&ecid=531246566&ul=en-us&sr=1280x720&ir=1&ur=&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EAAAAGQ&sst.rnd=1625693836.1768605208&sst.adr=1&sst.tft=1768605206376&sst.lpc=6880160&sst.navt=n&sst.ude=0&sst.sw_exp=1&_s=1&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391252~115495939~115616985~115938466~115938468~116682876~117041588&uid=&sid=1768605197&sct=1&seg=1&dl=https%3A%2F%2Fwww.catawiki.com%2Fen%2Fs%3Fq%3Dtrain&dr=https%3A%2F%2Fwww.catawiki.com%2Fen&dt=Find%20train%20at%20Catawiki%27s%20auctions&_tu=DA&en=page_view&ep.content_group=SearchResultPage&ep.page_type=SearchResultPage&ep.anonymous_id=31ba9e98-1493-4a04-a93a-d437c4bba1ef&ep.cw_ab_id=ad232f12-0490-4908-a9ad-4a0c638d8e6d&ep.fbp=fb.1.1768605202159.103861101988050953&_et=2&tfd=2373&richsstsse",
-    "status": 200,
-    "responseTime": 0
-  },
-  {
-    "url": "https://sgtm.catawiki.com/g/collect?v=2&tid=G-N14JY514FR&gtm=45he61e1h1v869149198z86776266za20kzb6776266zd6776266&_p=1768605206376&gcs=G111&gcd=13t3tPt2t5l1&npa=0&dma_cps=syphamo&dma=1&cid=1761689902.1768605199&ecid=531246566&ul=en-us&sr=1280x720&ir=1&ur=&uaa=x86&uab=64&uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EAAAAGQ&sst.rnd=1625693836.1768605208&sst.adr=1&sst.tft=1768605206376&sst.lpc=6880160&sst.navt=n&sst.ude=0&sst.sw_exp=1&_s=3&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391252~115495939~115616985~115938466~115938468~116682876~117041588&uid=&sid=1768605197&sct=1&seg=1&dl=https%3A%2F%2Fwww.catawiki.com%2Fen%2Fs%3Fq%3Dtrain&dr=https%3A%2F%2Fwww.catawiki.com%2Fen&dt=Find%20train%20at%20Catawiki%27s%20auctions&_tu=DA&en=web_vitals_metric&ep.content_group=SearchResultPage&ep.page_type=SearchResultPage&ep.anonymous_id=31ba9e98-1493-4a04-a93a-d437c4bba1ef&ep.cw_ab_id=ad232f12-0490-4908-a9ad-4a0c638d8e6d&ep.metric_name=FCP&ep.metric_id=v4-1768605207233-1990758809880&epn.metric_value=1188&epn.metric_delta=1188&ep.metric_rating=good&ep.debug_target=&ep.debug_event_type=&ep.debug_timing=loading&ep.event_time=&ep.effective_connection_type=4g&ep.save_data=false&epn.width=1280&epn.height=720&_et=3&tfd=2390&richsstsse",
-    "status": 200,
-    "responseTime": 0
-  },
-  {
-    "url": "https://catawiki.absmartly.io/v1/context?application=Web&environment=production",
-    "status": 200,
-    "responseTime": 0
-  },
-  {
-    "url": "https://www.catawiki.com/UZlkr2ZV/xhr/api/v2/collector",
-    "method": "POST"
-  },
-  {
-    "url": "https://catawiki.absmartly.io/v1/context",
-    "status": 200,
-    "responseTime": 0
-  },
-  {
-    "url": "https://www.catawiki.com/collections/api/v1/collections/related/brand?query=%3Fq%3Dtrain&locale=en",
-    "status": 200,
-    "responseTime": 0
-  },
-  {
-    "url": "https://www.catawiki.com/ab/track",
-    "status": 204,
-    "responseTime": 0
-  },
-  {
     "url": "https://www.catawiki.com/collections/api/v1/collections/related/brand?query=%3Fq%3Dtrain&locale=en",
     "method": "GET"
   },
@@ -270,41 +96,7 @@
     "method": "GET"
   },
   {
-    "url": "https://catawiki.absmartly.io/v1/context?application=Web&environment=production",
-    "status": 200,
-    "responseTime": 0
-  },
-  {
-    "url": "https://www.catawiki.com/UZlkr2ZV/xhr/api/v2/collector",
-    "status": 200,
-    "responseTime": 0
-  },
-  {
-    "url": "https://www.catawiki.com/collections/api/v1/collections/related/brand?query=%3Fq%3Dtrain&locale=en",
-    "status": 200,
-    "responseTime": 0
-  },
-  {
-    "url": "https://www.catawiki.com/buyer/api/v1/search/suggest?q=train&locale=en&size=10&filters=query_terms%2Cauctions%2Ccategories%2Ccollections%2Csellers",
-    "status": 200,
-    "responseTime": 0
-  },
-  {
-    "url": "https://catawiki.absmartly.io/v1/context",
-    "method": "PUT"
-  },
-  {
-    "url": "https://www.catawiki.com/buyer/api/v1/search/suggest?q=train&locale=en&size=10&filters=query_terms%2Cauctions%2Ccategories%2Ccollections%2Csellers",
-    "status": 200,
-    "responseTime": 0
-  },
-  {
-    "url": "https://catawiki.absmartly.io/v1/context",
-    "status": 200,
-    "responseTime": 0
-  },
-  {
-    "url": "https://www.catawiki.com/UZlkr2ZV/xhr/api/v2/collector",
+    "url": "https://ad.doubleclick.net/activity;src=5139330;type=mst;cat=cataw0;ord=607056655520;npa=0;auiddc=1849043386.1768608939;u1=undefined;u3=undefined;u4=SearchResultPage;uaa=x86;uab=64;uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0;uamb=0;uam=;uap=Windows;uapv=10.0;uaw=0;pscdl=noapi;frm=0;_tu=LFA;gtm=45fe61e1v9181659535z86776266za20gzb6776266zd6776266xea;gcs=G111;gcd=13t3tPt2t5l1;dma_cps=syphamo;dma=1;dc_fmt=6;tag_exp=103116026~103200004~104527907~104528500~104684208~104684211~105391253~115616985~115938465~115938469~117041588;dc_random=1768608945_1jz7KNxAcVd4h1sEILQMuiW6Pk7vvF5tJw;epver=2?",
     "method": "POST"
   },
   {
@@ -312,122 +104,44 @@
     "method": "POST"
   },
   {
-    "url": "https://ad.doubleclick.net/activity;src=5139330;type=mst;cat=cataw0;ord=1506049299531;npa=0;auiddc=848675309.1768605201;u1=undefined;u3=undefined;u4=SearchResultPage;uaa=x86;uab=64;uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0;uamb=0;uam=;uap=Windows;uapv=10.0;uaw=0;pscdl=noapi;frm=0;_tu=LFA;gtm=45fe61e1h1v9181659535z86776266za20gzb6776266zd6776266xea;gcs=G111;gcd=13t3tPt2t5l1;dma_cps=syphamo;dma=1;dc_fmt=6;tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391253~115495940~115616985~115938466~115938469~116682876~117041587;dc_random=1768605209_YPRmNclR4P9eyR_5q7Aa255oNQdKXUGcJA;epver=2?",
-    "method": "POST"
+    "url": "https://ad.doubleclick.net/activity;dc_pre=CLqwqd-lkZIDFVM-VQgd40U24g;src=5139330;type=mst;cat=cataw0;ord=607056655520;npa=0;auiddc=1849043386.1768608939;u1=undefined;u3=undefined;u4=SearchResultPage;uaa=x86;uab=64;uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0;uamb=0;uam=;uap=Windows;uapv=10.0;uaw=0;pscdl=noapi;frm=0;_tu=LFA;gtm=45fe61e1v9181659535z86776266za20gzb6776266zd6776266xea;gcs=G111;gcd=13t3tPt2t5l1;dma_cps=syphamo;dma=1;dc_fmt=6;tag_exp=103116026~103200004~104527907~104528500~104684208~104684211~105391253~115616985~115938465~115938469~117041588;dc_random=1768608945_1jz7KNxAcVd4h1sEILQMuiW6Pk7vvF5tJw;epver=2?",
+    "method": "GET"
   },
   {
-    "url": "https://px.ads.linkedin.com/attribution_trigger?pid=108060&time=1768605209988&url=https%3A%2F%2Fwww.catawiki.com%2Fen%2Fs%3Fq%3Dtrain",
+    "url": "https://adservice.google.com/ddm/fls/z/dc_pre=CLqwqd-lkZIDFVM-VQgd40U24g;src=5139330;type=mst;cat=cataw0;ord=607056655520;npa=0;auiddc=*;u1=undefined;u3=undefined;u4=SearchResultPage;uaa=x86;uab=64;uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0;uamb=0;uam=;uap=Windows;uapv=10.0;uaw=0;pscdl=noapi;frm=0;_tu=LFA;gtm=45fe61e1v9181659535z86776266za20gzb6776266zd6776266xea;gcs=G111;gcd=13t3tPt2t5l1;dma_cps=syphamo;dma=1;dc_fmt=6;tag_exp=103116026~103200004~104527907~104528500~104684208~104684211~105391253~115616985~115938465~115938469~117041588;dc_random=1768608945_1jz7KNxAcVd4h1sEILQMuiW6Pk7vvF5tJw;epver=2",
     "method": "GET"
+  },
+  {
+    "url": "https://px.ads.linkedin.com/attribution_trigger?pid=108060&time=1768608945126&url=https%3A%2F%2Fwww.catawiki.com%2Fen%2Fs%3Fq%3Dtrain",
+    "method": "GET"
+  },
+  {
+    "url": "https://catawiki.absmartly.io/v1/context",
+    "method": "PUT"
   },
   {
     "url": "https://www.catawiki.com/UZlkr2ZV/xhr/api/v2/collector",
-    "status": 200,
-    "responseTime": 0
-  },
-  {
-    "url": "https://ct.pinterest.com/user/?tid=2613446167071&pd=%7B%22np%22%3A%22gtm%22%2C%22gtm_version%22%3A%22legacy%22%2C%22pin_unauth%22%3A%22dWlkPU5qYzJOR1V4WkRBdE56UXhOQzAwTm1JMkxXRXpZVFl0Wm1Sak5EWmtNMlZoWWpVNQ%22%7D&cb=1768605210034&dep=2%2CPAGE_LOAD",
-    "method": "GET"
-  },
-  {
-    "url": "https://ct.pinterest.com/user/?event=pagevisit&ed=%7B%22np%22%3A%22gtm%22%2C%22gtm_version%22%3A%22legacy%22%7D&tid=2613446167071&cb=1768605210037&dep=5%2CEVENT_TAGS_ABSENT",
-    "method": "GET"
-  },
-  {
-    "url": "https://ct.pinterest.com/v3/?tid=2613446167071&pd=%7B%22np%22%3A%22gtm%22%2C%22gtm_version%22%3A%22legacy%22%2C%22pin_unauth%22%3A%22dWlkPU5qYzJOR1V4WkRBdE56UXhOQzAwTm1JMkxXRXpZVFl0Wm1Sak5EWmtNMlZoWWpVNQ%22%7D&event=init&ad=%7B%22loc%22%3A%22https%3A%2F%2Fwww.catawiki.com%2Fen%2Fs%3Fq%3Dtrain%22%2C%22ref%22%3A%22https%3A%2F%2Fwww.catawiki.com%2Fen%22%2C%22if%22%3Afalse%2C%22sh%22%3A720%2C%22sw%22%3A1280%2C%22mh%22%3A%22e258cfd2%22%2C%22is_eu%22%3Atrue%2C%22architecture%22%3A%22x86%22%2C%22bitness%22%3A%2264%22%2C%22brands%22%3A%5B%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22143%22%7D%2C%7B%22brand%22%3A%22Not%20A(Brand%22%2C%22version%22%3A%2224%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22Windows%22%2C%22platformVersion%22%3A%2210.0%22%2C%22uaFullVersion%22%3A%22143.0.7499.4%22%2C%22ecm_enabled%22%3Atrue%7D&cb=1768605210072",
-    "method": "GET"
-  },
-  {
-    "url": "https://site-see.slgnt.eu/frontend/api/track",
-    "status": 200,
-    "responseTime": 0
-  },
-  {
-    "url": "https://ad.doubleclick.net/activity;src=5139330;type=mst;cat=cataw0;ord=1506049299531;npa=0;auiddc=848675309.1768605201;u1=undefined;u3=undefined;u4=SearchResultPage;uaa=x86;uab=64;uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0;uamb=0;uam=;uap=Windows;uapv=10.0;uaw=0;pscdl=noapi;frm=0;_tu=LFA;gtm=45fe61e1h1v9181659535z86776266za20gzb6776266zd6776266xea;gcs=G111;gcd=13t3tPt2t5l1;dma_cps=syphamo;dma=1;dc_fmt=6;tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391253~115495940~115616985~115938466~115938469~116682876~117041587;dc_random=1768605209_YPRmNclR4P9eyR_5q7Aa255oNQdKXUGcJA;epver=2?",
-    "status": 302,
-    "responseTime": 0
-  },
-  {
-    "url": "https://ad.doubleclick.net/activity;dc_pre=CLDNqeqXkZIDFdCc_Qcdkrc6XQ;src=5139330;type=mst;cat=cataw0;ord=1506049299531;npa=0;auiddc=848675309.1768605201;u1=undefined;u3=undefined;u4=SearchResultPage;uaa=x86;uab=64;uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0;uamb=0;uam=;uap=Windows;uapv=10.0;uaw=0;pscdl=noapi;frm=0;_tu=LFA;gtm=45fe61e1h1v9181659535z86776266za20gzb6776266zd6776266xea;gcs=G111;gcd=13t3tPt2t5l1;dma_cps=syphamo;dma=1;dc_fmt=6;tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391253~115495940~115616985~115938466~115938469~116682876~117041587;dc_random=1768605209_YPRmNclR4P9eyR_5q7Aa255oNQdKXUGcJA;epver=2?",
-    "method": "GET"
-  },
-  {
-    "url": "https://ad.doubleclick.net/activity;dc_pre=CLDNqeqXkZIDFdCc_Qcdkrc6XQ;src=5139330;type=mst;cat=cataw0;ord=1506049299531;npa=0;auiddc=848675309.1768605201;u1=undefined;u3=undefined;u4=SearchResultPage;uaa=x86;uab=64;uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0;uamb=0;uam=;uap=Windows;uapv=10.0;uaw=0;pscdl=noapi;frm=0;_tu=LFA;gtm=45fe61e1h1v9181659535z86776266za20gzb6776266zd6776266xea;gcs=G111;gcd=13t3tPt2t5l1;dma_cps=syphamo;dma=1;dc_fmt=6;tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391253~115495940~115616985~115938466~115938469~116682876~117041587;dc_random=1768605209_YPRmNclR4P9eyR_5q7Aa255oNQdKXUGcJA;epver=2?",
-    "status": 302,
-    "responseTime": 0
-  },
-  {
-    "url": "https://adservice.google.com/ddm/fls/z/dc_pre=CLDNqeqXkZIDFdCc_Qcdkrc6XQ;src=5139330;type=mst;cat=cataw0;ord=1506049299531;npa=0;auiddc=*;u1=undefined;u3=undefined;u4=SearchResultPage;uaa=x86;uab=64;uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0;uamb=0;uam=;uap=Windows;uapv=10.0;uaw=0;pscdl=noapi;frm=0;_tu=LFA;gtm=45fe61e1h1v9181659535z86776266za20gzb6776266zd6776266xea;gcs=G111;gcd=13t3tPt2t5l1;dma_cps=syphamo;dma=1;dc_fmt=6;tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391253~115495940~115616985~115938466~115938469~116682876~117041587;dc_random=1768605209_YPRmNclR4P9eyR_5q7Aa255oNQdKXUGcJA;epver=2",
-    "method": "GET"
-  },
-  {
-    "url": "https://adservice.google.com/ddm/fls/z/dc_pre=CLDNqeqXkZIDFdCc_Qcdkrc6XQ;src=5139330;type=mst;cat=cataw0;ord=1506049299531;npa=0;auiddc=*;u1=undefined;u3=undefined;u4=SearchResultPage;uaa=x86;uab=64;uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0;uamb=0;uam=;uap=Windows;uapv=10.0;uaw=0;pscdl=noapi;frm=0;_tu=LFA;gtm=45fe61e1h1v9181659535z86776266za20gzb6776266zd6776266xea;gcs=G111;gcd=13t3tPt2t5l1;dma_cps=syphamo;dma=1;dc_fmt=6;tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391253~115495940~115616985~115938466~115938469~116682876~117041587;dc_random=1768605209_YPRmNclR4P9eyR_5q7Aa255oNQdKXUGcJA;epver=2",
-    "status": 200,
-    "responseTime": 0
-  },
-  {
-    "url": "https://ct.pinterest.com/user/?tid=2613446167071&pd=%7B%22np%22%3A%22gtm%22%2C%22gtm_version%22%3A%22legacy%22%2C%22pin_unauth%22%3A%22dWlkPU5qYzJOR1V4WkRBdE56UXhOQzAwTm1JMkxXRXpZVFl0Wm1Sak5EWmtNMlZoWWpVNQ%22%7D&cb=1768605210034&dep=2%2CPAGE_LOAD",
-    "status": 200,
-    "responseTime": 0
-  },
-  {
-    "url": "https://ct.pinterest.com/user/?event=pagevisit&ed=%7B%22np%22%3A%22gtm%22%2C%22gtm_version%22%3A%22legacy%22%7D&tid=2613446167071&cb=1768605210037&dep=5%2CEVENT_TAGS_ABSENT",
-    "status": 200,
-    "responseTime": 0
-  },
-  {
-    "url": "https://catawiki.absmartly.io/v1/context",
-    "method": "PUT"
-  },
-  {
-    "url": "https://ct.pinterest.com/v3/?event=pagevisit&ed=%7B%22np%22%3A%22gtm%22%2C%22gtm_version%22%3A%22legacy%22%7D&tid=2613446167071&cb=1768605210144&dep=5%2CEVENT_TAGS_ABSENT&pd=%7B%22np%22%3A%22gtm%22%2C%22gtm_version%22%3A%22legacy%22%2C%22pin_unauth%22%3A%22dWlkPVpEQmpNR1U1WWpBdE5UZGhPUzAwWldVMkxUbGxNRGN0TVROaE9UZGlObVU0TW1FMw%22%7D&ad=%7B%22loc%22%3A%22https%3A%2F%2Fwww.catawiki.com%2Fen%2Fs%3Fq%3Dtrain%22%2C%22ref%22%3A%22https%3A%2F%2Fwww.catawiki.com%2Fen%22%2C%22if%22%3Afalse%2C%22sh%22%3A720%2C%22sw%22%3A1280%2C%22mh%22%3A%22e258cfd2%22%2C%22is_eu%22%3Atrue%2C%22architecture%22%3A%22x86%22%2C%22bitness%22%3A%2264%22%2C%22brands%22%3A%5B%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22143%22%7D%2C%7B%22brand%22%3A%22Not%20A(Brand%22%2C%22version%22%3A%2224%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22Windows%22%2C%22platformVersion%22%3A%2210.0%22%2C%22uaFullVersion%22%3A%22143.0.7499.4%22%2C%22ecm_enabled%22%3Atrue%7D",
-    "method": "GET"
-  },
-  {
-    "url": "https://ct.pinterest.com/v3/?tid=2613446167071&pd=%7B%22np%22%3A%22gtm%22%2C%22gtm_version%22%3A%22legacy%22%2C%22pin_unauth%22%3A%22dWlkPU5qYzJOR1V4WkRBdE56UXhOQzAwTm1JMkxXRXpZVFl0Wm1Sak5EWmtNMlZoWWpVNQ%22%7D&event=init&ad=%7B%22loc%22%3A%22https%3A%2F%2Fwww.catawiki.com%2Fen%2Fs%3Fq%3Dtrain%22%2C%22ref%22%3A%22https%3A%2F%2Fwww.catawiki.com%2Fen%22%2C%22if%22%3Afalse%2C%22sh%22%3A720%2C%22sw%22%3A1280%2C%22mh%22%3A%22e258cfd2%22%2C%22is_eu%22%3Atrue%2C%22architecture%22%3A%22x86%22%2C%22bitness%22%3A%2264%22%2C%22brands%22%3A%5B%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22143%22%7D%2C%7B%22brand%22%3A%22Not%20A(Brand%22%2C%22version%22%3A%2224%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22Windows%22%2C%22platformVersion%22%3A%2210.0%22%2C%22uaFullVersion%22%3A%22143.0.7499.4%22%2C%22ecm_enabled%22%3Atrue%7D&cb=1768605210072",
-    "status": 200,
-    "responseTime": 0
-  },
-  {
-    "url": "https://px.ads.linkedin.com/attribution_trigger?pid=108060&time=1768605209988&url=https%3A%2F%2Fwww.catawiki.com%2Fen%2Fs%3Fq%3Dtrain",
-    "status": 200,
-    "responseTime": 0
+    "method": "POST"
   },
   {
     "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g",
     "method": "POST"
   },
   {
-    "url": "https://ct.pinterest.com/v3/?event=pagevisit&ed=%7B%22np%22%3A%22gtm%22%2C%22gtm_version%22%3A%22legacy%22%7D&tid=2613446167071&cb=1768605210144&dep=5%2CEVENT_TAGS_ABSENT&pd=%7B%22np%22%3A%22gtm%22%2C%22gtm_version%22%3A%22legacy%22%2C%22pin_unauth%22%3A%22dWlkPVpEQmpNR1U1WWpBdE5UZGhPUzAwWldVMkxUbGxNRGN0TVROaE9UZGlObVU0TW1FMw%22%7D&ad=%7B%22loc%22%3A%22https%3A%2F%2Fwww.catawiki.com%2Fen%2Fs%3Fq%3Dtrain%22%2C%22ref%22%3A%22https%3A%2F%2Fwww.catawiki.com%2Fen%22%2C%22if%22%3Afalse%2C%22sh%22%3A720%2C%22sw%22%3A1280%2C%22mh%22%3A%22e258cfd2%22%2C%22is_eu%22%3Atrue%2C%22architecture%22%3A%22x86%22%2C%22bitness%22%3A%2264%22%2C%22brands%22%3A%5B%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22143%22%7D%2C%7B%22brand%22%3A%22Not%20A(Brand%22%2C%22version%22%3A%2224%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22Windows%22%2C%22platformVersion%22%3A%2210.0%22%2C%22uaFullVersion%22%3A%22143.0.7499.4%22%2C%22ecm_enabled%22%3Atrue%7D",
-    "status": 200,
-    "responseTime": 0
-  },
-  {
-    "url": "https://catawiki.absmartly.io/v1/context",
-    "status": 200,
-    "responseTime": 0
-  },
-  {
-    "url": "https://vc.hotjar.io/sessions/76392?s=0.25&r=0.1946355142019358",
+    "url": "https://ct.pinterest.com/user/?tid=2613446167071&pd=%7B%22np%22%3A%22gtm%22%2C%22gtm_version%22%3A%22legacy%22%2C%22pin_unauth%22%3A%22dWlkPU1UTmxOakJoWVdJdE5tWmpPQzAwWVRneExUazJZakV0TURSa1lUZzFaVGxsWWpBMg%22%7D&cb=1768608945957&dep=2%2CPAGE_LOAD",
     "method": "GET"
   },
   {
-    "url": "https://catawiki.absmartly.io/v1/context",
-    "method": "PUT"
+    "url": "https://ct.pinterest.com/user/?event=pagevisit&ed=%7B%22np%22%3A%22gtm%22%2C%22gtm_version%22%3A%22legacy%22%7D&tid=2613446167071&cb=1768608945957&dep=5%2CEVENT_TAGS_ABSENT",
+    "method": "GET"
   },
   {
-    "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g",
-    "status": 204,
-    "responseTime": 0
+    "url": "https://ct.pinterest.com/v3/?tid=2613446167071&pd=%7B%22np%22%3A%22gtm%22%2C%22gtm_version%22%3A%22legacy%22%2C%22pin_unauth%22%3A%22dWlkPU1UTmxOakJoWVdJdE5tWmpPQzAwWVRneExUazJZakV0TURSa1lUZzFaVGxsWWpBMg%22%7D&event=init&ad=%7B%22loc%22%3A%22https%3A%2F%2Fwww.catawiki.com%2Fen%2Fs%3Fq%3Dtrain%22%2C%22ref%22%3A%22https%3A%2F%2Fwww.catawiki.com%2Fen%22%2C%22if%22%3Afalse%2C%22sh%22%3A720%2C%22sw%22%3A1280%2C%22mh%22%3A%22e258cfd2%22%2C%22is_eu%22%3Atrue%2C%22architecture%22%3A%22x86%22%2C%22bitness%22%3A%2264%22%2C%22brands%22%3A%5B%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22143%22%7D%2C%7B%22brand%22%3A%22Not%20A(Brand%22%2C%22version%22%3A%2224%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22Windows%22%2C%22platformVersion%22%3A%2210.0%22%2C%22uaFullVersion%22%3A%22143.0.7499.4%22%2C%22ecm_enabled%22%3Atrue%7D&cb=1768608945961",
+    "method": "GET"
   },
   {
-    "url": "https://catawiki.absmartly.io/v1/context",
-    "status": 200,
-    "responseTime": 0
-  },
-  {
-    "url": "https://vc.hotjar.io/sessions/76392?s=0.25&r=0.1946355142019358",
-    "status": 204,
-    "responseTime": 0
+    "url": "https://ct.pinterest.com/v3/?event=pagevisit&ed=%7B%22np%22%3A%22gtm%22%2C%22gtm_version%22%3A%22legacy%22%7D&tid=2613446167071&cb=1768608946035&dep=5%2CEVENT_TAGS_ABSENT&pd=%7B%22np%22%3A%22gtm%22%2C%22gtm_version%22%3A%22legacy%22%2C%22pin_unauth%22%3A%22dWlkPU4yTTNPVGRrT0dJdFl6RmpZUzAwT0dGaUxUazRaV1F0WldFMk5UazVaV0UwT0RsbA%22%7D&ad=%7B%22loc%22%3A%22https%3A%2F%2Fwww.catawiki.com%2Fen%2Fs%3Fq%3Dtrain%22%2C%22ref%22%3A%22https%3A%2F%2Fwww.catawiki.com%2Fen%22%2C%22if%22%3Afalse%2C%22sh%22%3A720%2C%22sw%22%3A1280%2C%22mh%22%3A%22e258cfd2%22%2C%22is_eu%22%3Atrue%2C%22architecture%22%3A%22x86%22%2C%22bitness%22%3A%2264%22%2C%22brands%22%3A%5B%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22143%22%7D%2C%7B%22brand%22%3A%22Not%20A(Brand%22%2C%22version%22%3A%2224%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22Windows%22%2C%22platformVersion%22%3A%2210.0%22%2C%22uaFullVersion%22%3A%22143.0.7499.4%22%2C%22ecm_enabled%22%3Atrue%7D",
+    "method": "GET"
   },
   {
     "url": "https://www.catawiki.com/UZlkr2ZV/xhr/api/v2/collector",
@@ -438,22 +152,11 @@
     "method": "POST"
   },
   {
-    "url": "https://bat.bing.com/p/insights/c/b",
-    "status": 204,
-    "responseTime": 0
-  },
-  {
-    "url": "https://www.catawiki.com/UZlkr2ZV/xhr/api/v2/collector",
-    "status": 200,
-    "responseTime": 0
+    "url": "https://catawiki.absmartly.io/v1/context",
+    "method": "PUT"
   },
   {
     "url": "https://www.catawiki.com/UZlkr2ZV/xhr/api/v2/collector",
     "method": "POST"
-  },
-  {
-    "url": "https://www.catawiki.com/UZlkr2ZV/xhr/api/v2/collector",
-    "status": 200,
-    "responseTime": 0
   }
 ]

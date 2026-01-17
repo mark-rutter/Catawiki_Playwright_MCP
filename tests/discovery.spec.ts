@@ -27,7 +27,6 @@ test('Network Discovery - Capture API calls during search', async ({ consentedPa
           url: res.url(),
           method: res.request().method(),
           status: res.status(),
-          responseTime: res.timing?.responseEnd - res.timing?.responseStart || 0,
           headers: res.headers(),
           body: responseBody, // For contract validation
           timestamp: new Date().toISOString(),

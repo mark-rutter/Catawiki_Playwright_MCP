@@ -1,0 +1,247 @@
+{
+  "total": 38,
+  "byEndpoint": {
+    "/buyer/api/v1/search/suggest": {
+      "calls": 3,
+      "avgResponseTime": 0,
+      "statusCodes": [
+        200,
+        200,
+        200
+      ],
+      "schema": {
+        "query_terms": "object"
+      }
+    },
+    "/wa/": {
+      "calls": 2,
+      "avgResponseTime": 0,
+      "statusCodes": [
+        204,
+        204
+      ],
+      "schema": null
+    },
+    "/ns": {
+      "calls": 1,
+      "avgResponseTime": 0,
+      "statusCodes": [
+        200
+      ],
+      "schema": null
+    },
+    "/UZlkr2ZV/xhr/api/v2/collector": {
+      "calls": 5,
+      "avgResponseTime": 0,
+      "statusCodes": [
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "schema": {
+        "do": "object",
+        "ob": "string"
+      }
+    },
+    "/user_tracking/api/v1/external/visitor": {
+      "calls": 1,
+      "avgResponseTime": 0,
+      "statusCodes": [
+        201
+      ],
+      "schema": {
+        "status": "string"
+      }
+    },
+    "/buyer/api/v1/search/related_terms": {
+      "calls": 1,
+      "avgResponseTime": 0,
+      "statusCodes": [
+        200
+      ],
+      "schema": {
+        "terms": "object"
+      }
+    },
+    "/buyer/api/v1/lots/recently_viewed": {
+      "calls": 1,
+      "avgResponseTime": 0,
+      "statusCodes": [
+        200
+      ],
+      "schema": {
+        "lot_ids": "object"
+      }
+    },
+    "/buyer/api/v1/collections/related": {
+      "calls": 1,
+      "avgResponseTime": 0,
+      "statusCodes": [
+        200
+      ],
+      "schema": {
+        "collections": "object"
+      }
+    },
+    "/v1/context": {
+      "calls": 6,
+      "avgResponseTime": 0,
+      "statusCodes": [
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "schema": {
+        "experiments": "object"
+      }
+    },
+    "/ccm/collect": {
+      "calls": 1,
+      "avgResponseTime": 0,
+      "statusCodes": [
+        200
+      ],
+      "schema": null
+    },
+    "/buyer/api/v1/itp_forward": {
+      "calls": 1,
+      "avgResponseTime": 0,
+      "statusCodes": [
+        204
+      ],
+      "schema": null
+    },
+    "/api/4508047797649488/envelope/": {
+      "calls": 1,
+      "avgResponseTime": 0,
+      "statusCodes": [
+        200
+      ],
+      "schema": {}
+    },
+    "/g/collect": {
+      "calls": 2,
+      "avgResponseTime": 0,
+      "statusCodes": [
+        200,
+        200
+      ],
+      "schema": null
+    },
+    "/ab/track": {
+      "calls": 1,
+      "avgResponseTime": 0,
+      "statusCodes": [
+        204
+      ],
+      "schema": null
+    },
+    "/collections/api/v1/collections/related/brand": {
+      "calls": 1,
+      "avgResponseTime": 0,
+      "statusCodes": [
+        200
+      ],
+      "schema": {
+        "collections": "object"
+      }
+    },
+    "/activity;src=5139330;type=mst;cat=cataw0;ord=607056655520;npa=0;auiddc=1849043386.1768608939;u1=undefined;u3=undefined;u4=SearchResultPage;uaa=x86;uab=64;uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0;uamb=0;uam=;uap=Windows;uapv=10.0;uaw=0;pscdl=noapi;frm=0;_tu=LFA;gtm=45fe61e1v9181659535z86776266za20gzb6776266zd6776266xea;gcs=G111;gcd=13t3tPt2t5l1;dma_cps=syphamo;dma=1;dc_fmt=6;tag_exp=103116026~103200004~104527907~104528500~104684208~104684211~105391253~115616985~115938465~115938469~117041588;dc_random=1768608945_1jz7KNxAcVd4h1sEILQMuiW6Pk7vvF5tJw;epver=2": {
+      "calls": 1,
+      "avgResponseTime": 0,
+      "statusCodes": [
+        302
+      ],
+      "schema": null
+    },
+    "/activity;dc_pre=CLqwqd-lkZIDFVM-VQgd40U24g;src=5139330;type=mst;cat=cataw0;ord=607056655520;npa=0;auiddc=1849043386.1768608939;u1=undefined;u3=undefined;u4=SearchResultPage;uaa=x86;uab=64;uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0;uamb=0;uam=;uap=Windows;uapv=10.0;uaw=0;pscdl=noapi;frm=0;_tu=LFA;gtm=45fe61e1v9181659535z86776266za20gzb6776266zd6776266xea;gcs=G111;gcd=13t3tPt2t5l1;dma_cps=syphamo;dma=1;dc_fmt=6;tag_exp=103116026~103200004~104527907~104528500~104684208~104684211~105391253~115616985~115938465~115938469~117041588;dc_random=1768608945_1jz7KNxAcVd4h1sEILQMuiW6Pk7vvF5tJw;epver=2": {
+      "calls": 1,
+      "avgResponseTime": 0,
+      "statusCodes": [
+        302
+      ],
+      "schema": null
+    },
+    "/attribution_trigger": {
+      "calls": 1,
+      "avgResponseTime": 0,
+      "statusCodes": [
+        200
+      ],
+      "schema": {}
+    },
+    "/ddm/fls/z/dc_pre=CLqwqd-lkZIDFVM-VQgd40U24g;src=5139330;type=mst;cat=cataw0;ord=607056655520;npa=0;auiddc=*;u1=undefined;u3=undefined;u4=SearchResultPage;uaa=x86;uab=64;uafvl=Chromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0;uamb=0;uam=;uap=Windows;uapv=10.0;uaw=0;pscdl=noapi;frm=0;_tu=LFA;gtm=45fe61e1v9181659535z86776266za20gzb6776266zd6776266xea;gcs=G111;gcd=13t3tPt2t5l1;dma_cps=syphamo;dma=1;dc_fmt=6;tag_exp=103116026~103200004~104527907~104528500~104684208~104684211~105391253~115616985~115938465~115938469~117041588;dc_random=1768608945_1jz7KNxAcVd4h1sEILQMuiW6Pk7vvF5tJw;epver=2": {
+      "calls": 1,
+      "avgResponseTime": 0,
+      "statusCodes": [
+        200
+      ],
+      "schema": null
+    },
+    "/frontend/api/track": {
+      "calls": 1,
+      "avgResponseTime": 0,
+      "statusCodes": [
+        200
+      ],
+      "schema": {
+        "doNotTrack": "boolean",
+        "isConsentless": "boolean",
+        "profileId": "string",
+        "profile": "string",
+        "targetingInfo": "object",
+        "profileInfo": "object",
+        "$$profileId": "string",
+        "$$thirdPartyId": "string"
+      }
+    },
+    "/user/": {
+      "calls": 2,
+      "avgResponseTime": 0,
+      "statusCodes": [
+        200,
+        200
+      ],
+      "schema": {
+        "aemEnabled": "boolean",
+        "aemFnLnEnabled": "boolean",
+        "aemPhEnabled": "boolean",
+        "aemGeEnabled": "boolean",
+        "aemDbEnabled": "boolean",
+        "aemLocEnabled": "boolean",
+        "aemExternalIdEnabled": "boolean",
+        "ctEpikIframeEnabled": "boolean",
+        "chromeNewUserAgentEnabled": "boolean",
+        "isEu": "boolean",
+        "isUtilizingAdvertiser1pEnabled": "boolean",
+        "mdFrequency": "number",
+        "piaaEndPoint": "string",
+        "noCodeCapiDomains": "object"
+      }
+    },
+    "/v3/": {
+      "calls": 2,
+      "avgResponseTime": 0,
+      "statusCodes": [
+        200,
+        200
+      ],
+      "schema": null
+    },
+    "/p/insights/c/b": {
+      "calls": 1,
+      "avgResponseTime": 0,
+      "statusCodes": [
+        204
+      ],
+      "schema": null
+    }
+  },
+  "allValid": true,
+  "violations": []
+}
