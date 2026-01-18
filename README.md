@@ -68,6 +68,9 @@ npx playwright test tests/discovery.spec.ts --headed
 # Run optimized API tests
 npx playwright test tests/API/search-suggest-optimized.spec.ts --headed
 
+# Run accessibility analysis
+npx playwright test tests/ui/accessibility.spec.ts --headed
+
 # Run example UI journey
 npx playwright test tests/ui/train_flow_v2.spec.ts --headed
 ```
@@ -78,9 +81,10 @@ npx playwright test tests/ui/train_flow_v2.spec.ts --headed
 
 * **smoke** – Framework health and session validation
 * **ui** – End-to-end user journeys (data-driven)
+* **accessibility** – WCAG 2.0/2.1 AA compliance analysis with axe-core
 * **API** – Direct REST API tests and optimized patterns
 * **discovery** – Backend service discovery via UI flows
-* **AI** – Generated test examples (see separate AI README)
+* **AI** – Generated test examples (see separate README2 AI)
 
 ---
 
@@ -101,7 +105,8 @@ src/
 tests/
  ├─ ui/                      # UI automation tests
  │   ├─ train_flow.spec.ts
- │   └─ train_flow_v2.spec.ts
+ │   ├─ train_flow_v2.spec.ts
+ │   └─ accessibility.spec.ts # WCAG compliance testing
  │
  ├─ API/                     # Direct REST API tests
  │   ├─ search-suggest.spec.ts
@@ -179,6 +184,56 @@ Run with:
 ```bash
 npx playwright test tests/ui/train_flow_v2.spec.ts --headed
 ```
+
+---
+
+## Accessibility Testing (A11y)
+
+**File:** `tests/ui/accessibility.spec.ts`
+
+Comprehensive accessibility compliance testing using axe-core integration:
+
+### Features
+
+* **WCAG 2.0/2.1 AA compliance checking** across key user journeys
+* **Color contrast analysis** with specific ratio measurements
+* **Keyboard navigation testing** for all interactive elements  
+* **Screen reader compatibility** validation
+* **Form and input accessibility** assessment
+* **Detailed violation reporting** with remediation guidance
+
+### Sample Analysis Output
+
+```
+📊 ACCESSIBILITY SUMMARY FOR CATAWIKI:
+═══════════════════════════════════════════════════════
+Total Violations: 12
+Total Passes: 51
+
+Breakdown by Severity:
+  🔴 Critical: 4
+  🟠 Serious: 5  
+  🟡 Moderate: 3
+  🔵 Minor: 0
+═══════════════════════════════════════════════════════
+```
+
+### Key Capabilities
+
+* **Homepage accessibility analysis** - Full WCAG audit of main page
+* **Search results validation** - Accessibility of dynamic content
+* **Color contrast detection** - Identifies specific failing color combinations
+* **Keyboard navigation assessment** - Tab order and focus management
+* **Screen reader compatibility** - ARIA landmarks and semantic structure
+* **Comprehensive reporting** - JSON attachments with detailed violation data
+
+Run with:
+
+```bash
+npx playwright test tests/ui/accessibility.spec.ts --headed --workers=1
+```
+
+**Note:** This test reports accessibility issues for improvement rather than failing on existing gaps, making it practical for continuous compliance monitoring.
 
 ---
 

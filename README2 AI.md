@@ -2,6 +2,10 @@
 
 **Playwright MCP enables AI browser interaction and discovery for scalable test automation**
 
+## Flow : Expanding the site coverage 
+
+Update and run Discovery -> Upadte Page models -> Use seed.spec + AI (Playwright Generator) -> Review/Test -> Fix -> Run -> Publish
+
 ## 🔍 Service Discovery - Enables 3rd party AI Integration
 
 **Service Discovery** is Playwright-driven but specifically outputs structured data for AI agents to consume:
