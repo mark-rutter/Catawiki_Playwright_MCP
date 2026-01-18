@@ -15,17 +15,6 @@ Total: 5 PASSED (8.0s)
 
 ## 🏗️ Architecture Implementation
 
-### Global Setup/Teardown
-- **`playwright/globalSetup.ts`** - Runs before all tests
-  - Accepts cookies automatically
-  - Eliminates cookie banner blocking
-  - Ensures clean state for all tests
-
-- **`playwright/globalTeardown.ts`** - Runs after all tests
-  - Cleans up test artifacts
-  - Closes browser contexts
-  - Resets browser cache
-
 ### Page Objects
 1. **HomePage** - Home page interactions
    - `goto()` - Navigate to home

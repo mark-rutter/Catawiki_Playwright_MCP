@@ -89,7 +89,7 @@ The framework implements comprehensive testing across multiple layers:
    - Performance timing checks
 
 **Expected Outcomes:**
-- All 5 keywords produce valid results
+- All 5 keywords (sample test inputs) produce valid results
 - Different lot indices work correctly
 - Consistent behavior across search terms
 

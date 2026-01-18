@@ -34,8 +34,6 @@ This framework demonstrates how **Playwright MCP** transforms traditional testin
 - **Pattern Learning** - AI learns from successful tests to generate new ones
 - **Adaptive Maintenance** - Tests self-heal when applications change
 
-
-
 ## A Scalable Loop with AI Assistance
 
 This framework is designed around a clear division of responsibility between humans and AI, enabling safe, scalable growth over time.
@@ -355,40 +353,6 @@ Automates the following user journey:
 
 ---
 
-
-## Running the Tests
-
-### Install dependencies
-
-```bash
-npm install
-```
-
-### Install Playwright browsers
-
-```bash
-npx playwright install
-```
-
-### Run the train test
-
-```bash
-npx playwright test tests/ui/train_flow.spec.ts --headed
-```
-
-### Run all tests
-
-```bash
-npx playwright test
-```
-
-### Run with UI mode
-
-```bash
-npx playwright test --ui
-```
-
----
 ### Run service dicovery
 
 ```bash
