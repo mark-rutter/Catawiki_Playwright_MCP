@@ -15,6 +15,11 @@
 
 > 📖 **New to AI Testing?** See our [QA Engineer Quick Start Guide](docs/qa-guide.md) for hands-on steps to try each AI agent.
 
+Assumes access to IDE with Github copolit: 
+
+SEE and enable: https://github.com/github/github-mcp-server
+SEE and enable: https://playwright.dev/docs/test-agents
+
 ## 🎭 Playwright: 3 AI Agents Ready
 
 This framework is equipped to work with **3 autonomous AI agents** that make test automation scalable through human-AI collaboration:
