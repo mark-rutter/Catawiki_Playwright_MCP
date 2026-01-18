@@ -91,6 +91,12 @@ npx playwright test tests/ui/train_flow_v2.spec.ts --headed
 ## Framework Structure
 
 ```
+/docs
+ ├─ quick_start_guide.            # AI-generated tests in 15 minutes
+
+ /specs
+ ├─ basic-operations.md           # test plans and specifications for the Catawiki Playwright automation framework
+
 src/
  ├─ discovery/                    # Service discovery & API analysis
  │   ├─ serviceDiscovery.md
