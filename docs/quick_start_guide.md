@@ -237,7 +237,7 @@ npm install @microsoft/playwright-mcp
 
 **AI Agent Support**:
 - Ensure all agents have access to fresh Service Discovery data
-- Verify seed.spec.ts contains the patterns you want AI to learn
+- Verify **seed.spec.ts** contains the patterns you want AI to learn
 - Update specs/ with clear, specific requirements
 
 ---
