@@ -92,35 +92,38 @@ npx playwright test tests/ui/train_flow_v2.spec.ts --headed
 
 ```
 src/
- ├─ discovery/               # Service discovery & API analysis
+ ├─ discovery/                    # Service discovery & API analysis
  │   ├─ serviceDiscovery.md
  │   ├─ api-calls.json
  │   ├─ contract-analysis.json
  │   └─ network-discovery.json
  │
  └─ utils/
-     ├─ logger.ts            # Network/service observation
+     ├─ logger.ts                 # Network/service observation
      └─ testCaseLoader.ts
 
 tests/
- ├─ ui/                      # UI automation tests
+ ├─ ui/                           # UI automation tests
  │   ├─ train_flow.spec.ts
  │   ├─ train_flow_v2.spec.ts
- │   └─ accessibility.spec.ts # WCAG compliance testing
+ │   ├─ ai_about_pages.spec.ts
+ │   ├─ ai_train_flow_no_cookies.spec.ts
+ │   └─ ai_accessibility.spec.ts  # WCAG compliance testing
  │
- ├─ API/                     # Direct REST API tests
+ ├─ API/                          # Direct REST API tests
  │   ├─ search-suggest.spec.ts
  │   └─ search-suggest-optimized.spec.ts
  │
- ├─ AI/                      # AI-generated examples (optional)
+ ├─ AI/  5 X Test types           # AI-generated examples (optional)
  │
- ├─ smoke/                   # Framework health checks
+ ├─ smoke/                        # Framework health checks
  │   ├─ framework-health.spec.ts
  │   └─ consent.spec.ts
  │
- ├─ pages-pom.spec.ts        # POM validation test
- ├─ discovery.spec.ts        # Service discovery test
- └─ baseTest.ts              # Custom fixtures (consentedPage)
+ ├─ pages-pom.spec.ts              # POM validation test
+ ├─ discovery.spec.ts              # Service discovery test
+ ├─ footer_discovery.spec.ts       # Footer Service discovery test
+ └─ baseTest.ts                    # Custom fixtures (consentedPage)
 ```
 
 ---
