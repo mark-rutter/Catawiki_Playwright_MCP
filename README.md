@@ -23,6 +23,7 @@ Key goals:
 - Enable easy addition of new test cases
 - Support data-driven and maintainable test design
 - Prepare for future test expansion without overengineering
+- Provided a safe extenadble framework humans and AI can read
 
 **Tech Stack:**  
 Human testers · Playwright · TypeScript
