@@ -1,4 +1,3 @@
-````md
 # CataWiki Playwright Testing Framework
 
 ## Overview
