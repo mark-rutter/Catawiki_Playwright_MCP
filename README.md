@@ -170,19 +170,23 @@ This test prioritizes **clarity and debuggability** over exhaustive validation. 
 
 ### Page Object Model Validation
 
-**File:** `tests/pages-pom.spec.ts`
+**File:** `tests/ui/train_flow_v2.spec.ts`
 
-Validates the Page Object abstraction:
+Validates the Page Object abstraction through data-driven testing:
 
-* `HomePage.search()` using stable selectors
-* `SearchResultsPage` navigation by index
-* `LotPage.getLotDetails()` data extraction
+* `HomePage.search()` using stable selectors across multiple keywords
+* `SearchResultsPage.openLotByIndex()` navigation with different lot indices  
+* `LotPage.getLotDetails()` data extraction and validation
+* Comprehensive soft assertions for robust feedback
+* Multiple test scenarios from JSON configuration
 
 Run with:
 
 ```bash
-npx playwright test tests/pages-pom.spec.ts --headed
+npx playwright test tests/ui/train_flow_v2.spec.ts --headed
 ```
+
+**Note:** This replaces the previous standalone `pages-pom.spec.ts` test by integrating POM validation directly into the main UI test flow, providing both functional testing and Page Object validation in a single comprehensive suite.
 
 ---
 
