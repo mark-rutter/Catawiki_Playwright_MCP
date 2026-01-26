@@ -17,7 +17,7 @@ Update and run Discovery -> Upadte Page models -> Use seed.spec + AI (Playwright
 
 **Discovery Process**: `tests/discovery.spec.ts` → `src/discovery/*.json` → **AI Agent Input**
 
-> 📖 **New to AI Testing?** See our [QA Engineer Quick Start Guide](docs/qa-guide.md) for hands-on steps to try each AI agent.
+> 📖 **New to AI Testing?** See our [QA Engineer Quick Start Guide](docs/quick_start_guide.md) for hands-on steps to try each AI agent.
 
 Assumes access to IDE with Github copolit: 
 
