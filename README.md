@@ -91,12 +91,21 @@ npx playwright test tests/ui/train_flow_v2.spec.ts --headed
 
 ```
 /docs
- ├─ quick_start_guide.            # AI-generated tests in 15 minutes
+ ├─ quick_start_guide.md          # AI-generated tests in 15 minutes
 
- /specs
+/specs
  ├─ basic-operations.md           # test plans and specifications for the Catawiki Playwright automation framework
 
 src/
+ ├─ pages/                        # Page Object Models (POM)
+ │   ├─ HomePage.ts               # Homepage search functionality
+ │   ├─ SearchResultsPage.ts      # Search results navigation
+ │   └─ LotPage.ts                # Lot detail extraction
+ │
+ ├─ testcases/                    # Test data and configurations
+ │   └─ searchLots.json           # Data-driven test scenarios
+ |   └─ trainFlowCases.json       # Data-driven test scenarios
+ │
  ├─ discovery/                    # Service discovery & API analysis
  │   ├─ serviceDiscovery.md
  │   ├─ api-calls.json
@@ -111,24 +120,27 @@ tests/
  ├─ ui/                           # UI automation tests
  │   ├─ train_flow.spec.ts
  │   ├─ train_flow_v2.spec.ts
- │   ├─ ai_about_pages.spec.ts
- │   ├─ ai_train_flow_no_cookies.spec.ts
- │   └─ ai_accessibility.spec.ts  # WCAG compliance testing
+ │   ├─ ai_about_pages.spec.ts    # Demos of AI test expansion 
+ │   ├─ ai_train_flow_no_cookies.spec.ts 
+ │   └─ ai_accessibility.spec.ts  # WCAG compliance testing 
  │
  ├─ API/                          # Direct REST API tests
  │   ├─ search-suggest.spec.ts
  │   └─ search-suggest-optimized.spec.ts
  │
- ├─ AI/  5 X Test types           # AI-generated examples (optional)
+ ├─ AI/     5 X Test types        # AI-generated examples 
  │
  ├─ smoke/                        # Framework health checks
  │   ├─ framework-health.spec.ts
  │   └─ consent.spec.ts
  │
- ├─ pages-pom.spec.ts              # POM validation test
- ├─ discovery.spec.ts              # Service discovery test
- ├─ footer_discovery.spec.ts       # Footer Service discovery test
- └─ baseTest.ts                    # Custom fixtures (consentedPage)
+ ├─ fixtures/                     # Test fixtures and utilities
+ │   └─ consentedPage.fixture.ts  # Cookie consent handling
+ │
+ ├─ pages-pom.spec.ts            # POM validation test
+ ├─ discovery.spec.ts            # Service discovery test
+ ├─ footer_discovery.spec.ts     # Footer service discovery test
+ └─ baseTest.ts                  # Custom fixtures (consentedPage)
 ```
 
 ---
@@ -348,6 +360,3 @@ This repository demonstrates:
 * A clear path to scale without rewriting tests
 
 The framework is intentionally designed to be **extended, not replaced**, as coverage and tooling evolve.
-
-```
-```
